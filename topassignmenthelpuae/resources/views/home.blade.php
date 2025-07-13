@@ -62,7 +62,7 @@
             <div class="col-lg-5">
                 <div class="banner-form bg-white p-md-4 p-4">
                     <h2 class="mb-lg-4 mb-2" style="color: #011e4e;">Order Now</h2>
-                    <form method="post" action="#" enctype="multipart/form-data">
+                    <form method="post" action="{{ route('order.store') }}" enctype="multipart/form-data">
                         @csrf
                         <div class="row">
                             <div class="mb-3 col-sm-12 col-12">

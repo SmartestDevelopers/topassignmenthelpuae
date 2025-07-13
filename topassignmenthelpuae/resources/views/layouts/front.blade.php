@@ -45,6 +45,12 @@
     <link rel="shortcut icon" type="image/png" href="{{ asset('template/img/favicon.png') }}">
     
     @yield('additional_head')
+
+    <style>
+        .navbar-nav .nav-item.dropdown{
+            padding-right:15px !important;
+        }
+        </style>
 </head>
 
 <body>
