@@ -2,19 +2,16 @@
 
 @section('content')
 
-<div class="container">
-
-<h1>Thank You!</h1>
-    @if (isset($page))
-        <h2>{{ $page->title ?? 'Thank You Page' }}</h2>
-        <p>{{ $page->content ?? 'Your order has been submitted successfully.' }}</p>
-    @else
-        <p>Your order has been submitted successfully.</p>
-    @endif
-    @if (session('success'))
-        <p>{{ session('success') }}</p>
-    @endif
-    <a href="{{ route('order-now') }}">Back to Order Form</a>
-    @endsection
+<div class="content">
+        <div class="wrapper-1">
+            <div class="wrapper-2">
+                <h1>Thank You!</h1>
+                <h4>Your order request has been received.</h4>
+                <p>Our representative will contact you soon for further details.</p>
+                <button class="go-home" onclick="window.location.href='/'">Go Home</button>
+            </div>
+        </div>
+    </div>
 
 </div>
+@endsection

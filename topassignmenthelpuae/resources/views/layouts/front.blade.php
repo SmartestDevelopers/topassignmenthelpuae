@@ -40,6 +40,7 @@
     <link rel="stylesheet" href="{{ asset('template/css/responsive.css') }}">
     <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
     
+    
     <!-- Icons -->
     <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('template/apple-touch-icon-120x120-precomposed.png') }}">
     <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('template/apple-touch-icon-152x152-precomposed.png') }}">
