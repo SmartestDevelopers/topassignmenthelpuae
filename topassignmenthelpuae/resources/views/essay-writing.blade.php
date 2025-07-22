@@ -1,13 +1,13 @@
 @extends('layouts.front')
 
-@section('seo_title', 'Professional Assignment Writing Services | ' . config('app.name'))
-@section('seo_description', 'Get expert assignment writing services to craft well-researched, high-quality assignments that meet academic standards and help you achieve better grades.')
+@section('seo_title', 'Professional Essay Writing Services | ' . config('app.name'))
+@section('seo_description', 'Get expert essay writing services to craft well-researched, high-quality essays that meet academic standards and help you achieve better grades.')
 
-@section('og_title', 'Professional Assignment Writing Services')
-@section('og_description', 'Get expert assignment writing services to craft well-researched, high-quality assignments that meet academic standards and help you achieve better grades.')
-@section('og_image', asset('template/img/assignment-writing.webp'))
+@section('og_title', 'Professional Essay Writing Services')
+@section('og_description', 'Get expert essay writing services to craft well-researched, high-quality essays that meet academic standards and help you achieve better grades.')
+@section('og_image', asset('template/img/essay-writing.webp'))
 
-@section('twitter_title', 'Professional Assignment Writing Services')
+@section('twitter_title', 'Professional Essay Writing Services')
 @section('twitter_site', '@assignmenthelp')
 
 @section('structured_data')
@@ -23,8 +23,8 @@
     },{
         "@type": "ListItem",
         "position": 2,
-        "name": "Assignment Writing",
-        "item": "{{ route('assignment-writing') }}"
+        "name": "Essay Writing",
+        "item": "{{ route('essay-writing') }}"
     }]
 }
 </script>
@@ -32,9 +32,9 @@
 {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "{{ config('app.name') }} Assignment Writing Service",
-    "image": "{{ asset('template/img/assignment-writing.webp') }}",
-    "description": "Professional assignment writing services delivering well-researched, structured, and high-quality assignments for all academic levels.",
+    "name": "{{ config('app.name') }} Essay Writing Service",
+    "image": "{{ asset('template/img/essay-writing.webp') }}",
+    "description": "Professional essay writing services delivering well-researched, structured, and high-quality essays for all academic levels.",
     "brand": {
         "@type": "Brand",
         "name": "{{ config('app.name') }}"
@@ -51,16 +51,16 @@
 @endsection
 
 @section('content')
-<div class="section-top-banner" style="background: url('{{ asset('template/img/banner-bg.jpg') }}') no-repeat center center/cover;">
+<div class="section-top-banner">
     <div class="container">
         <div class="row about-center">
             <div class="col-lg-7 mx-auto text-center">
                 <div class="page-title">
-                    <h1 class="text-white">Assignment Writing Services</h1>
+                    <h1 class="text-white">Essay Writing Services</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a href="{{ route('home') }}" class="text-white">Home</a></li>
-                            <li class="breadcrumb-item orange active" aria-current="page">Assignment Writing</li>
+                            <li class="breadcrumb-item orange active" aria-current="page">Essay Writing</li>
                         </ol>
                     </nav>
                 </div>
@@ -74,19 +74,19 @@
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
-                    <h2 class="heading-title">Professional Assignment <span style="color: #F17D00;">Writing Services</span></h2>
-                    <p class="content-simple-p mb-0">Achieve academic excellence with our expert assignment writing services, tailored to meet your academic needs.</p>
+                    <h2 class="heading-title">Professional Essay <span style="color: #F17D00;">Writing Services</span></h2>
+                    <p class="content-simple-p mb-0">Achieve academic excellence with our expert essay writing services, tailored to meet your academic needs.</p>
                 </div>
             </div>
         </div>
         <div class="row mt-3 g-4">
             <div class="col-xl-6">
                 <div class="about-content">
-                    <p>Struggling to complete your assignments on time? Our assignment writing services provide high-quality, well-researched assignments tailored to your academic requirements. We are a leading provider of academic writing services with years of experience supporting students across the UAE and worldwide.</p>
+                    <p>Struggling to write compelling essays? Our essay writing services provide high-quality, well-researched essays tailored to your academic requirements. We are a leading provider of academic writing services with years of experience supporting students across the UAE and worldwide.</p>
                     
-                    <p>Our team of expert writers specializes in crafting assignments across various disciplines, including business, sciences, and humanities. We ensure proper structure, thorough research, and adherence to your specific guidelines and citation styles.</p>
+                    <p>Our team of expert writers specializes in crafting essays across various disciplines, including literature, history, and social sciences. We ensure proper structure, engaging arguments, and adherence to your specific guidelines and citation styles.</p>
                     
-                    <p>Our writers hold advanced degrees (minimum 2:1 up to Master and PhD) and are experienced in creating assignments that meet rigorous academic standards.</p>
+                    <p>Our writers hold advanced degrees (minimum 2:1 up to Master and PhD) and are experienced in creating essays that meet rigorous academic standards.</p>
                     
                     <div class="button-design text-nowrap">
                         <a href="{{ route('order-now') }}" class="topbar-btn mt-3">Order Now</a>
@@ -95,9 +95,9 @@
             </div>
             <div class="col-xl-6">
                 <div class="about-img">
-                    <img src="{{ asset('template/img/report-writing.webp') }}" class="img-fluid w-100" alt="Report Writing Services">
+                    <img src="{{ asset('template/img/essay-writing.webp') }}" class="img-fluid w-100" alt="Essay Writing Services">
                 </div>
-            </div>>
+            </div>
         </div>
     </div>
 </div>
@@ -107,7 +107,7 @@
         <div class="row justify-content-center text-center">
             <div class="col-lg-10">
                 <div class="about-sm-content">
-                    <h4 style="line-height: 35px;">We provide professional assignment writing services, including research, writing, and formatting for all academic levels and subjects.</h4>
+                    <h4 style="line-height: 35px;">We provide professional essay writing services, including research, writing, and formatting for all academic levels and subjects.</h4>
                 </div>
             </div>
         </div>
@@ -120,8 +120,8 @@
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
-                    <h2 class="heading-title">Why Choose Our <span style="color: #F17D00;">Assignment Writing Services?</span></h2>
-                    <p class="content-simple-p mb-0">Our assignment writing services are designed to deliver high-quality, customized assignments to boost your academic performance.</p>
+                    <h2 class="heading-title">Why Choose Our <span style="color: #F17D00;">Essay Writing Services?</span></h2>
+                    <p class="content-simple-p mb-0">Our essay writing services are designed to deliver high-quality, customized essays to boost your academic performance.</p>
                 </div>
             </div>
         </div>
@@ -132,7 +132,7 @@
                         <i class="fa-solid fa-atom" style="font-size: 2.5rem; color: #F17D00;"></i>
                     </div>
                     <h4>Expert Writers</h4>
-                    <p>Our writers are specialists in various disciplines, ensuring high-quality assignments.</p>
+                    <p>Our writers are specialists in various disciplines, ensuring high-quality essays.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -141,7 +141,7 @@
                         <i class="fa-solid fa-shield-alt" style="font-size: 2.5rem; color: #F17D00;"></i>
                     </div>
                     <h4>100% Original</h4>
-                    <p>All assignments are written from scratch, ensuring originality and academic integrity.</p>
+                    <p>All essays are written from scratch, ensuring originality and academic integrity.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -150,7 +150,7 @@
                         <i class="fa-solid fa-clock" style="font-size: 2.5rem; color: #F17D00;"></i>
                     </div>
                     <h4>Timely Delivery</h4>
-                    <p>We prioritize your deadlines to ensure you receive your assignment on time.</p>
+                    <p>We prioritize your deadlines to ensure you receive your essay on time.</p>
                 </div>
             </div>
         </div>
@@ -274,8 +274,8 @@
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
-                    <h2 class="heading-title">Our Assignment Writing <span style="color: #F17D00;">Process</span></h2>
-                    <p class="content-simple-p mb-0">We follow a systematic approach to ensure high-quality assignments that meet your academic requirements.</p>
+                    <h2 class="heading-title">Our Essay Writing <span style="color: #F17D00;">Process</span></h2>
+                    <p class="content-simple-p mb-0">We follow a systematic approach to ensure high-quality essays that meet your academic requirements.</p>
                 </div>
             </div>
         </div>
@@ -284,7 +284,7 @@
                 <div class="process-step text-center">
                     <div class="step-number">1</div>
                     <h5>Order Placement</h5>
-                    <p>Submit your assignment requirements, including topic and guidelines.</p>
+                    <p>Submit your essay requirements, including topic and guidelines.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
@@ -298,14 +298,14 @@
                 <div class="process-step text-center">
                     <div class="step-number">3</div>
                     <h5>Writing & Research</h5>
-                    <p>Our expert conducts thorough research and crafts your assignment.</p>
+                    <p>Our expert conducts thorough research and crafts your essay.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="process-step text-center">
                     <div class="step-number">4</div>
                     <h5>Quality Check</h5>
-                    <p>We review, edit, and proofread your assignment to ensure high quality.</p>
+                    <p>We review, edit, and proofread your essay to ensure high quality.</p>
                 </div>
             </div>
         </div>
@@ -322,49 +322,45 @@
                 </div>
             </div>
         </div>
-        <div class="owl-carousel owl-theme mt-4">
-            <div class="item">
-                <div class="mySlides text-center">
-                    <q>The assignment writing service was exceptional. My assignment was well-researched and delivered on time!</q>
-                    <div class="img"><img src="{{ asset('template/img/benjamin.jpg') }}" class="testi-img-size" alt="Benjamin"></div>
-                    <p class="author">- Benjamin</p>
-                    <div class="star-ratting home-star-ratting">
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    </div>
+        <div class="slideshow-container mt-4">
+            <div class="mySlides">
+                <q>The essay writing service was exceptional. My essay was well-researched and delivered on time!</q>
+                <div class="img"><img src="{{ asset('template/img/benjamin.jpg') }}" class="testi-img-size" alt="Benjamin"></div>
+                <p class="author">- Benjamin</p>
+                <div class="star-ratting home-star-ratting">
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
                 </div>
             </div>
-            <div class="item">
-                <div class="mySlides text-center">
-                    <q>The team delivered a high-quality assignment that exceeded my expectations. Highly recommend!</q>
-                    <div class="img"><img src="{{ asset('template/img/samuel.jpg') }}" class="testi-img-size" alt="Samuel"></div>
-                    <p class="author">- Samuel</p>
-                    <div class="star-ratting home-star-ratting">
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    </div>
+            <div class="mySlides">
+                <q>The team delivered a high-quality essay that exceeded my expectations. Highly recommend!</q>
+                <div class="img"><img src="{{ asset('template/img/samuel.jpg') }}" class="testi-img-size" alt="Samuel"></div>
+                <p class="author">- Samuel</p>
+                <div class="star-ratting home-star-ratting">
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
                 </div>
             </div>
-            <div class="item">
-                <div class="mySlides text-center">
-                    <q>Thanks to their assignment writing service, I submitted a top-notch assignment that impressed my professor.</q>
-                    <div class="img"><img src="{{ asset('template/img/gregory.jpg') }}" class="testi-img-size" alt="Gregory"></div>
-                    <p class="author">- Gregory</p>
-                    <div class="star-ratting home-star-ratting">
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    </div>
+            <div class="mySlides">
+                <q>Thanks to their essay writing service, I submitted a top-notch essay that impressed my professor.</q>
+                <div class="img"><img src="{{ asset('template/img/gregory.jpg') }}" class="testi-img-size" alt="Gregory"></div>
+                <p class="author">- Gregory</p>
+                <div class="star-ratting home-star-ratting">
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
                 </div>
             </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
         </div>
         <div class="container text-center mt-4">
             <a href="#" class="topbar-btn">Read More</a>
@@ -487,73 +483,98 @@
     margin: 1rem auto;
 }
 
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    padding: 3rem 1rem;
+}
+
+.mySlides {
+    display: none;
+    text-align: center;
+    padding: 2rem;
+}
+
+.mySlides.active {
+    display: block;
+}
+
 .mySlides q {
     font-style: italic;
     font-size: 1.2rem;
-    color: #333;
+    margin-bottom: 2rem;
     display: block;
-    margin-bottom: 1rem;
+}
+
+.mySlides .img {
+    margin: 1rem 0;
 }
 
 .author {
     font-weight: bold;
-    color: #333;
+    margin: 1rem 0;
+}
+
+.star-ratting {
+    margin: 1rem 0;
 }
 
 .star-ratting .fa-star.yellow {
     color: #ffc107;
 }
 
-.owl-carousel .item {
-    padding: 1rem;
-}
-
-.owl-carousel .owl-nav button.owl-prev,
-.owl-carousel .owl-nav button.owl-next {
-    background: rgba(0,0,0,0.5);
-    color: white;
-    font-size: 1.5rem;
-    padding: 0.5rem 1rem;
-    border-radius: 3px;
+.prev, .next {
+    cursor: pointer;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s ease;
+    border-radius: 0 3px 3px 0;
+    background-color: rgba(0,0,0,0.5);
+    user-select: none;
 }
 
-.owl-carousel .owl-nav button.owl-prev {
-    left: 0;
-}
-
-.owl-carousel .owl-nav button.owl-next {
+.next {
     right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
-.owl-carousel .owl-nav button.owl-prev:hover,
-.owl-carousel .owl-nav button.owl-next:hover {
-    background: rgba(0,0,0,0.8);
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
 }
 </style>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+    let slides = document.getElementsByClassName("mySlides");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[slideIndex-1].style.display = "block";
+}
+
+// Auto slide
+setInterval(function() {
+    plusSlides(1);
+}, 5000);
+</script>
 @endsection
 
 @section('additional_scripts')
-<script>
-    jQuery(document).ready(function($) {
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            margin: 10,
-            responsiveClass: true,
-            dots: false,
-            nav: true,
-            navText: ['❮', '❯'],
-            autoplay: true,
-            autoplayTimeout: 5000,
-            autoplayHoverPause: true,
-            responsive: {
-                0: { items: 1 },
-                600: { items: 2 },
-                1000: { items: 3 }
-            }
-        });
-    });
-</script>
+<!-- No scripts needed here as slideshow logic is in additional_head -->
 @endsection

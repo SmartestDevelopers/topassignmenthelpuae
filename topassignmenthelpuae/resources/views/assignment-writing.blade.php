@@ -51,7 +51,7 @@
 @endsection
 
 @section('content')
-<div class="section-top-banner" style="background: url('{{ asset('template/img/banner-bg.jpg') }}') no-repeat center center/cover;">
+<div class="section-top-banner">
     <div class="container">
         <div class="row about-center">
             <div class="col-lg-7 mx-auto text-center">
@@ -95,9 +95,9 @@
             </div>
             <div class="col-xl-6">
                 <div class="about-img">
-                    <img src="{{ asset('template/img/report-writing.webp') }}" class="img-fluid w-100" alt="Report Writing Services">
+                    <img src="{{ asset('template/img/assignment-writing.webp') }}" class="img-fluid w-100" alt="Assignment Writing Services">
                 </div>
-            </div>>
+            </div>
         </div>
     </div>
 </div>
@@ -322,49 +322,45 @@
                 </div>
             </div>
         </div>
-        <div class="owl-carousel owl-theme mt-4">
-            <div class="item">
-                <div class="mySlides text-center">
-                    <q>The assignment writing service was exceptional. My assignment was well-researched and delivered on time!</q>
-                    <div class="img"><img src="{{ asset('template/img/benjamin.jpg') }}" class="testi-img-size" alt="Benjamin"></div>
-                    <p class="author">- Benjamin</p>
-                    <div class="star-ratting home-star-ratting">
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    </div>
+        <div class="slideshow-container mt-4">
+            <div class="mySlides">
+                <q>The assignment writing service was exceptional. My assignment was well-researched and delivered on time!</q>
+                <div class="img"><img src="{{ asset('template/img/benjamin.jpg') }}" class="testi-img-size" alt="Benjamin"></div>
+                <p class="author">- Benjamin</p>
+                <div class="star-ratting home-star-ratting">
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
                 </div>
             </div>
-            <div class="item">
-                <div class="mySlides text-center">
-                    <q>The team delivered a high-quality assignment that exceeded my expectations. Highly recommend!</q>
-                    <div class="img"><img src="{{ asset('template/img/samuel.jpg') }}" class="testi-img-size" alt="Samuel"></div>
-                    <p class="author">- Samuel</p>
-                    <div class="star-ratting home-star-ratting">
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    </div>
+            <div class="mySlides">
+                <q>The team delivered a high-quality assignment that exceeded my expectations. Highly recommend!</q>
+                <div class="img"><img src="{{ asset('template/img/samuel.jpg') }}" class="testi-img-size" alt="Samuel"></div>
+                <p class="author">- Samuel</p>
+                <div class="star-ratting home-star-ratting">
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
                 </div>
             </div>
-            <div class="item">
-                <div class="mySlides text-center">
-                    <q>Thanks to their assignment writing service, I submitted a top-notch assignment that impressed my professor.</q>
-                    <div class="img"><img src="{{ asset('template/img/gregory.jpg') }}" class="testi-img-size" alt="Gregory"></div>
-                    <p class="author">- Gregory</p>
-                    <div class="star-ratting home-star-ratting">
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                        <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    </div>
+            <div class="mySlides">
+                <q>Thanks to their assignment writing service, I submitted a top-notch assignment that impressed my professor.</q>
+                <div class="img"><img src="{{ asset('template/img/gregory.jpg') }}" class="testi-img-size" alt="Gregory"></div>
+                <p class="author">- Gregory</p>
+                <div class="star-ratting home-star-ratting">
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
+                    <i class="fa fa-star yellow" aria-hidden="true"></i>
                 </div>
             </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
         </div>
         <div class="container text-center mt-4">
             <a href="#" class="topbar-btn">Read More</a>
@@ -487,82 +483,98 @@
     margin: 1rem auto;
 }
 
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    padding: 3rem 1rem;
+}
+
+.mySlides {
+    display: none;
+    text-align: center;
+    padding: 2rem;
+}
+
+.mySlides.active {
+    display: block;
+}
+
 .mySlides q {
     font-style: italic;
     font-size: 1.2rem;
-    color: #333;
+    margin-bottom: 2rem;
     display: block;
-    margin-bottom: 1rem;
+}
+
+.mySlides .img {
+    margin: 1rem 0;
 }
 
 .author {
     font-weight: bold;
-    color: #333;
+    margin: 1rem 0;
+}
+
+.star-ratting {
+    margin: 1rem 0;
 }
 
 .star-ratting .fa-star.yellow {
     color: #ffc107;
 }
 
-.owl-carousel .item {
-    padding: 1rem;
-}
-
-.owl-carousel .owl-nav button.owl-prev,
-.owl-carousel .owl-nav button.owl-next {
-    background: rgba(0,0,0,0.5);
-    color: white;
-    font-size: 1.5rem;
-    padding: 0.5rem 1rem;
-    border-radius: 3px;
+.prev, .next {
+    cursor: pointer;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s ease;
+    border-radius: 0 3px 3px 0;
+    background-color: rgba(0,0,0,0.5);
+    user-select: none;
 }
 
-.owl-carousel .owl-nav button.owl-prev {
-    left: 0;
-}
-
-.owl-carousel .owl-nav button.owl-next {
+.next {
     right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
-.owl-carousel .owl-nav button.owl-prev:hover,
-.owl-carousel .owl-nav button.owl-next:hover {
-    background: rgba(0,0,0,0.8);
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
 }
 </style>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+    let slides = document.getElementsByClassName("mySlides");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[slideIndex-1].style.display = "block";
+}
+
+// Auto slide
+setInterval(function() {
+    plusSlides(1);
+}, 5000);
+</script>
 @endsection
 
 @section('additional_scripts')
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        if (typeof OwlCarousel !== 'undefined') {
-            const carousel = document.querySelector('.owl-carousel');
-            if (carousel) {
-                new OwlCarousel(carousel, {
-                    loop: true,
-                    margin: 10,
-                    responsiveClass: true,
-                    dots: false,
-                    nav: true,
-                    navText: ['❮', '❯'],
-                    autoplay: true,
-                    autoplayTimeout: 5000,
-                    autoplayHoverPause: true,
-                    responsive: {
-                        0: { items: 1 },
-                        600: { items: 2 },
-                        1000: { items: 3 }
-                    }
-                });
-            } else {
-                console.error('Owl Carousel element not found.');
-            }
-        } else {
-            console.error('OwlCarousel is not defined. Ensure the Owl Carousel library is loaded.');
-        }
-    });
-</script>
+<!-- No scripts needed here as slideshow logic is in additional_head -->
 @endsection
