@@ -69,7 +69,7 @@
                     <div class="order-image">
                         <h2 class="display-6 text-capitalize mb-2" align="center">Get a Quote</h2>
                         <p>You will receive an instant quote for our services. Once you fill your details, the following will be shared to our sales team and they will connect with you shortly with all the necessary details.</p>
-                        <img src="{{ asset('template/img/order-image.png') }}" width="70%" style="margin-top:10px;" alt="Fill Your Requirement">
+                        <img src="{{ asset('template/img/order.jpg') }}" width="70%" style="margin-top:10px;" alt="Fill Your Requirement">
                     </div>
                 </div>
                 <div class="col-lg-6">
