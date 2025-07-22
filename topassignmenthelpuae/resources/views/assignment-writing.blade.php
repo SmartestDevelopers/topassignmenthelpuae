@@ -95,9 +95,9 @@
             </div>
             <div class="col-xl-6">
                 <div class="about-img">
-                    <img src="{{ asset('template/img/assignment-writing.webp') }}" class="img-fluid w-100" alt="Assignment Writing Services">
+                    <img src="{{ asset('template/img/report-writing.webp') }}" class="img-fluid w-100" alt="Report Writing Services">
                 </div>
-            </div>
+            </div>>
         </div>
     </div>
 </div>
