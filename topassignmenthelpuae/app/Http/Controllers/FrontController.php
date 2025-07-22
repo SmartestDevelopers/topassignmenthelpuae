@@ -65,6 +65,11 @@ class FrontController extends Controller
         return redirect()->route('thanks')->with('success', 'Order submitted successfully!');
     }
 
+    public function orderNow()
+    {
+        $page = DB::table('pages')->where('slug', 'order-now')->first();
+        return view('order-now', compact('page'));
+    }
     public function blogs()
     {
         $page = DB::table('pages')->where('slug', 'blogs')->first();
