@@ -11,14 +11,14 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="@yield('seo_description', 'Professional assignment writing services by top UK writers. Get high-quality essays, dissertations, and academic help with guaranteed grades.')" />
+    <meta name="description" content="@yield('seo_description', 'Professional assignment writing services by top UAE writers. Get high-quality essays, dissertations, and academic help with guaranteed grades.')" />
     
     <!-- Open Graph data -->
     <meta property="og:title" content="@yield('og_title', config('app.name', 'Laravel'))" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ url()->current() }}" />
     <meta property="og:image" content="@yield('og_image', asset('template/img/feature-1.webp'))" />
-    <meta property="og:description" content="@yield('og_description', 'Professional assignment writing services by top UK writers')" />
+    <meta property="og:description" content="@yield('og_description', 'Professional assignment writing services by top UAE writers')" />
     <meta property="og:site_name" content="{{ config('app.name', 'Laravel') }}" />
     
     <!-- Twitter -->
@@ -31,7 +31,8 @@
     @yield('structured_data')
     
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ asset('template/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="{{ asset('template/css/all.min.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('template/css/bootstrap.min.css') }}">
@@ -43,6 +44,11 @@
     <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('template/apple-touch-icon-120x120-precomposed.png') }}">
     <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('template/apple-touch-icon-152x152-precomposed.png') }}">
     <link rel="shortcut icon" type="image/png" href="{{ asset('template/img/favicon.png') }}">
+    <style>
+        .navbar-expand-xl .navbar-nav .nav-link {
+            padding-right: 0.2rem;
+        }
+    </style>
     
     @yield('additional_head')
 
@@ -61,25 +67,25 @@
                 <div class="col-xl-11 col-lg-12">
                     <ul class="list-unstyled d-flex align-items-center ul-design">
                         <li class="top-header-home-phone">
-                            <a href="tel:+44-7842798340" class="topbar-call d-flex align-items-center top-header-home">
+                            <a href="tel:+971-123456789" class="topbar-call d-flex align-items-center top-header-home">
                                 <i class="fa-solid fa-phone"></i>
-                                +44-7842798340
+                                +971 -123456789
                             </a>
                         </li>
                         <li class="header-contact-p">
                             <p class="mb-0">
                                 <span style="font-size:14px;color:#fff">
-                                    <a href="https://api.whatsapp.com/send?phone=447842798340&text=Hi%20we%20need%20help%20regarding%20something" target="_blank" rel='noreferrer'>
+                                    <a href="https://api.whatsapp.com/send?phone=971123456789&text=Hi%20we%20need%20help%20regarding%20something" target="_blank" rel='noreferrer'>
                                         <i style="margin-left: 15px; background: #469200; width: 31px; height: 31px; text-align: center; line-height: 31px; border-radius: 32px;" class="fab fa-whatsapp me-2"></i>
                                     </a> 
                                     <strong>
                                         <span class="top-header-home">Connect On</span> 
-                                        <a href="https://api.whatsapp.com/send?phone=447842798340&text=Hi%20we%20need%20help%20regarding%20something" target="_blank" rel='noreferrer'>WHATSAPP : +44 7842798340</a>
+                                        <a href="https://api.whatsapp.com/send?phone=971123456789&text=Hi%20we%20need%20help%20regarding%20something" target="_blank" rel='noreferrer'>WHATSAPP : +971 123456789</a>
                                     </strong>
                                     <span class="top-header-home">, Uninterrupted Access 24x7, 100% Confidential. </span>
                                     <span class="crs_btn" style="background: #469200; padding: 6px; border-radius: 5px; position: relative; overflow: hidden; display: inline-flex;">
-                                        <a href="https://api.whatsapp.com/send?phone=447842798340&text=Hi%20we%20need%20help%20regarding%20something" target="_blank" rel='noreferrer'> 
-                                            <span></span>&nbsp; Connect Now
+                                        <a href="https://api.whatsapp.com/send?phone=971123456789&text=Hi%20we%20need%20help%20regarding%20something" target="_blank" rel='noreferrer'> 
+                                            <span></span> Connect Now
                                         </a>
                                     </span>
                                 </span>
@@ -339,8 +345,7 @@
     <!-- Scripts -->
     <script src="{{ asset('template/js/jquery.min.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="{{ asset('template/js/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('template/js/new-jquery.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     
     <script>
         // Back to top functionality
@@ -359,31 +364,28 @@
         };
         
         // Owl Carousel initialization
-        $(document).ready(function () {
-            $('.owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                responsiveClass: true,
-                dots: false,
-                autoplay: true,
-                autoplayTimeout: 2000,
-                autoplayHoverPause: true,
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: false
-                    },
-                    600: {
-                        items: 2,
-                        nav: false
-                    },
-                    1000: {
-                        items: 3,
-                        nav: false,
-                    }
+        (function($) {
+            $(document).ready(function() {
+                if (typeof $.fn.owlCarousel === 'undefined') {
+                    console.error('Owl Carousel plugin is not loaded.');
+                } else {
+                    $('.owl-carousel').owlCarousel({
+                        loop: true,
+                        margin: 10,
+                        responsiveClass: true,
+                        dots: false,
+                        autoplay: true,
+                        autoplayTimeout: 2000,
+                        autoplayHoverPause: true,
+                        responsive: {
+                            0: { items: 1, nav: false },
+                            600: { items: 2, nav: false },
+                            1000: { items: 3, nav: false }
+                        }
+                    });
                 }
             });
-        });
+        })(jQuery);
     </script>
     
     @yield('additional_scripts')
