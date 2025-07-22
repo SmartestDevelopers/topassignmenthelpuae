@@ -209,7 +209,7 @@
                                 <li><a class="dropdown-item" href="#">Guarantees</a></li>
                                 <li><a class="dropdown-item" href="#">Testimonial</a></li>
                                 <li><a class="dropdown-item" href="#">FAQ</a></li>
-                                <li><a class="dropdown-item" href="#">Contact</a></li>
+                                <li><a class="dropdown-item" href="{{ route('contactus')}}">Contact</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">

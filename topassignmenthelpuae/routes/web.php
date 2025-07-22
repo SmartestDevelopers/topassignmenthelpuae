@@ -36,6 +36,7 @@ Route::get('/guarantees', 'FrontController@guarantees')->name('guarantees');
 Route::get('/testimonial', 'FrontController@testimonial')->name('testimonial');
 Route::get('/faq', 'FrontController@faq')->name('faq');
 Route::get('/contactus', 'FrontController@contactUs')->name('contactus');
+Route::post('/contactus', 'FrontController@storeContactUs')->name('contactus.store');
 Route::get('/basic-subjects', 'FrontController@basicSubjects')->name('basic-subjects');
 Route::get('/management-subjects', 'FrontController@managementSubjects')->name('management-subjects');
 Route::get('/editing-and-proofreading', 'FrontController@editingAndProofreading')->name('editing-and-proofreading');

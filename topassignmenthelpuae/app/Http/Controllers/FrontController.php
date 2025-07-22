@@ -205,6 +205,31 @@ class FrontController extends Controller
         return view('contactus', compact('page'));
     }
 
+    public function storeContactUs(Request $request)
+    {
+        $validatedData = $request->validate([
+            'fname' => 'required|string|max:255',
+            'lname' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'phone' => 'required|string|max:20',
+            'code' => 'required|string',
+            'message' => 'required|string',
+        ]);
+
+        DB::table('contacts')->insert([
+            'first_name' => $validatedData['fname'],
+            'last_name' => $validatedData['lname'],
+            'email' => $validatedData['email'],
+            'phone' => $validatedData['phone'],
+            'country' => $validatedData['code'],
+            'message' => $validatedData['message'],
+            'created_at' => now(),
+            'updated_at' => now(),
+        ]);
+
+        return redirect()->route('thanks')->with('success', 'Your message has been sent successfully!');
+    }
+
     public function basicSubjects()
     {
         $page = DB::table('pages')->where('slug', 'basic-subjects')->first();
