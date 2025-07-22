@@ -180,7 +180,7 @@
                         <p class="mb-0">Professional essay writing services that meet academic standards and help you achieve better grades with well-researched content.</p>
                     </div>
                     <div class="service-link">
-                        <a href="#" aria-label="essay-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <a href="{{ route('essay-writing') }}" aria-label="essay-writing">Read More <i class="fas fa-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -196,7 +196,7 @@
                         <p class="mb-0">Comprehensive report writing services with proper structure, analysis, and professional presentation for all academic levels.</p>
                     </div>
                     <div class="service-link">
-                        <a href="#" aria-label="report-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <a href="{{ route('report-writing') }}" aria-label="report-writing">Read More <i class="fas fa-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -212,7 +212,7 @@
                         <p class="mb-0">Expert coursework writing assistance that covers all aspects of your curriculum with detailed research and analysis.</p>
                     </div>
                     <div class="service-link">
-                        <a href="#" aria-label="coursework-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <a href="{{ route('course-work') }}" aria-label="coursework-writing">Read More <i class="fas fa-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -228,7 +228,7 @@
                         <p class="mb-0">Professional assignment writing services that help you complete your academic tasks with excellence and precision.</p>
                     </div>
                     <div class="service-link">
-                        <a href="#" aria-label="assignment-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <a href="{{ route('assignment-writing') }}" aria-label="assignment-writing">Read More <i class="fas fa-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -244,7 +244,7 @@
                         <p class="mb-0">Comprehensive literature review writing that synthesizes existing research and provides critical analysis for your academic work.</p>
                     </div>
                     <div class="service-link">
-                        <a href="#" aria-label="literature-review">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <a href="{{ route('literature-review-writing') }}" aria-label="literature-review">Read More <i class="fas fa-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -260,7 +260,7 @@
                         <p class="mb-0">Professional CV writing services that highlight your skills and experience to help you stand out in the job market.</p>
                     </div>
                     <div class="service-link">
-                        <a href="#" aria-label="cv-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <a href="{{ route('cv-writing') }}" aria-label="cv-writing">Read More <i class="fas fa-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>

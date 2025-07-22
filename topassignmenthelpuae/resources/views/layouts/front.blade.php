@@ -168,12 +168,12 @@
                             <a href="{{ route('academic-writing-services') }}" class="nav-link item-menu-click {{ request()->routeIs('academic-writing-services') ? 'active' : '' }}">Writing</a>
                             <span class="toggle"><i class="fa-solid fa-angle-down"></i></span>
                             <ul class="dropdown-menu submenu">
-                                <li><a class="dropdown-item" href="{{ route('academic-writing-services') }}">Essay Writing</a></li>
-                                <li><a class="dropdown-item" href="{{ route('academic-writing-services') }}">Report Writing</a></li>
-                                <li><a class="dropdown-item" href="{{ route('academic-writing-services') }}">Coursework Writing</a></li>
-                                <li><a class="dropdown-item" href="{{ route('academic-writing-services') }}">Assignment Writing</a></li>
-                                <li><a class="dropdown-item" href="{{ route('academic-writing-services') }}">Literature Review</a></li>
-                                <li><a class="dropdown-item" href="{{ route('academic-writing-services') }}">CV Writing</a></li>
+                                <li><a class="dropdown-item" href="{{ route('essay-writing') }}">Essay Writing</a></li>
+                                <li><a class="dropdown-item" href="{{ route('report-writing') }}">Report Writing</a></li>
+                                <li><a class="dropdown-item" href="{{ route('course-work') }}">Coursework Writing</a></li>
+                                <li><a class="dropdown-item" href="{{ route('assignment-writing') }}">Assignment Writing</a></li>
+                                <li><a class="dropdown-item" href="{{ route('literature-review-writing') }}">Literature Review</a></li>
+                                <li><a class="dropdown-item" href="{{ route('cv-writing') }}">CV Writing</a></li>
                                 <li><a class="dropdown-item" href="{{ route('academic-writing-services') }}">Writing Consultant</a></li>
                             </ul>
                         </li>

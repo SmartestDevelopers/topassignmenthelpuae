@@ -46,6 +46,9 @@ Route::get('/spss-help', 'FrontController@spssHelp')->name('spss-help');
 // More template pages
 Route::get('/course-work', 'FrontController@courseWork')->name('course-work');
 Route::get('/cv-writing', 'FrontController@cvWriting')->name('cv-writing');
+Route::get('/report-writing', 'FrontController@reportWriting')->name('report-writing');
+Route::get('/essay-writing', 'FrontController@essayWriting')->name('essay-writing');
+Route::get('/assignment-writing', 'FrontController@assignmentWriting')->name('assignment-writing');
 Route::get('/writers', 'FrontController@writers')->name('writers');
 Route::get('/literature-review-writing', 'FrontController@literatureReviewWriting')->name('literature-review-writing');
 Route::get('/dissertation-topic-outline', 'FrontController@dissertationTopicOutline')->name('dissertation-topic-outline');

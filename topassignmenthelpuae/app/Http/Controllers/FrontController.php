@@ -266,10 +266,28 @@ class FrontController extends Controller
         return view('course-work', compact('page'));
     }
 
+
     public function cvWriting()
     {
         $page = DB::table('pages')->where('slug', 'cv-writing')->first();
         return view('cv-writing', compact('page'));
+    }
+
+    public function reportWriting()
+    {
+        $page = DB::table('pages')->where('slug', 'report-writing')->first();
+        return view('report-writing', compact('page'));
+    }
+
+    public function essayWriting()
+    {
+        $page = DB::table('pages')->where('slug', 'essay-writing')->first();
+        return view('essay-writing', compact('page'));
+    }
+public function assignmentWriting()
+    {
+        $page = DB::table('pages')->where('slug', 'assignment-writing')->first();
+        return view('assignment-writing', compact('page'));
     }
 
     public function writers()

@@ -69,39 +69,53 @@
     </div>
 </div>
 
-<section class="section">
+<div class="about-us section">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
-                    <h2 class="heading-title">Expert Literature Review <span>Writing</span></h2>
-                    <p class="content-simple-p mb-0">Our literature review writing services provide comprehensive, well-researched reviews to support your academic research and dissertations.</p>
+                    <h2 class="heading-title">Expert Literature Review <span>Writing Services</span></h2>
+                    <p class="content-simple-p mb-0">Enhance your academic research with our professional literature review writing services, tailored to your project needs.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3 g-4">
+            <div class="col-xl-6">
+                <div class="about-content">
+                    <p>Need a comprehensive literature review for your dissertation or research paper? Our literature review writing services provide well-researched, structured reviews that synthesize existing research effectively. We are a trusted provider with years of experience.</p>
+                    
+                    <p>Our team of expert writers specializes in conducting thorough research and crafting reviews across various disciplines. We ensure critical analysis, proper structure, and adherence to academic standards and citation styles.</p>
+                    
+                    <p>Our writers hold advanced degrees (minimum 2:1 up to Master and PhD) and are experienced in creating literature reviews that meet rigorous academic requirements.</p>
+                    
+                    <div class="button-design text-nowrap">
+                        <a href="{{ route('order-now') }}" class="main-btn mt-3">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6">
+                <div class="about-img">
+                    <img src="{{ asset('template/img/literature-review.webp') }}" class="img-fluid w-100" alt="Literature Review Writing Services">
                 </div>
             </div>
         </div>
     </div>
-</section>
-
-<section class="service-details-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 mx-auto">
-                <div class="simple">
-                    <h3 class="heading-title">Our Literature Review Writing <span>Services</span></h3>
-                    <p class="content-simple-p mb-0">We offer comprehensive literature review support, including:</p>
-                    <ul>
-                        <li>Thorough research and analysis of relevant literature</li>
-                        <li>Structured reviews with clear synthesis of findings</li>
-                        <li>Adherence to academic standards and citation styles</li>
-                        <li>Support for dissertations, theses, and research papers</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+</div>
 
 <section class="section bg-gray">
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-10">
+                <div class="about-sm-content">
+                    <h4 style="line-height: 35px;">We provide expert literature review writing services, including thorough research, critical analysis, and professional formatting for academic projects.</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="section">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
@@ -143,48 +157,210 @@
     </div>
 </section>
 
-<section class="section">
+<section class="section bg-gray">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
-                    <h2 class="heading-title">How Our Literature Review <span>Service Works</span></h2>
-                    <p class="content-simple-p mb">Follow these steps to get your custom literature review:</p>
+                    <h2 class="heading-title">Our Writing <span>Services</span></h2>
+                    <p class="content-simple-p mb">Explore our range of academic and professional writing services to support your career and academic goals.</p>
                 </div>
             </div>
         </div>
         <div class="row g-4 mt-3">
-            <div class="col-lg-6">
-                <div class="process-step">
-                    <div class="step-number">1</div>
-                    <h5>Submit Requirements</h5>
-                    <p>Provide details about your literature review, including topic and scope.</p>
+            <div class="col-xl-4 col-lg-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-pencil"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>Essay Writing</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">Professional essay writing services that meet academic standards and help you achieve better grades with well-researched content.</p>
+                    </div>
+                    <div class="service-link">
+                        <a href="{{ route('essay-writing') }}" aria-label="essay-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <div class="process-step">
-                    <div class="step-number">2</div>
-                    <h5>Research & Analysis</h5>
-                    <p>Our experts research and analyze relevant literature for your review.</p>
+            <div class="col-xl-4 col-lg-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-file-lines"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>Report Writing</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">Comprehensive report writing services with proper structure, analysis, and professional presentation for all academic levels.</p>
+                    </div>
+                    <div class="service-link">
+                        <a href="{{ route('report-writing') }}" aria-label="report-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <div class="process-step">
-                    <div class="step-number">3</div>
-                    <h5>Writing & Review</h5>
-                    <p>Your review is written, synthesized, and checked for quality and accuracy.</p>
+            <div class="col-xl-4 col-lg-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa fa-list-alt" aria-hidden="true"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>Coursework Writing</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">Expert coursework writing assistance that covers all aspects of your curriculum with detailed research and analysis.</p>
+                    </div>
+                    <div class="service-link">
+                        <a href="{{ route('course-work') }}" aria-label="coursework-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <div class="process-step">
-                    <div class="step-number">4</div>
-                    <h5>Receive Your Review</h5>
-                    <p>Download your completed literature review and request revisions if needed.</p>
+            <div class="col-xl-4 col-lg-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-atom"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>Assignment Writing</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">Professional assignment writing services that help you complete your academic tasks with excellence and precision.</p>
+                    </div>
+                    <div class="service-link">
+                        <a href="{{ route('academic-writing-services') }}" aria-label="assignment-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-receipt"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>Literature Review Writing</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">Comprehensive literature review writing that synthesizes existing research and provides critical analysis for your academic work.</p>
+                    </div>
+                    <div class="service-link">
+                        <a href="{{ route('literature-review-writing') }}" aria-label="literature-review">Read More <i class="fas fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-user-gear"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>CV Writing</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">Professional CV writing services that highlight your skills and experience to help you stand out in the job market.</p>
+                    </div>
+                    <div class="service-link">
+                        <a href="{{ route('cv-writing') }}" aria-label="cv-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<!-- Process Section -->
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="simple">
+                    <h2 class="heading-title">Our Literature Review Writing <span>Process</span></h2>
+                    <p class="content-simple-p mb">We follow a systematic approach to ensure high-quality literature reviews that meet your academic requirements.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4 mt-3">
+            <div class="col-lg-3 col-md-6">
+                <div class="process-step text-center">
+                    <div class="step-number">1</div>
+                    <h5>Order Placement</h5>
+                    <p>Submit your literature review requirements, including topic and guidelines.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="process-step text-center">
+                    <div class="step-number">2</div>
+                    <h5>Writer Assignment</h5>
+                    <p>We assign an expert writer based on your research field and requirements.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="process-step text-center">
+                    <div class="step-number">3</div>
+                    <h5>Research & Synthesis</h5>
+                    <p>Our expert conducts thorough research and synthesizes key findings.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="process-step text-center">
+                    <div class="step-number">4</div>
+                    <h5>Quality Check</h5>
+                    <p>We review, edit, and proofread your review to ensure high quality.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<div class="slideshow-container section" style="background: #f1f1f1;">
+    <div class="simple">
+        <br>
+        <h2 class="heading-title">What our Clients have to Say <span>About Us</span></h2>
+    </div>
+    <div class="mySlides" style="display: block;">
+        <q>The literature review was comprehensive and well-structured. It greatly enhanced my dissertation!</q>
+        <div class="img"><img src="{{ asset('template/img/benjamin.jpg') }}" class="testi-img-size" alt="Benjamin"></div>
+        <p class="author">- Benjamin</p>
+        <div class="star-ratting home-star-ratting">
+            <i class="fa fa-star yellow" aria-hidden="true"></i>
+            <i class="fa fa-star yellow" aria-hidden="true"></i>
+            <i class="fa fa-star yellow" aria-hidden="true"></i>
+            <i class="fa fa-star yellow" aria-hidden="true"></i>
+            <i class="fa fa-star yellow" aria-hidden="true"></i>
+        </div>
+    </div>
+    <div class="mySlides" style="display: none;">
+        <q>The team provided a detailed and critical literature review that was perfect for my research. Highly recommend!</q>
+        <div class="img"><img src="{{ asset('template/img/samuel.jpg') }}" class="testi-img-size" alt="Samuel"></div>
+        <p class="author">- Samuel</p>
+        <div class="star-ratting home-star-ratting">
+            <i class="fa fa-star yellow" aria-hidden="true"></i>
+            <i class="fa fa-star yellow" aria-hidden="true"></i>
+            <i class="fa fa-star yellow" aria-hidden="true"></i>
+            <i class="fa fa-star yellow" aria-hidden="true"></i>
+            <i class="fa fa-star yellow" aria-hidden="true"></i>
+        </div>
+    </div>
+    <div class="mySlides" style="display: none;">
+        <q>Thanks to their literature review service, my research paper was well-supported and professionally written.</q>
+        <div class="img"><img src="{{ asset('template/img/gregory.jpg') }}" class="testi-img-size" alt="Gregory"></div>
+        <p class="author">- Gregory</p>
+        <div class="star-ratting home-star-ratting">
+            <i class="fa fa-star yellow" aria-hidden="true"></i>
+            <i class="fa fa-star yellow" aria-hidden="true"></i>
+            <i class="fa fa-star yellow" aria-hidden="true"></i>
+            <i class="fa fa-star yellow" aria-hidden="true"></i>
+            <i class="fa fa-star yellow" aria-hidden="true"></i>
+        </div>
+    </div>
+    <div class="container" align="center">
+        <a href="#" class="main-btn">Read More</a>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+@endsection
 
 @section('additional_head')
 <style>
@@ -218,5 +394,141 @@
     font-weight: bold;
     margin: 0 auto 1rem auto;
 }
+
+.service-boxes {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.service-boxes:hover {
+    transform: translateY(-5px);
+}
+
+.service-icon {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.service-icon i {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+
+.service-title h4 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.service-link a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.service-link a:hover {
+    color: var(--secondary-color);
+}
+
+/* Testimonial Styles */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    padding: 3rem 1rem;
+}
+
+.mySlides {
+    display: none;
+    text-align: center;
+    padding: 2rem;
+}
+
+.mySlides.active {
+    display: block;
+}
+
+.mySlides q {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    display: block;
+}
+
+.mySlides .img {
+    margin: 1rem 0;
+}
+
+.testi-img-size {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.author {
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.star-ratting {
+    margin: 1rem 0;
+}
+
+.star-ratting .fa-star.yellow {
+    color: #ffc107;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s ease;
+    border-radius: 0 3px 3px 0;
+    background-color: rgba(0,0,0,0.5);
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
 </style>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+    let slides = document.getElementsByClassName("mySlides");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[slideIndex-1].style.display = "block";
+}
+
+// Auto slide
+setInterval(function() {
+    plusSlides(1);
+}, 5000);
+</script>
 @endsection
