@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Validation\ValidationException;
 
 class FrontController extends Controller
 {
@@ -70,6 +72,67 @@ class FrontController extends Controller
         $page = DB::table('pages')->where('slug', 'order-now')->first();
         return view('order-now', compact('page'));
     }
+
+    public function storeOrderNow(Request $request)
+    {
+        \Log::info('Form Data:', $request->all());
+
+        try {
+            $validatedData = $request->validate([
+                'referencing' => 'required|string|in:Harvard (No Page Numbers),Harvard (With Page Numbers),Footnote,Oxford,OSCOLA,APA,BMJ,Chicago,MHRA,MRA,Open University,Turabian,Vancouver',
+                'subject' => 'required|string|in:Accounting,Anthropology,Art & architecture,Biology,Business,Chemistry,Communication,Construction,Criminal Law,Economics,Education,Engineering,Environmental studies,Film studies,Finance,Health,History,Law,Literature,Management,Marketing,Mathematics,Medicine,Music,Nursing,Philosophy,Physics,Political science,Psychology,Public Health,Religious studies,Social Work,Sociology,Statistics,Technology,Theater studies,Women and gender studies,World affairs',
+                'academic_level' => 'required|string|in:High School,Diploma,A-Level,Master - Postgraduate,PhD - Postgraduate,G.C.S.E,Undergraduate,Other',
+                'word_count' => 'required|string|in:1000 Words (Estimated 2-3 pages),1500 Words (Estimated 3-4 pages),2000 Words (Estimated 5 pages),2500 Words (Estimated over 6 pages),3000 Words (Estimated 7-8 pages),4000 Words (Estimated 10 pages),5000 Words (Estimated 12-13 pages),6000 Words (Estimated 15 pages),8000 Words (Estimated 20 pages),10000 Words (Estimated 25 pages)',
+                'deadline' => 'required|string|in:Next Day,2 Days,3 Days,4 Days,5 days,6 days,7 days',
+                'email' => 'required|email|max:255',
+                'country_code' => 'required|string|in:+44,+1,+61,+91,+971',
+                'phone' => 'required|string|max:20',
+                'requirements' => 'nullable|string',
+                'file_upload' => 'nullable|file|max:10240',
+            ]);
+
+            \Log::info('Validated Data:', $validatedData);
+
+            $filePath = null;
+            if ($request->hasFile('file_upload')) {
+                $file = $request->file('file_upload');
+                $filename = time() . '_' . $file->getClientOriginalName();
+                $file->move(public_path('uploads/orders'), $filename);
+                $filePath = 'uploads/orders/' . $filename;
+                \Log::info('File Path:', [$filePath]);
+            }
+
+            DB::table('ordernows')->insert([
+                'referencing' => $validatedData['referencing'],
+                'subject' => $validatedData['subject'],
+                'academic_level' => $validatedData['academic_level'],
+                'word_count' => $validatedData['word_count'],
+                'deadline' => $validatedData['deadline'],
+                'user_email' => $validatedData['email'],
+                'country_code' => $validatedData['country_code'],
+                'phone' => $validatedData['phone'],
+                'requirements' => $validatedData['requirements'],
+                'file_path' => $filePath,
+                'status' => 'pending',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ]);
+
+            \Log::info('Data inserted successfully');
+        } catch (ValidationException $e) {
+            \Log::error('Validation Errors:', $e->errors());
+            return redirect()->back()->with('error', 'Failed to submit order: ' . implode(', ', array_merge(...array_values($e->errors()))));
+        } catch (\Exception $e) {
+            \Log::error('Insert Error: ' . $e->getMessage());
+            return redirect()->back()->with('error', 'Failed to submit order: ' . $e->getMessage());
+        }
+
+        return redirect()->route('thanks')->with('success', 'Order submitted successfully!');
+    }
+
+    // Add other methods like orderNow here
+
+
     public function blogs()
     {
         $page = DB::table('pages')->where('slug', 'blogs')->first();

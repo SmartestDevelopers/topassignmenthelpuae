@@ -18,6 +18,7 @@ Route::get('/', 'FrontController@home')->name('home');
 Route::get('/about', 'FrontController@about')->name('about');
 Route::get('/services', 'FrontController@services')->name('services');
 Route::get('/order-now', 'FrontController@orderNow')->name('order-now');
+Route::post('/order-now', 'FrontController@storeOrderNow')->name('ordernow.store');
 Route::post('/home', 'FrontController@storeOrder')->name('order.store'); 
 Route::get('/blogs', 'FrontController@blogs')->name('blogs');
 Route::get('/free-samples', 'FrontController@freeSamples')->name('free-samples');

@@ -48,7 +48,21 @@
 
 <div class="content_simple my-sm-5 my-4">
     <div class="container">
-        <form method="post" action="#" id="orderForm" name="orderForm">
+        @if ($errors->any())
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
+        @if (session('error'))
+            <div class="alert alert-danger">
+                {{ session('error') }}
+            </div>
+        @endif
+        <form method="post" action="{{ route('ordernow.store') }}" id="orderForm" name="orderForm" enctype="multipart/form-data">
             @csrf
             <div class="row">
                 <div class="col-lg-6">
@@ -402,42 +416,14 @@
 @section('additional_scripts')
 <script>
 function isNumber(evt) {
-    evt = (evt) ? evt : window.event;
-    var charCode = (evt.which) ? evt.which : evt.keyCode;
+    evt = evt || window.event;
+    var charCode = evt.which ? evt.which : evt.keyCode;
     if (charCode > 31 && (charCode < 48 || charCode > 57)) {
         return false;
     }
     return true;
 }
 
-// Form validation
-document.getElementById('orderForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-    
-    // Basic form validation
-    const requiredFields = ['referencing', 'subject', 'academic_level', 'word_count', 'deadline', 'email', 'phone'];
-    let isValid = true;
-    
-    requiredFields.forEach(field => {
-        const element = document.getElementById(field);
-        if (!element.value.trim()) {
-            element.style.borderColor = 'red';
-            isValid = false;
-        } else {
-            element.style.borderColor = '#ddd';
-        }
-    });
-    
-    if (isValid) {
-        // Here you would normally submit the form to your backend
-        alert('Thank you for your order! Our team will contact you shortly with a quote.');
-        // You can add AJAX submission here
-    } else {
-        alert('Please fill in all required fields.');
-    }
-});
-
-// Phone number validation
 document.getElementById('phone').addEventListener('keypress', isNumber);
 </script>
 @endsection
