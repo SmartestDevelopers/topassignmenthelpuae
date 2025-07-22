@@ -25,10 +25,10 @@ class FrontController extends Controller
         return view('services', compact('page'));
     }
 
-    public function orderNow()
+    public function order()
     {
-        $page = DB::table('pages')->where('slug', 'order-now')->first();
-        return view('order-now', compact('page'));
+        $page = DB::table('pages')->where('slug', 'home')->first();
+        return view('home', compact('page'));
     }
 
     public function storeOrder(Request $request)
