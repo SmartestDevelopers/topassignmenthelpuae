@@ -48,15 +48,54 @@
         .navbar-expand-xl .navbar-nav .nav-link {
             padding-right: 0.2rem;
         }
+        .login-area{
+            padding:50px; 
+            margin-bottom:50px;
+        }
+        .form-group{
+            margin-bottom:20px;
+        }
+        .form-control{
+            background-color:#fff;
+            border-radius:0px 10px;
+        }
+        .btn-primary, .topbar-btn, button, .step-number, .main-btn{
+            background-color:#F17D00 !important;
+            border-color:#F17D00 !important;
+        }
+        .btn-outline-primary{
+            color:#000;
+            border-color:#F17D00 !important;
+        }
+        .service-title h4{
+            color:#F17D00 !important;
+        }
+        
+        .service-icon i{
+            color:#F17D00 !important;
+        }
+        
+        .service-link a{
+            color:#F17D00 !important;
+        }
+        
+        
+            
+        
     </style>
     
+    <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-T4X5JNKB4R"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-T4X5JNKB4R');
+        </script>
+        
+        
     @yield('additional_head')
-
-    <style>
-        .navbar-nav .nav-item.dropdown{
-            padding-right:15px !important;
-        }
-        </style>
 </head>
 
 <body>
@@ -76,14 +115,14 @@
                             <p class="mb-0">
                                 <span style="font-size:14px;color:#fff">
                                     <a href="https://api.whatsapp.com/send?phone=971123456789&text=Hi%20we%20need%20help%20regarding%20something" target="_blank" rel='noreferrer'>
-                                        <i style="margin-left: 15px; background: #469200; width: 31px; height: 31px; text-align: center; line-height: 31px; border-radius: 32px;" class="fab fa-whatsapp me-2"></i>
+                                        <i style="margin-left: 15px; background: #F17D00 ; width: 31px; height: 31px; text-align: center; line-height: 31px; border-radius: 32px;" class="fab fa-whatsapp me-2"></i>
                                     </a> 
                                     <strong>
                                         <span class="top-header-home">Connect On</span> 
                                         <a href="https://api.whatsapp.com/send?phone=971123456789&text=Hi%20we%20need%20help%20regarding%20something" target="_blank" rel='noreferrer'>WHATSAPP : +971 123456789</a>
                                     </strong>
                                     <span class="top-header-home">, Uninterrupted Access 24x7, 100% Confidential. </span>
-                                    <span class="crs_btn" style="background: #469200; padding: 6px; border-radius: 5px; position: relative; overflow: hidden; display: inline-flex;">
+                                    <span class="crs_btn" style="background: #F17D00 ; padding: 6px; border-radius: 5px; position: relative; overflow: hidden; display: inline-flex;">
                                         <a href="https://api.whatsapp.com/send?phone=971123456789&text=Hi%20we%20need%20help%20regarding%20something" target="_blank" rel='noreferrer'> 
                                             <span></span> Connect Now
                                         </a>
@@ -165,7 +204,7 @@
                             <a href="{{ route('about') }}" class="nav-link item-menu-click {{ request()->routeIs('about') ? 'active' : '' }}">About Us</a>
                             <span class="toggle"><i class="fa-solid fa-angle-down"></i></span>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Why Us</a></li>
+                                <li><a class="dropdown-item" href="">Why Us</a></li>
                                 <li><a class="dropdown-item" href="#">Guarantees</a></li>
                                 <li><a class="dropdown-item" href="#">Testimonial</a></li>
                                 <li><a class="dropdown-item" href="#">FAQ</a></li>

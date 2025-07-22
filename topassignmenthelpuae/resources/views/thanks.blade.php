@@ -1,6 +1,9 @@
 @extends('layouts.front')
 
 @section('content')
+
+<div class="container">
+
 <h1>Thank You!</h1>
     @if (isset($page))
         <h2>{{ $page->title ?? 'Thank You Page' }}</h2>
@@ -13,3 +16,5 @@
     @endif
     <a href="{{ route('order-now') }}">Back to Order Form</a>
     @endsection
+
+</div>
