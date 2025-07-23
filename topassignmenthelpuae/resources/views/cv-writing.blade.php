@@ -228,7 +228,7 @@
                         <p class="mb-0">Professional assignment writing services that help you complete your academic tasks with excellence and precision.</p>
                     </div>
                     <div class="service-link">
-                        <a href="{{ route('academic-writing-services') }}" aria-label="assignment-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <a href="{{ route('assignment-writing') }}" aria-label="assignment-writing">Read More <i class="fas fa-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>
