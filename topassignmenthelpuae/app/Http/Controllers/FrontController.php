@@ -589,4 +589,45 @@ public function assignmentHelp()
         $page = DB::table('pages')->where('slug', 'thanks')->first();
         return view('thanks', compact('page'));
     }
+
+    // Updated method for newsletter subscription
+    public function subscribeNewsletter(Request $request)
+    {
+        // Validate the email input
+        $request->validate([
+            'email' => 'required|email|max:255',
+        ], [
+            'email.required' => 'Please enter your email address.',
+            'email.email' => 'Please enter a valid email address.',
+            'email.max' => 'The email address is too long.',
+        ]);
+
+        try {
+            // Check if email already exists
+            $existingEmail = DB::table('subscribe')
+                ->where('email', $request->email)
+                ->first();
+
+            if ($existingEmail) {
+                return redirect()->back()->with('error', 'This email is already subscribed to our newsletter.');
+            }
+
+            // Insert the email into subscribe table
+            DB::table('subscribe')->insert([
+                'email' => $request->email,
+                'is_active' => true,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ]);
+
+            // Return success message
+            return redirect()->back()->with('success', 'Thank you for subscribing to our newsletter!');
+        } catch (\Exception $e) {
+            // Log the error (optional, requires logging setup)
+            \Log::error('Newsletter subscription failed: ' . $e->getMessage());
+
+            // Return error message
+            return redirect()->back()->with('error', 'An error occurred while subscribing. Please try again later.');
+        }
+    }
 }

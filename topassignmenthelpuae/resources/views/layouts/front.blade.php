@@ -340,7 +340,18 @@
                 <div class="col-md-6 col-xl-3 footer-content col-12">
                     <h2 style="font-size: 24px; color: white;" class="text-center-home">Subscribe Us</h2>
                     <div class="mb-3 col">
-                        <form action="#" method="post" class="newsletter-form">
+                        <!-- Display flash messages -->
+                @if (session('success'))
+                    <div class="alert alert-success" role="alert">
+                        {{ session('success') }}
+                    </div>
+                @endif
+                @if (session('error'))
+                    <div class="alert alert-danger" role="alert">
+                        {{ session('error') }}
+                    </div>
+                @endif
+                        <form action="{{ route('subscribe-newsletter') }}" method="post" class="newsletter-form">
                             @csrf
                             <div class="mb-3">
                                 <label for="email" class="form-label text-white">Email Address *</label>

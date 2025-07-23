@@ -24,6 +24,7 @@ Route::get('/blogs', 'FrontController@blogs')->name('blogs');
 Route::get('/free-samples', 'FrontController@freeSamples')->name('free-samples');
 Route::get('/academic-writing-services', 'FrontController@academicWritingServices')->name('academic-writing-services');
 Route::get('/other-services', 'FrontController@otherServices')->name('other-services');
+Route::post('/subscribe-newsletter', 'FrontController@subscribeNewsletter')->name('subscribe-newsletter');
 
 // Legal pages
 Route::get('/privacy', 'FrontController@privacy')->name('privacy');
