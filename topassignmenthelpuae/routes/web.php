@@ -60,6 +60,9 @@ Route::get('/dissertation-statistical-services', 'FrontController@dissertationSt
 Route::get('/editing-proofreading-improvement-service', 'FrontController@editingProofreadingImprovementService')->name('editing-proofreading-improvement-service');
 Route::get('/model-answer-writing', 'FrontController@modelAnswerWriting')->name('model-answer-writing');
 Route::get('/exam-notes', 'FrontController@examNotes')->name('exam-notes');
+Route::get('/accounting-subject', 'FrontController@accountingSubject')->name('accounting-subject');
+Route::get('/finance-subject', 'FrontController@financeSubject')->name('finance-subject');
+Route::get('/assignment-help', 'FrontController@assignmentHelp')->name('assignment-help');
 Route::get('/poster-service', 'FrontController@posterService')->name('poster-service');
 Route::get('/presentations-service', 'FrontController@presentationsService')->name('presentations-service');
 

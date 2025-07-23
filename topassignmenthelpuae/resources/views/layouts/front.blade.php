@@ -181,24 +181,24 @@
                             <a href="{{ route('services') }}" class="nav-link item-menu-click {{ request()->routeIs('services') ? 'active' : '' }}">Dissertation</a>
                             <span class="toggle"><i class="fa-solid fa-angle-down"></i></span>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="{{ route('services') }}">Dissertation Topic and Outline</a></li>
-                                <li><a class="dropdown-item" href="{{ route('services') }}">Dissertation Proposal</a></li>
-                                <li><a class="dropdown-item" href="{{ route('services') }}">Dissertation (Full)</a></li>
-                                <li><a class="dropdown-item" href="{{ route('services') }}">Dissertation Part or Chapter</a></li>
-                                <li><a class="dropdown-item" href="{{ route('services') }}">Dissertation Editing and Improvement</a></li>
-                                <li><a class="dropdown-item" href="{{ route('services') }}">Statistical Services for Dissertations</a></li>
+                                <li><a class="dropdown-item" href="{{ route('dissertation-topic-outline') }}">Dissertation Topic and Outline</a></li>
+                                <li><a class="dropdown-item" href="{{ route('dissertation-proposal-writing') }}">Dissertation Proposal</a></li>
+                                <li><a class="dropdown-item" href="{{ route('dissertation-thesis-writing') }}">Dissertation (Full)</a></li>
+                                <li><a class="dropdown-item" href="{{ route('dissertation-part-chapter-writing') }}">Dissertation Part or Chapter</a></li>
+                                <li><a class="dropdown-item" href="{{ route('dissertation-editing-improvement-proofreading') }}">Dissertation Editing and Improvement</a></li>
+                                <li><a class="dropdown-item" href="{{ route('dissertation-statistical-services') }}">Statistical Services for Dissertations</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a href="{{ route('other-services') }}" class="nav-link item-menu-click {{ request()->routeIs('other-services') ? 'active' : '' }}">Other Services</a>
                             <span class="toggle"><i class="fa-solid fa-angle-down"></i></span>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="{{ route('other-services') }}">Editing, Improvement and Proofreading</a></li>
-                                <li><a class="dropdown-item" href="{{ route('other-services') }}">Accounting Subject</a></li>
-                                <li><a class="dropdown-item" href="{{ route('other-services') }}">Finance Subject</a></li>
-                                <li><a class="dropdown-item" href="{{ route('other-services') }}">Model Answer</a></li>
-                                <li><a class="dropdown-item" href="{{ route('other-services') }}">Exam Notes</a></li>
-                                <li><a class="dropdown-item" href="{{ route('other-services') }}">Economics Assignment Help</a></li>
+                                <li><a class="dropdown-item" href="{{ route('editing-proofreading-improvement-service') }}">Editing, Improvement and Proofreading</a></li>
+                                <li><a class="dropdown-item" href="{{ route('accounting-subject') }}">Accounting Subject</a></li>
+                                <li><a class="dropdown-item" href="{{ route('finance-subject') }}">Finance Subject</a></li>
+                                <li><a class="dropdown-item" href="{{ route('model-answer-writing') }}">Model Answer</a></li>
+                                <li><a class="dropdown-item" href="{{ route('exam-notes') }}">Exam Notes</a></li>
+                                <li><a class="dropdown-item" href="{{ route('assignment-help') }}">Economics Assignment Help</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">

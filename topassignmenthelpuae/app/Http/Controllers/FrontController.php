@@ -356,6 +356,23 @@ public function assignmentWriting()
         return view('exam-notes', compact('page'));
     }
 
+    public function accountingSubject()
+{
+    $page = DB::table('pages')->where('slug', 'accounting-subject')->first();
+    return view('accounting-subject', compact('page'));
+}
+
+public function financeSubject()
+{
+    $page = DB::table('pages')->where('slug', 'finance-subject')->first();
+    return view('finance-subject', compact('page'));
+}
+public function assignmentHelp()
+{
+    $page = DB::table('pages')->where('slug', 'assignment-help')->first();
+    return view('assignment-help', compact('page'));
+}
+
     public function posterService()
     {
         $page = DB::table('pages')->where('slug', 'poster-service')->first();
