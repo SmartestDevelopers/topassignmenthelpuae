@@ -95,7 +95,7 @@
             </div>
             <div class="col-xl-6">
                 <div class="about-img">
-                    <img src="{{ asset('template/img/editing-proofreading-improvement-service.webp') }}" class="img-fluid w-100" alt="Editing, Improvement and Proofreading Services">
+                    <img src="{{ asset('template/img/editing-proofreading-improvement.webp') }}" class="img-fluid w-100" alt="Editing, Improvement and Proofreading Services">
                 </div>
             </div>
         </div>

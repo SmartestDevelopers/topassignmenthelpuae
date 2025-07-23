@@ -5,7 +5,7 @@
 
 @section('og_title', 'Exam Notes Services')
 @section('og_description', 'Get concise and comprehensive exam notes to help you prepare effectively for your exams across various subjects.')
-@section('og_image', asset('template/img/exam-notes.webp'))
+@section('og_image', asset('template/img/exam-note.webp'))
 
 @section('twitter_title', 'Exam Notes Services')
 @section('twitter_site', '@assignmenthelp')
@@ -33,7 +33,7 @@
     "@context": "https://schema.org",
     "@type": "Product",
     "name": "{{ config('app.name') }} Exam Notes Service",
-    "image": "{{ asset('template/img/exam-notes.webp') }}",
+    "image": "{{ asset('template/img/exam-note.webp') }}",
     "description": "Professional exam notes services to provide concise and comprehensive study materials for exam preparation.",
     "brand": {
         "@type": "Brand",
@@ -95,7 +95,7 @@
             </div>
             <div class="col-xl-6">
                 <div class="about-img">
-                    <img src="{{ asset('template/img/exam-notes.webp') }}" class="img-fluid w-100" alt="Exam Notes Services">
+                    <img src="{{ asset('template/img/exam-note.webp') }}" class="img-fluid w-100" alt="Exam Notes Services">
                 </div>
             </div>
         </div>
