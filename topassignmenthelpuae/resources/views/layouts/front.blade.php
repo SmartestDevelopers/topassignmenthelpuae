@@ -205,10 +205,10 @@
                             <a href="{{ route('about') }}" class="nav-link item-menu-click {{ request()->routeIs('about') ? 'active' : '' }}">About Us</a>
                             <span class="toggle"><i class="fa-solid fa-angle-down"></i></span>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="">Why Us</a></li>
-                                <li><a class="dropdown-item" href="#">Guarantees</a></li>
-                                <li><a class="dropdown-item" href="#">Testimonial</a></li>
-                                <li><a class="dropdown-item" href="#">FAQ</a></li>
+                                <li><a class="dropdown-item" href="{{ route('whyus') }}">Why Us</a></li>
+                                <li><a class="dropdown-item" href="{{ route('guarantees') }}">Guarantees</a></li>
+                                <li><a class="dropdown-item" href="{{ route('testimonial') }}">Testimonial</a></li>
+                                <li><a class="dropdown-item" href="{{ route('faq') }}">FAQ</a></li>
                                 <li><a class="dropdown-item" href="{{ route('contactus')}}">Contact</a></li>
                             </ul>
                         </li>
@@ -216,11 +216,11 @@
                             <a class="nav-link item-menu-click {{ request()->routeIs('services') ? 'active' : '' }}" href="{{ route('services') }}">All Services</a>
                             <span class="toggle"><i class="fa-solid fa-angle-down"></i></span>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Basic Subjects</a></li>
-                                <li><a class="dropdown-item" href="#">Management Subjects</a></li>
-                                <li><a class="dropdown-item" href="#">Editing and Proofreading</a></li>
-                                <li><a class="dropdown-item" href="#">Other Subjects</a></li>
-                                <li><a class="dropdown-item" href="#">SPSS Assignment Help</a></li>
+                                <li><a class="dropdown-item" href="{{ route('basic-subjects') }}">Basic Subjects</a></li>
+                                <li><a class="dropdown-item" href="{{ route('management-subjects') }}">Management Subjects</a></li>
+                                <li><a class="dropdown-item" href="{{ route('editing-and-proofreading') }}">Editing and Proofreading</a></li>
+                                <li><a class="dropdown-item" href="{{ route('other-subjects') }}">Other Subjects</a></li>
+                                <li><a class="dropdown-item" href="{{ route('spss-help') }}">SPSS Assignment Help</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
