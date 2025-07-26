@@ -138,7 +138,7 @@
                         <h4>Economics Essay Help</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Expert economics essay assistance covering all aspects of economic theory and application.</p>
+                        <p class="mb-0">Expert essay assistance covering all aspects of economic theory & application.</p>
                     </div>
                     <div class="service-link">
                         <a href="#" aria-label="economics-essay-help">Read More <i class="fas fa-angle-double-right"></i></a>
@@ -154,7 +154,7 @@
                         <h4>Finance Essay Help</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Comprehensive finance essay writing services for all finance-related academic topics.</p>
+                        <p class="mb-0">Comprehensive finance essay writing services for all finance-related topics.</p>
                     </div>
                     <div class="service-link">
                         <a href="#" aria-label="finance-essay-help">Read More <i class="fas fa-angle-double-right"></i></a>
@@ -170,7 +170,7 @@
                         <h4>Marketing Essay Help</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Specialized marketing essay writing services for all marketing concepts and strategies.</p>
+                        <p class="mb-0">Specialized marketing essay writing services for all marketing concepts.</p>
                     </div>
                     <div class="service-link">
                         <a href="#" aria-label="marketing-essay-help">Read More <i class="fas fa-angle-double-right"></i></a>
@@ -218,7 +218,7 @@
                         <h4>Medicine Essay Help</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Professional medicine essay writing services for all medical and healthcare topics.</p>
+                        <p class="mb-0">Professional medicine essay writing services for all medical & healthcare topics.</p>
                     </div>
                     <div class="service-link">
                         <a href="#" aria-label="medicine-essay-help">Read More <i class="fas fa-angle-double-right"></i></a>
@@ -640,7 +640,7 @@
 }
 
 .service-title h4 {
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
     margin-top: 0.5rem;
@@ -663,6 +663,7 @@
 .order-box .service-title h4 {
     color: white;
 }
+
 </style>
 <script>
 let slideIndex = 1;
