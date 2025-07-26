@@ -1,15 +1,17 @@
 @extends('layouts.front')
-
+<style>
+    .insect-box{
+        width:100%;
+        text-align:left;
+    }
+    </style>
 @section('seo_title', 'Professional Academic Editing and Consulting Services | ' . config('app.name'))
 @section('seo_description', 'Get expert help you need to make your academic writing stand out. Our custom editing and consulting services provide personalised feedback to help you reach your goals.')
-
 @section('og_title', 'Getting Best Custom Academic Editing and Consulting Services')
 @section('og_description', 'An academic writing service is the best solution when you want to prepare a custom paper for academics. We make plagiarised free content with minimal charges')
 @section('og_image', asset('template/img/writing-service.webp'))
-
 @section('twitter_title', 'Getting Best Custom Academic Editing and Consulting Services')
 @section('twitter_site', '@assignmenthelp')
-
 @section('structured_data')
 <script type="application/ld+json">
 {
@@ -49,7 +51,6 @@
 }
 </script>
 @endsection
-
 @section('content')
 <div class="section-top-banner">
     <div class="container">
@@ -68,7 +69,6 @@
         </div>
     </div>
 </div>
-
 <div class="about-us section">
     <div class="container">
         <div class="row">
@@ -101,19 +101,261 @@
         </div>
     </div>
 </div>
-
+<!-- Academic Subjects Section -->
 <section class="section bg-gray">
     <div class="container">
-        <div class="row justify-content-center text-center">
-            <div class="col-lg-10">
-                <div class="about-sm-content">
-                    <h4 style="line-height: 35px;">We provide a comprehensive range of custom academic essay editing and consulting services including professional writing, editing, and proofreading assistance.</h4>
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="simple">
+                    <h2 class="heading-title">Academic <span>Subjects</span></h2>
+                    <p class="content-simple-p mb">Get expert assistance across a wide range of academic disciplines. Our specialized writers cover all major subjects to help you excel in your studies.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4 mt-3">
+            <div class="col-xl-4 col-lg-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>Business Essay Help</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">Professional business essay writing services for all business-related subjects and topics.</p>
+                    </div>
+                    <div class="service-link">
+                        <a href="#" aria-label="business-essay-help">Read More <i class="fas fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-coins"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>Economics Essay Help</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">Expert economics essay assistance covering all aspects of economic theory and application.</p>
+                    </div>
+                    <div class="service-link">
+                        <a href="#" aria-label="economics-essay-help">Read More <i class="fas fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-money-bill-trend-up"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>Finance Essay Help</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">Comprehensive finance essay writing services for all finance-related academic topics.</p>
+                    </div>
+                    <div class="service-link">
+                        <a href="#" aria-label="finance-essay-help">Read More <i class="fas fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-bullhorn"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>Marketing Essay Help</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">Specialized marketing essay writing services for all marketing concepts and strategies.</p>
+                    </div>
+                    <div class="service-link">
+                        <a href="#" aria-label="marketing-essay-help">Read More <i class="fas fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-users-gear"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>Management Essay Help</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">Professional management essay writing assistance for all management disciplines.</p>
+                    </div>
+                    <div class="service-link">
+                        <a href="#" aria-label="management-essay-help">Read More <i class="fas fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-gears"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>Engineering Essay Help</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">Expert engineering essay writing services covering all engineering disciplines.</p>
+                    </div>
+                    <div class="service-link">
+                        <a href="#" aria-label="engineering-essay-help">Read More <i class="fas fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-heartbeat"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>Medicine Essay Help</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">Professional medicine essay writing services for all medical and healthcare topics.</p>
+                    </div>
+                    <div class="service-link">
+                        <a href="#" aria-label="medicine-essay-help">Read More <i class="fas fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-balance-scale"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>Law Essay Help</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">Expert law essay writing services covering all legal disciplines and topics.</p>
+                    </div>
+                    <div class="service-link">
+                        <a href="#" aria-label="law-essay-help">Read More <i class="fas fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>Psychology Essay Help</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">Comprehensive psychology essay writing services for all psychological topics.</p>
+                    </div>
+                    <div class="service-link">
+                        <a href="#" aria-label="psychology-essay-help">Read More <i class="fas fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>Sociology Essay Help</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">Professional sociology essay writing services for all sociological topics.</p>
+                    </div>
+                    <div class="service-link">
+                        <a href="#" aria-label="sociology-essay-help">Read More <i class="fas fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-book"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>Literature Essay Help</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">Expert literature essay writing services for all literary analysis and criticism.</p>
+                    </div>
+                    <div class="service-link">
+                        <a href="#" aria-label="literature-essay-help">Read More <i class="fas fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-landmark"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>History Essay Help</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">Comprehensive history essay writing services for all historical periods and topics.</p>
+                    </div>
+                    <div class="service-link">
+                        <a href="#" aria-label="history-essay-help">Read More <i class="fas fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-landmark-flag"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>Political Science Essay Help</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">Professional political science essay writing services for all political topics.</p>
+                    </div>
+                    <div class="service-link">
+                        <a href="#" aria-label="political-science-essay-help">Read More <i class="fas fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-leaf"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>Environmental Science Essay Help</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">Expert environmental science essay writing services for all ecological topics.</p>
+                    </div>
+                    <div class="service-link">
+                        <a href="#" aria-label="environmental-science-essay-help">Read More <i class="fas fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>Computer Science Essay Help</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">Comprehensive computer science essay writing services for all CS topics.</p>
+                    </div>
+                    <div class="service-link">
+                        <a href="#" aria-label="computer-science-essay-help">Read More <i class="fas fa-angle-double-right"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
 <!-- Features Section -->
 <section class="section">
     <div class="container">
@@ -156,7 +398,7 @@
         </div>
     </div>
 </section>
-
+<!-- Writing Services Section -->
 <section class="section bg-gray">
     <div class="container">
         <div class="row">
@@ -267,7 +509,6 @@
         </div>
     </div>
 </section>
-
 <!-- Process Section -->
 <section class="section">
     <div class="container">
@@ -311,7 +552,6 @@
         </div>
     </div>
 </section>
-
 <!-- Testimonials Section -->
 <div class="slideshow-container section" style="background: #f1f1f1;">
     <div class="simple">
@@ -361,161 +601,75 @@
     <a class="next" onclick="plusSlides(1)">❯</a>
 </div>
 @endsection
-
 @section('additional_head')
 <style>
-.feature-box, .process-step {
-    padding: 2rem;
+/* Insect-like boxes styling - 0px height with book icon */
+.insect-box {
     background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    height: 100%;
-    transition: transform 0.3s ease;
+    padding: 0.75rem 0.5rem;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #eaeaea;
+    display: flex;
+    align-items: center;
 }
 
-.feature-box:hover, .process-step:hover {
-    transform: translateY(-5px);
+.insect-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
 }
 
-.feature-icon {
-    margin-bottom: 1rem;
-}
-
-.step-number {
-    width: 60px;
-    height: 60px;
-    background: var(--primary-color);
-    color: white;
-    border-radius: 50%;
+/* Book icon */
+.insect-box .service-icon {
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin: 0 auto 1rem auto;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.05);
+    margin: 0 auto;
 }
 
-.service-boxes {
-    background: #fff;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    height: 100%;
-    transition: transform 0.3s ease;
-}
-
-.service-boxes:hover {
-    transform: translateY(-5px);
-}
-
-.service-icon {
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
-.service-icon i {
-    font-size: 2.5rem;
+.insect-box .service-icon i {
+    font-size: 1.2rem;
     color: var(--primary-color);
 }
 
 .service-title h4 {
-    color: var(--primary-color);
-    margin-bottom: 1rem;
-}
-
-.service-link a {
-    color: var(--primary-color);
-    text-decoration: none;
+    font-size: 0.9rem;
     font-weight: 600;
-}
-
-.service-link a:hover {
-    color: var(--secondary-color);
-}
-
-/* Testimonial Styles */
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-    padding: 3rem 1rem;
-}
-
-.mySlides {
-    display: none;
     text-align: center;
-    padding: 2rem;
+    margin-top: 0.5rem;
+    color: #333;
 }
 
-.mySlides.active {
-    display: block;
-}
-
-.mySlides q {
-    font-style: italic;
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-    display: block;
-}
-
-.mySlides .img {
-    margin: 1rem 0;
-}
-
-.testi-img-size {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.author {
-    font-weight: bold;
-    margin: 1rem 0;
-}
-
-.star-ratting {
-    margin: 1rem 0;
-}
-
-.star-ratting .fa-star.yellow {
-    color: #ffc107;
-}
-
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
+.order-box {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.3s ease;
-    border-radius: 0 3px 3px 0;
-    background-color: rgba(0,0,0,0.5);
-    user-select: none;
 }
 
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
+.order-box .service-icon {
+    background-color: rgba(255,255,255,0.2);
 }
 
-.prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+.order-box .service-icon i {
+    color: white;
+}
+
+.order-box .service-title h4 {
+    color: white;
 }
 </style>
-
 <script>
 let slideIndex = 1;
 showSlides(slideIndex);
-
 function plusSlides(n) {
     showSlides(slideIndex += n);
 }
-
 function showSlides(n) {
     let slides = document.getElementsByClassName("mySlides");
     if (n > slides.length) {slideIndex = 1}
@@ -525,10 +679,11 @@ function showSlides(n) {
     }
     slides[slideIndex-1].style.display = "block";
 }
-
 // Auto slide
 setInterval(function() {
     plusSlides(1);
 }, 5000);
 </script>
+</style>
+
 @endsection
