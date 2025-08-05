@@ -107,6 +107,10 @@ Route::get('/discount', 'FrontController@discount')->name('discount');
 Route::get('/news', 'FrontController@news')->name('news');
 Route::get('/thanks', 'FrontController@thanks')->name('thanks');
 
+Route::get('/newPageUrl', 'FrontController@newPageMethod')->name('newPageRoute');
+
+Route::post('/store-email', 'FrontController@storeEmail')->name('store.email');
+
 // Authentication Routes
 Auth::routes();
 

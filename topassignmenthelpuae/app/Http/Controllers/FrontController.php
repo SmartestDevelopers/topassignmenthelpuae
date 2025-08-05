@@ -75,7 +75,7 @@ class FrontController extends Controller
 
     public function storeOrderNow(Request $request)
     {
-        \Log::info('Form Data:', $request->all());
+      // // \Log::info('Form Data:', $request->all());
 
         try {
             $validatedData = $request->validate([
@@ -91,7 +91,7 @@ class FrontController extends Controller
                 'file_upload' => 'nullable|file|max:10240',
             ]);
 
-            \Log::info('Validated Data:', $validatedData);
+           // \Log::info('Validated Data:', $validatedData);
 
             $filePath = null;
             if ($request->hasFile('file_upload')) {
@@ -99,7 +99,7 @@ class FrontController extends Controller
                 $filename = time() . '_' . $file->getClientOriginalName();
                 $file->move(public_path('uploads/orders'), $filename);
                 $filePath = 'uploads/orders/' . $filename;
-                \Log::info('File Path:', [$filePath]);
+               // \Log::info('File Path:', [$filePath]);
             }
 
             DB::table('ordernows')->insert([
@@ -118,12 +118,12 @@ class FrontController extends Controller
                 'updated_at' => now(),
             ]);
 
-            \Log::info('Data inserted successfully');
+           // \Log::info('Data inserted successfully');
         } catch (ValidationException $e) {
-            \Log::error('Validation Errors:', $e->errors());
+           // \Log::error('Validation Errors:', $e->errors());
             return redirect()->back()->with('error', 'Failed to submit order: ' . implode(', ', array_merge(...array_values($e->errors()))));
         } catch (\Exception $e) {
-            \Log::error('Insert Error: ' . $e->getMessage());
+           // \Log::error('Insert Error: ' . $e->getMessage());
             return redirect()->back()->with('error', 'Failed to submit order: ' . $e->getMessage());
         }
 
@@ -624,10 +624,35 @@ public function assignmentHelp()
             return redirect()->back()->with('success', 'Thank you for subscribing to our newsletter!');
         } catch (\Exception $e) {
             // Log the error (optional, requires logging setup)
-            \Log::error('Newsletter subscription failed: ' . $e->getMessage());
+           // \Log::error('Newsletter subscription failed: ' . $e->getMessage());
 
             // Return error message
             return redirect()->back()->with('error', 'An error occurred while subscribing. Please try again later.');
         }
+    }
+
+
+    public function newPageMethod()
+    {
+        
+        return view('new-page');
+    }
+
+    public function storeEmail(Request $request)
+    {
+        
+
+        // Assuming your table is named 'your_table_name'
+        \DB::table('orders')->insert([
+            'user_name' => $request->user_name,
+            'user_email' => $request->user_email,
+            'phone' => $request->phone,
+            'created_at' => now(),
+            'updated_at' => now()
+        ]);
+
+        return response()->json([
+            'message' => 'Name, email and phone submitted successfully!'
+        ], 200);
     }
 }
