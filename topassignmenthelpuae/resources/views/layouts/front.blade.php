@@ -179,18 +179,6 @@
                                 <li><a class="dropdown-item" href="{{ route('cv-writing') }}">CV Writing</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a href="{{ route('services') }}" class="nav-link item-menu-click {{ request()->routeIs('services') ? 'active' : '' }}">Dissertation</a>
-                            <span class="toggle"><i class="fa-solid fa-angle-down"></i></span>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="{{ route('dissertation-topic-outline') }}">Dissertation Topic and Outline</a></li>
-                                <li><a class="dropdown-item" href="{{ route('dissertation-proposal-writing') }}">Dissertation Proposal</a></li>
-                                <li><a class="dropdown-item" href="{{ route('dissertation-thesis-writing') }}">Dissertation (Full)</a></li>
-                                <li><a class="dropdown-item" href="{{ route('dissertation-part-chapter-writing') }}">Dissertation Part or Chapter</a></li>
-                                <li><a class="dropdown-item" href="{{ route('dissertation-editing-improvement-proofreading') }}">Dissertation Editing and Improvement</a></li>
-                                <li><a class="dropdown-item" href="{{ route('dissertation-statistical-services') }}">Statistical Services for Dissertations</a></li>
-                            </ul>
-                        </li>
                         
                         <li class="nav-item dropdown">
                             <a href="{{ route('about') }}" class="nav-link item-menu-click {{ request()->routeIs('about') ? 'active' : '' }}">About Us</a>
@@ -282,18 +270,14 @@
                         <ul class="list-unstyled">
                             <li><i class="fa-solid fa-caret-right"></i><a href="{{ route('academic-writing-services') }}">Essay Writing</a></li>
                             <li><i class="fa-solid fa-caret-right"></i><a href="{{ route('academic-writing-services') }}">Report Writing</a></li>
-                            <li><i class="fa-solid fa-caret-right"></i><a href="{{ route('services') }}">Poster Service</a></li>
+                            <li><i class="fa-solid fa-caret-right"></i><a href="{{ route('course-work') }}">Coursework Writing</a></li>
                             <li><i class="fa-solid fa-caret-right"></i><a href="{{ route('academic-writing-services') }}">Assignment Writing</a></li>
                             <li><i class="fa-solid fa-caret-right"></i><a href="{{ route('academic-writing-services') }}">CV Writing</a></li>
-                            <li><i class="fa-solid fa-caret-right"></i><a href="{{ route('services') }}">Thesis Help</a></li>
+                            <li><i class="fa-solid fa-caret-right"></i><a href="{{ route('dissertation-thesis-writing') }}">Thesis Help</a></li>
                         </ul>
                         <ul class="list-unstyled side-ul-space">
-                            <li><i class="fa-solid fa-caret-right"></i><a href="{{ route('other-services') }}">Finance Assignment</a></li>
-                            <li><i class="fa-solid fa-caret-right"></i><a href="{{ route('other-services') }}">Economics Assignment</a></li>
-                            <li><i class="fa-solid fa-caret-right"></i><a href="{{ route('other-services') }}">Accounting Assignment</a></li>
-                            <li><i class="fa-solid fa-caret-right"></i><a href="{{ route('services') }}">Presentations Service</a></li>
-                            <li><i class="fa-solid fa-caret-right"></i><a href="{{ route('services') }}">Dissertation Writing</a></li>
-                            <li><i class="fa-solid fa-caret-right"></i><a href="{{ route('services') }}">Nursing Dissertation Help</a></li>
+                            <li><i class="fa-solid fa-caret-right"></i><a href="{{ route('dissertation-editing-improvement-proofreading') }}">Dissertation Writing</a></li>
+                            <li><i class="fa-solid fa-caret-right"></i><a href="{{ route('literature-review-writing') }}">Literature Review Help</a></li>
                         </ul>
                     </div>
                 </div>
