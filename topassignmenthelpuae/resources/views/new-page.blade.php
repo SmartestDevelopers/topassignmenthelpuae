@@ -95,14 +95,22 @@
             console.log("jQuery is ready!");
 
             // Change background color on focus
-            $('input').on('focus', function () {
+
+            $('input').on('focus', function (event) {
                 console.log("Input focused");
-
                 let myNewName = $('#form2Name').val();
+                                //document.getElementById('form2Name';
                 console.log("Input value: " + myNewName);
+                //console.log is debugging tool, it will not be shown in the browser
             });
+            
+            // $('input').on('focus', () => {
+            //     console.log("Input focused");
+            //     let myNewName = $('#form2Name').val();
+            //     console.log("Input value: " + myNewName);
+            // });
 
-            // Reset background color on blur
+            // Reset background color on blur 
             $('input').on('blur', function () {
                 console.log("Input blurred");
                 // myNewName variable should be empty
