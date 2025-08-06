@@ -274,7 +274,7 @@
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
-                    <h2 class="heading-title">Our Assignment Writing <span style="color: #F17D00;">Process</span></h2>
+                    <h2 class="heading-title">Our CIPD Assignment Writing <span style="color: #F17D00;">Process</span></h2>
                     <p class="content-simple-p mb-0">We follow a systematic approach to ensure high-quality assignments that meet your academic requirements.</p>
                 </div>
             </div>
@@ -284,7 +284,7 @@
                 <div class="process-step text-center">
                     <div class="step-number">1</div>
                     <h5>Order Placement</h5>
-                    <p>Submit your assignment requirements, including topic and guidelines.</p>
+                    <p>Submit your CIPD assignment requirements, including topic and guidelines.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">

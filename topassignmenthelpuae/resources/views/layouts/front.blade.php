@@ -165,16 +165,18 @@
                             <a class="nav-link {{ request()->routeIs('home') ? 'active' : '' }}" aria-current="page" href="{{ route('home') }}">Home</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a href="{{ route('academic-writing-services') }}" class="nav-link item-menu-click {{ request()->routeIs('academic-writing-services') ? 'active' : '' }}">Writing</a>
+                            <a href="{{ route('academic-writing-services') }}" class="nav-link item-menu-click {{ request()->routeIs('academic-writing-services') ? 'active' : '' }}">Services</a>
                             <span class="toggle"><i class="fa-solid fa-angle-down"></i></span>
                             <ul class="dropdown-menu submenu">
                                 <li><a class="dropdown-item" href="{{ route('essay-writing') }}">Essay Writing</a></li>
                                 <li><a class="dropdown-item" href="{{ route('report-writing') }}">Report Writing</a></li>
+                                 <li><a class="dropdown-item" href="{{ route('academic-writing-services') }}">Academic Writing</a></li>
+                                <li><a class="dropdown-item" href="{{ route('dissertation-thesis-writing') }}">Thesis Writing</a></li>
                                 <li><a class="dropdown-item" href="{{ route('course-work') }}">Coursework Writing</a></li>
+                                <li><a class="dropdown-item" href="{{ route('dissertation-part-chapter-writing') }}">Dissertation Part or Chapter</a></li>
                                 <li><a class="dropdown-item" href="{{ route('assignment-writing') }}">Assignment Writing</a></li>
                                 <li><a class="dropdown-item" href="{{ route('literature-review-writing') }}">Literature Review</a></li>
                                 <li><a class="dropdown-item" href="{{ route('cv-writing') }}">CV Writing</a></li>
-                                <li><a class="dropdown-item" href="{{ route('academic-writing-services') }}">Writing Consultant</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -189,18 +191,7 @@
                                 <li><a class="dropdown-item" href="{{ route('dissertation-statistical-services') }}">Statistical Services for Dissertations</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a href="{{ route('other-services') }}" class="nav-link item-menu-click {{ request()->routeIs('other-services') ? 'active' : '' }}">Other Services</a>
-                            <span class="toggle"><i class="fa-solid fa-angle-down"></i></span>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="{{ route('editing-proofreading-improvement-service') }}">Editing, Improvement and Proofreading</a></li>
-                                <li><a class="dropdown-item" href="{{ route('accounting-subject') }}">Accounting Subject</a></li>
-                                <li><a class="dropdown-item" href="{{ route('finance-subject') }}">Finance Subject</a></li>
-                                <li><a class="dropdown-item" href="{{ route('model-answer-writing') }}">Model Answer</a></li>
-                                <li><a class="dropdown-item" href="{{ route('exam-notes') }}">Exam Notes</a></li>
-                                <li><a class="dropdown-item" href="{{ route('assignment-help') }}">Economics Assignment Help</a></li>
-                            </ul>
-                        </li>
+                        
                         <li class="nav-item dropdown">
                             <a href="{{ route('about') }}" class="nav-link item-menu-click {{ request()->routeIs('about') ? 'active' : '' }}">About Us</a>
                             <span class="toggle"><i class="fa-solid fa-angle-down"></i></span>
@@ -210,17 +201,6 @@
                                 <li><a class="dropdown-item" href="{{ route('testimonial') }}">Testimonial</a></li>
                                 <li><a class="dropdown-item" href="{{ route('faq') }}">FAQ</a></li>
                                 <li><a class="dropdown-item" href="{{ route('contactus')}}">Contact</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link item-menu-click {{ request()->routeIs('services') ? 'active' : '' }}" href="{{ route('services') }}">All Services</a>
-                            <span class="toggle"><i class="fa-solid fa-angle-down"></i></span>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="{{ route('basic-subjects') }}">Basic Subjects</a></li>
-                                <li><a class="dropdown-item" href="{{ route('management-subjects') }}">Management Subjects</a></li>
-                                <li><a class="dropdown-item" href="{{ route('editing-and-proofreading') }}">Editing and Proofreading</a></li>
-                                <li><a class="dropdown-item" href="{{ route('other-subjects') }}">Other Subjects</a></li>
-                                <li><a class="dropdown-item" href="{{ route('spss-help') }}">SPSS Assignment Help</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">

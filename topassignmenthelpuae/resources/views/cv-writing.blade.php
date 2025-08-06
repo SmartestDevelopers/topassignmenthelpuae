@@ -74,19 +74,23 @@
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
-                    <h2 class="heading-title">Professional CV <span>Writing Services</span></h2>
-                    <p class="content-simple-p mb-0">Stand out in the job market with our expert CV writing services, tailored to highlight your skills and experience.</p>
+                    <h2 class="heading-title">Expert CV Writing Services In Dubai <span>to Land Your Dream Job</span></h2>
+                    <p class="content-simple-p mb-0">Elevate your career with our expert CV writing service and professional resume writing services in the UAE. We are trusted, top-rated cv writers who help job seekers to land interviews fast. We also offer personalised resume writing services according to your occupation and interests</p>
                 </div>
             </div>
         </div>
         <div class="row mt-3 g-4">
             <div class="col-xl-6">
                 <div class="about-content">
-                    <p>Looking to make a strong impression on employers? Our CV writing services provide professionally crafted CVs designed to showcase your unique qualifications and career achievements. We are a trusted provider of CV writing solutions, helping job seekers secure their dream roles.</p>
+                    <p>Want to get noticed by UAE employers? Our UAE CV Experts are just one click away to assist you in making a powerful first impression. Our resume writing services are designed to boost your career profile by showing your strengths and capabilities.
+</p>
                     
-                    <p>Our team of expert writers specializes in creating CVs for various industries and career levels. We ensure your CV is ATS-optimized, professionally formatted, and tailored to your specific career goals. Whether you're a recent graduate or a seasoned professional, we provide personalized support to meet your needs.</p>
+                    <p>Whether you're targeting government jobs, private sector positions, or international roles, we tailor your CV to meet employer expectations. Our experienced resume writers have a deep understanding of the UAE job market and personalise every resume to suit your targeted industry standards and employer expectations.
+</p>
                     
-                    <p>Our writers hold advanced degrees and have extensive experience in CV writing, ensuring your CV meets industry standards and recruiter expectations.</p>
+                    <p>We ensure to highlight your skills, experience, and career goals with precision. From fresh graduates to C-level executives that align with your career aspirations.</p>
+
+                    <p>Choose our <strong>resume writing services</strong> today and stand out with a professional CV that opens doors to new opportunities.</p>
                     
                     <div class="button-design text-nowrap">
                         <a href="{{ route('order-now') }}" class="main-btn mt-3">Order Now</a>
