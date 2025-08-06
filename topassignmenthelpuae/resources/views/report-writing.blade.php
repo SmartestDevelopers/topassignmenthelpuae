@@ -74,30 +74,24 @@
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
-                    <h2 class="heading-title">Report Writing 
-<span>Help in UAE</span></h2>
+                    <h2 class="heading-title">Report Writing <span>Help in UAE</span></h2>
                     <p class="content-simple-p mb-0">Our Report Writing Service ensures each report is well-researched, structured, and impactful. We offer tailored services to meet the high standards expected in the region. Delivered by native Dubai experts, we provide an exceptional assignment help service that UAE students and professionals trust for precision and quality.</p>
                 </div>
             </div>
         </div>
-
-</section>
         <div class="row mt-3 g-4">
             <div class="row justify-content-center text-center">
-            <div class="col-lg-10">
-                <div class="about-sm-content">
-                    <h4 style="line-height: 35px;">Expert Report Writing Help in UAE to Boost Your Academic & Business Success</h4>
+                <div class="col-lg-10">
+                    <div class="about-sm-content">
+                        <h4 style="line-height: 35px;">Expert Report Writing Help in UAE to Boost Your Academic & Business Success</h4>
+                    </div>
                 </div>
             </div>
-        </div>
             <div class="col-xl-6">
                 <div class="about-content">
-                    <p>Need a high-quality, well-structured report? Our report writing services provide customized, thoroughly researched reports for academic and professional purposes. We are a trusted provider with extensive experience supporting students and professionals worldwide.</p>
-                    
-                    <p>Our team of expert writers specializes in crafting reports across various disciplines, ensuring proper structure, in-depth analysis, and adherence to specific guidelines and citation styles.</p>
-                    
-                    <p>Our writers hold advanced degrees (minimum 2:1 up to Master and PhD) and are experienced in creating reports that meet rigorous academic and professional standards.</p>
-                    
+                    <p>Struggling with structuring or presenting your reports clearly and professionally? Our <a href="https://topassignmenthelpuae.com" target="_blank">Report Writing Help in UAE</a> is here to support you. Whether you’re a student in need of an academic report or a professional working on a business project, we provide high-quality, custom-tailored solutions to meet your specific goals.</p>
+                    <p>Our skilled staff at <a href="https://topassignmenthelpuae.com" target="_blank">topassignmenthelpuae.com</a> provides expert report writing services made to satisfy the exacting requirements of UAE businesses and colleges. We make sure every report is compelling, thoroughly researched, and structured correctly since we recognise how important well-written reports are in both academic and professional settings.</p>
+                    <p>Choose our <strong>report writing services</strong> today and achieve your academic and professional goals with confidence.</p>
                     <div class="button-design text-nowrap">
                         <a href="{{ route('order-now') }}" class="main-btn mt-3">Order Now</a>
                     </div>
@@ -112,16 +106,14 @@
     </div>
 </div>
 
-
-
-<!-- Features Section -->
+<!-- Why Choose Section -->
 <section class="section">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
                     <h2 class="heading-title">Why Choose Our <span>Report Writing Services?</span></h2>
-                    <p class="content-simple-p mb">Our report writing services ensure high-quality, customized reports to meet your academic and professional goals.</p>
+                    <p class="content-simple-p mb">Choosing us means choosing excellence because we don’t just write; we help you succeed.</p>
                 </div>
             </div>
         </div>
@@ -129,10 +121,10 @@
             <div class="col-lg-4 col-md-6">
                 <div class="feature-box text-center">
                     <div class="feature-icon">
-                        <i class="fa-solid fa-file-lines" style="font-size: 2.5rem; color: var(--primary-color);"></i>
+                        <i class="fa-solid fa-user-tie" style="font-size: 2.5rem; color: var(--primary-color);"></i>
                     </div>
-                    <h4>Expert Analysis</h4>
-                    <p>Our writers provide in-depth analysis tailored to your report requirements.</p>
+                    <h4>UAE-Based Expert Writers</h4>
+                    <p>Native writers with in-depth knowledge of local academic and professional report requirements.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -140,8 +132,8 @@
                     <div class="feature-icon">
                         <i class="fa-solid fa-shield-alt" style="font-size: 2.5rem; color: var(--primary-color);"></i>
                     </div>
-                    <h4>Original Content</h4>
-                    <p>All reports are written from scratch, ensuring originality and integrity.</p>
+                    <h4>100% Original & Custom Reports</h4>
+                    <p>Every report is tailored to your instructions and checked for plagiarism.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -149,14 +141,107 @@
                     <div class="feature-icon">
                         <i class="fa-solid fa-clock" style="font-size: 2.5rem; color: var(--primary-color);"></i>
                     </div>
-                    <h4>Timely Delivery</h4>
-                    <p>We prioritize your deadlines to ensure you receive your report on time.</p>
+                    <h4>Timely & Affordable Services</h4>
+                    <p>On-time delivery with student-friendly pricing—no hidden charges.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+<!-- Specialisations Section -->
+<section class="section bg-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="simple">
+                    <h2 class="heading-title">Our Specialisations in <span>Report Writing</span></h2>
+                    <p class="content-simple-p mb">We offer a wide range of report writing services to meet diverse academic and professional needs.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4 mt-3">
+            <div class="col-lg-4 col-md-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-briefcase" style="font-size: 2.5rem; color: var(--primary-color);"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>Business Report Writing Help</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">Our professional report writing service focuses on company reports that include financial summaries, performance reviews, and market analyses that are in line with UAE corporate requirements.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-cogs" style="font-size: 2.5rem; color: var(--primary-color);"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>Technical Report Writing Help</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">For complicated technical reports in the engineering, IT, and scientific domains, we offer Report Writing Help in the UAE that guarantees accuracy, precision, and clarity—perfect for both academic and business requirements.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-book" style="font-size: 2.5rem; color: var(--primary-color);"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>Academic Report Writing Help</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">Use our assignment assistance service in the UAE to obtain well-structured academic reports. Our professionals make sure every report is thoroughly researched, properly cited, and in line with your academic level by adhering to university criteria.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-chart-bar" style="font-size: 2.5rem; color: var(--primary-color);"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>Analytical Report Writing Help</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">For professionals and students alike, our writers produce crucial, data-driven papers. To produce excellent analytical reports, this report writing assistance service makes use of charts, interpretation, and insights.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-tasks" style="font-size: 2.5rem; color: var(--primary-color);"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>Progress Report Writing Help</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">We offer progress reports for projects, academic research, or business updates—clear, consistent, and ready for presentation or submission.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 d-flex">
+                <div class="service-boxes">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-search" style="font-size: 2.5rem; color: var(--primary-color);"></i>
+                    </div>
+                    <div class="service-title mt-4">
+                        <h4>Research Report Writing Help</h4>
+                    </div>
+                    <div class="service-content">
+                        <p class="mb-0">Receive detailed and well-documented research reports with our professional report writing service. We help UAE clients with methodology, results, and conclusion formatting tailored to academic and industry standards.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- Process Section -->
 <section class="section">
@@ -165,7 +250,7 @@
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
                     <h2 class="heading-title">Our Report Writing <span>Process</span></h2>
-                    <p class="content-simple-p mb">We follow a systematic approach to ensure high-quality reports that meet your academic and professional requirements.</p>
+                    <p class="content-simple-p mb">We follow a structured process to meet your expectations.</p>
                 </div>
             </div>
         </div>
@@ -173,88 +258,41 @@
             <div class="col-lg-3 col-md-6">
                 <div class="process-step text-center">
                     <div class="step-number">1</div>
-                    <h5>Order Placement</h5>
-                    <p>Submit your report requirements, including topic and guidelines.</p>
+                    <h5>Submit Your Requirements</h5>
+                    <p>Tell us about your report—topic, word count, academic level, and any specific instructions.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="process-step text-center">
                     <div class="step-number">2</div>
-                    <h5>Writer Assignment</h5>
-                    <p>We assign an expert writer based on your subject and requirements.</p>
+                    <h5>Assigning a Report Expert</h5>
+                    <p>We match you with a qualified UAE-based writer experienced in your field.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="process-step text-center">
                     <div class="step-number">3</div>
-                    <h5>Writing & Research</h5>
-                    <p>Our expert conducts thorough research and crafts your report.</p>
+                    <h5>Drafting and Review</h5>
+                    <p>Your writer will research, draft, and format your report. It then goes through a rigorous editing process.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="process-step text-center">
                     <div class="step-number">4</div>
-                    <h5>Quality Check</h5>
-                    <p>We review, edit, and proofread your report to ensure high quality.</p>
+                    <h5>Final Delivery</h5>
+                    <p>Receive your polished report via email, ready for submission or presentation.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Testimonials Section -->
-<div class="slideshow-container section" style="background: #f1f1f1;">
-    <div class="simple">
-        <br>
-        <h2 class="heading-title">What our Clients have to Say <span>About Us</span></h2>
-    </div>
-    <div class="mySlides" style="display: block;">
-        <q>The report writing service was exceptional. My report was well-structured and professionally presented!</q>
-        <div class="img"><img src="{{ asset('template/img/benjamin.jpg') }}" class="testi-img-size" alt="Benjamin"></div>
-        <p class="author">- Benjamin</p>
-        <div class="star-ratting home-star-ratting">
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-        </div>
-    </div>
-    <div class="mySlides" style="display: none;">
-        <q>The team delivered a detailed and well-researched report that exceeded my expectations. Highly recommend!</q>
-        <div class="img"><img src="{{ asset('template/img/samuel.jpg') }}" class="testi-img-size" alt="Samuel"></div>
-        <p class="author">- Samuel</p>
-        <div class="star-ratting home-star-ratting">
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-        </div>
-    </div>
-    <div class="mySlides" style="display: none;">
-        <q>Thanks to their report writing service, I submitted a high-quality report that impressed my professor.</q>
-        <div class="img"><img src="{{ asset('template/img/gregory.jpg') }}" class="testi-img-size" alt="Gregory"></div>
-        <p class="author">- Gregory</p>
-        <div class="star-ratting home-star-ratting">
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-        </div>
-    </div>
-    <div class="container" align="center">
-        <a href="#" class="main-btn">Read More</a>
-    </div>
-    <a class="prev" onclick="plusSlides(-1)">❮</a>
-    <a class="next" onclick="plusSlides(1)">❯</a>
-</div>
+
 @endsection
 
 @section('additional_head')
 <style>
-.feature-box, .process-step {
+.feature-box, .process-step, .service-boxes {
     padding: 2rem;
     background: #fff;
     border-radius: 10px;
@@ -263,12 +301,17 @@
     transition: transform 0.3s ease;
 }
 
-.feature-box:hover, .process-step:hover {
+.feature-box:hover, .process-step:hover, .service-boxes:hover {
     transform: translateY(-5px);
 }
 
-.feature-icon {
+.feature-icon, .service-icon {
     margin-bottom: 1rem;
+}
+
+.feature-icon i, .service-icon i {
+    font-size: 2.5rem;
+    color: var(--primary-color);
 }
 
 .step-number {
@@ -283,29 +326,6 @@
     font-size: 1.5rem;
     font-weight: bold;
     margin: 0 auto 1rem auto;
-}
-
-.service-boxes {
-    background: #fff;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    height: 100%;
-    transition: transform 0.3s ease;
-}
-
-.service-boxes:hover {
-    transform: translateY(-5px);
-}
-
-.service-icon {
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
-.service-icon i {
-    font-size: 2.5rem;
-    color: var(--primary-color);
 }
 
 .service-title h4 {
