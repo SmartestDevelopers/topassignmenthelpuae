@@ -1,14 +1,34 @@
 @extends('layouts.front')
 
-@section('seo_title', 'Cookies & Privacy Policy | ' . config('app.name'))
-@section('seo_description', 'We prioritise the security of customer details. According to our terms and conditions, third-party intervention is strictly prohibited.')
+@section('seo_title', 'Privacy Policy | ' . config('app.name'))
+@section('seo_description', 'Read the Privacy Policy of TopAssignmentHelpUAE to understand how we collect, use, disclose, and safeguard your information when you visit our website.')
 
-@section('og_title', 'Cookies & Privacy Policy - ' . config('app.name'))
-@section('og_description', 'We Have a Professional Team of Writers, Who can write your assignment effectively with quality content, so you can get affordable assignment services')
+@section('og_title', 'Privacy Policy - ' . config('app.name'))
+@section('og_description', 'Learn how TopAssignmentHelpUAE protects your personal information with our comprehensive privacy policy.')
 @section('og_image', asset('template/img/ab.webp'))
 
-@section('twitter_title', 'Cookies & Privacy Policy')
+@section('twitter_title', 'Privacy Policy - ' . config('app.name'))
 @section('twitter_site', '@assignmenthelp')
+
+@section('structured_data')
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "{{ route('home') }}"
+    },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Privacy Policy",
+        "item": "{{ route('privacy-policy') }}"
+    }]
+}
+</script>
+@endsection
 
 @section('content')
 <section class="section">
@@ -26,61 +46,88 @@
     <div class="container">
         <div class="heading-content">
             <h1>Privacy Policy</h1>
-            
-            <h2>What information do we collect?</h2>
-            <p>We collect information from you when you register on our site, place an order, subscribe to our newsletter, respond to a survey or fill out a form.</p>
-            <p>When ordering or registering on our site, as appropriate, you may be asked to enter your name, e-mail address, mailing address, phone number or credit card information. You may, however, visit our site anonymously.</p>
-            <p>Google, as a third party vendor, may use cookies to serve ads on our site. Google's use of the DART cookie enables it to serve ads to our users based on their visits to our sites and other sites on the Internet. Users may opt out of the use of the DART cookie by visiting the Google ad and content network privacy policy.</p>
-            
-            <h5>What do we use your information for?</h5>
-            <p>Any of the information we collect from you may be used in the following ways:</p>
+            <p>Welcome to Top Assignment Help UAE (<a href="https://topassignmenthelpuae.com" class="inner-links">https://topassignmenthelpuae.com</a>). Your privacy is our responsibility. In accordance with this Privacy Policy, you will get to know how we collect, use, disclose, and safeguard your information when you visit our website. Kindly do not use our site if you disagree with our terms and policy. Please read this policy carefully.</p>
+
+            <h2>1. How Do We Collect Information</h2>
+            <p>We collect information in the following ways:</p>
+            <h5>a. Personal Information</h5>
+            <p>When you submit a contact form to get our service or to place an order, we may collect:</p>
             <div class="expertise-list">
                 <ul>
-                    <li>To personalize your experience (your information helps us to better respond to your individual needs)</li>
-                    <li>To improve our website (we continually strive to improve our website's offerings based on the information and feedback we receive from you)</li>
-                    <li>To improve customer service (your information helps us to more effectively respond to your customer service requests and support needs)</li>
-                    <li>To process transactions (your information, whether public or private, will not be sold, exchanged, transferred, or given to any other company for any reason whatsoever, without your consent, other than for the express purpose of delivering the purchased product or service requested)</li>
-                    <li>To administer a contest, promotion, survey or other site feature</li>
-                    <li>To send periodic emails (the email address you provide for order processing, may be used to send you information and updates pertaining to your order, in addition to receiving occasional company news, updates, related product or service information, etc.)</li>
+                    <li>Full name, email address & phone number</li>
+                    <li>Academic details & Payment details (processed securely via third-party gateways)</li>
                 </ul>
             </div>
-            <p>Note: If at any time you would like to unsubscribe from receiving future emails, we include detailed unsubscribe instructions at the bottom of each email.</p>
-            
-            <h5>How do we protect your information?</h5>
-            <p>We implement a variety of security measures to maintain the safety of your personal information when you place an order or enter, submit, or access your personal information.</p>
-            <p>We offer the use of a secure server. All supplied sensitive/credit information is transmitted via Secure Socket Layer (SSL) technology and then encrypted in our payment gateway provider's database only to be accessible to those authorized with special access rights to such systems who are required to keep the information confidential.</p>
-            
-            <h5>Do we use cookies?</h5>
-            <p>Yes (cookies are small files that a site or its service providers transfer to your computer's hard drive through your Web browser, if you allow, that enable the site's or service providers' systems to recognize your browser and capture and remember certain information).</p>
-            <p>We use cookies to help us remember and process the items in your shopping cart, understand and save your preferences for future visits, keep track of advertisements and compile aggregate data about site traffic and site interaction so that we can offer better site experiences and tools in the future. We may contract with third-party service providers to assist us in better understanding our site's visitors. These service providers are not permitted to use the information collected on our behalf except to help us conduct and improve our business.</p>
-            <p>If you prefer, you can choose to have your computer warn you each time a cookie is being sent, or you can choose to turn off all cookies via your browser's settings. Like most websites, if you turn your cookies off, some of our services may not function properly; however, you can still place orders over the telephone or by contacting customer service.</p>
-            
-            <h5>Do we disclose any information to outside parties?</h5>
-            <p>We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information. This does not include trusted third parties who assist us in operating our website, conducting our business, or servicing you, so long as those parties agree to keep this information confidential. We may also release your information when we believe release is appropriate to comply with the law, enforce our site policies, or protect our or other's rights, property, or safety. However, non-personally identifiable visitor information may be provided to other parties for marketing, advertising, or other uses.</p>
-            
-            <h5>Third-party links</h5>
-            <p>Occasionally, at our discretion, we may include or offer third party products or services on our website. These third party sites have separate and independent privacy policies. We therefore have no responsibility or liability for the content and activities of these linked sites. Nonetheless, we seek to protect the integrity of our site and welcome any feedback about these sites.</p>
-            
-            <h5>Children's Online Privacy Protection Act Compliance</h5>
-            <p>We are in compliance with the requirements of COPPA (Children's Online Privacy Protection Act). We do not collect any information from anyone under 13 years of age. Our website, products, and services are all directed at people who are at least 13 years old or older.</p>
-            
-            <h5>Online Privacy Policy Only</h5>
-            <p>This online privacy policy applies only to information collected through our website and not to information collected offline.</p>
-            
-            <h5>Terms and Conditions</h5>
-            <p>Please also visit our Terms of Service section establishing the use, disclaimers, and limitations of liability governing the use of our website, products, and services at <a href="{{ route('terms-services') }}" class="inner-links">{{ route('terms-services') }}</a></p>
-            
-            <h5>Your Consent</h5>
-            <p>By using our site, you consent to our online privacy policy.</p>
-            
-            <h5>Changes to our Privacy Policy</h5>
-            <p>If we decide to change our privacy policy, we will post those changes on this page.</p>
+            <h5>b. Non-Personal Information</h5>
+            <p>We may also collect non-identifiable information such as:</p>
+            <div class="expertise-list">
+                <ul>
+                    <li>IP address</li>
+                    <li>Browser type & Device type</li>
+                    <li>Operating system</li>
+                    <li>Pages visited & Time spent on site</li>
+                </ul>
+            </div>
+            <p>We collect this information to better analyze users’ behavior to improve our services.</p>
+
+            <h2>2. What Do We Use Your Information For?</h2>
+            <p>We use this information for the following purposes:</p>
+            <div class="expertise-list">
+                <ul>
+                    <li>To provide and manage assignment help services</li>
+                    <li>To respond to inquiries or support requests</li>
+                    <li>To process payments and send order confirmations</li>
+                    <li>To send updates, promotional offers, or newsletters (with consent)</li>
+                    <li>To improve our website and user experience</li>
+                    <li>To prevent fraud or unauthorized access</li>
+                </ul>
+            </div>
+
+            <h2>3. With Whom Do We Share Your Information</h2>
+            <p>We never sell, trade, or rent our clients' personal information to any third parties. However, we only share your data with trusted service providers (e.g., payment processors, academic experts) who are contractually obligated to keep your information confidential. We may also disclose the data when required by law, court order, or government authority, or when we need to safeguard the rights, property, or safety of our website, users, or the public.</p>
+
+            <h2>4. Data Security</h2>
+            <p>We take the necessary technical and organizational precautions to secure your data:</p>
+            <div class="expertise-list">
+                <ul>
+                    <li>SSL encryption for data transmission</li>
+                    <li>Secure payment gateways</li>
+                    <li>Limited access to personal information by authorized personnel only</li>
+                </ul>
+            </div>
+            <p>However, no online transmission is 100% secure. We strive to protect your information, but complete security cannot be assured.</p>
+
+            <h2>5. Cookies and Tracking Technologies</h2>
+            <p>Yes, cookies are on our website for a better browsing experience and to improve our services. Cookies are small text files stored on your device by your browser (if you allow) that enable service providers to recognize your browser and remember specific data. These cookies help us remember your preferences for future visits and process items in your shopping cart, track advertisements, and collect combined data about site traffic and user interactions. This allows us to analyze performance and deliver a more personalized and optimized experience.</p>
+            <p>You can manage or disable cookies through your browser settings. By using our website, you consent to our use of cookies under this policy.</p>
+
+            <h2>6. Your Rights (Under GDPR/Global Privacy Laws)</h2>
+            <p>Depending on your location, you may have the right to:</p>
+            <div class="expertise-list">
+                <ul>
+                    <li>Access the personal data we hold about you</li>
+                    <li>Request correction or deletion of your data</li>
+                    <li>Object to processing or withdraw consent</li>
+                    <li>Complain to a data protection authority</li>
+                </ul>
+            </div>
+            <p>To exercise your rights, please contact us at <a href="mailto:support@topassignmenthelpuae.com" class="inner-links">support@topassignmenthelpuae.com</a>.</p>
+
+            <h2>7. Third-Party Links</h2>
+            <p>Our website may also contain links to third-party websites. We are not responsible for the content or privacy practices of those sites as they would have their own privacy policies. We encourage you to review their privacy policies by yourself.</p>
+
+            <h2>8. Children's Privacy</h2>
+            <p>Children under the age of 13 are not eligible for our services. We do not knowingly collect data from minors. If you think that your child has provided us some personal information, then immediately contact us for prompt removal at <a href="mailto:support@topassignmenthelpuae.com" class="inner-links">support@topassignmenthelpuae.com</a>.</p>
+
+            <h2>9. Changes to This Privacy Policy</h2>
+            <p>We may update this policy occasionally to reflect modification in our procedures. We encourage you to review it from time to time. Continued use of our website after changes implies acceptance of the revised policy.</p>
+
+            <h2>10. Contact Us</h2>
+            <p>If you have any questions or concerns regarding this Privacy Policy, please contact us at:</p>
+            <p>Top Assignment Help UAE<br>
+            📧 Email: <a href="mailto:support@topassignmenthelpuae.com" class="inner-links">support@topassignmenthelpuae.com</a><br>
+            🌐 Website: <a href="https://topassignmenthelpuae.com" class="inner-links">https://topassignmenthelpuae.com</a></p>
             <p>This policy was last modified on {{ date('F j, Y') }}.</p>
-            
-            <h5>Contacting Us</h5>
-            <p>If there are any questions regarding this privacy policy, you may contact us using the information below.</p>
-            <p>{{ config('app.url') }}<br>
-            info@{{ str_replace(['http://', 'https://'], '', config('app.url')) }}</p>
         </div>
     </div>
 </div>
@@ -93,21 +140,21 @@
 }
 
 .heading-content h1 {
-    color: var(--primary-color);
+    color: #F17D00;
     margin-bottom: 2rem;
     font-size: 2.5rem;
     font-weight: 700;
 }
 
 .heading-content h2 {
-    color: var(--primary-color);
+    color: #F17D00;
     margin: 2rem 0 1rem 0;
     font-size: 1.8rem;
     font-weight: 600;
 }
 
 .heading-content h5 {
-    color: var(--primary-color);
+    color: #F17D00;
     margin: 1.5rem 0 1rem 0;
     font-size: 1.3rem;
     font-weight: 600;
@@ -130,12 +177,12 @@
 }
 
 .inner-links {
-    color: var(--primary-color);
+    color: #F17D00;
     text-decoration: none;
 }
 
 .inner-links:hover {
-    color: var(--secondary-color);
+    color: #d96b00;
     text-decoration: underline;
 }
 
@@ -144,15 +191,15 @@
 }
 
 .breadcrumb-item a {
-    color: var(--primary-color);
+    color: #F17D00;
     text-decoration: none;
 }
 
 .breadcrumb-item a:hover {
-    color: var(--secondary-color);
+    color: #d96b00;
 }
 
-.breadcrumb-item.active {
+.breadcrumb-item.active.icon-color {
     color: #6c757d;
 }
 </style>

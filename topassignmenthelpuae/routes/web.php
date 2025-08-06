@@ -106,6 +106,9 @@ Route::get('/london', 'FrontController@london')->name('london');
 Route::get('/discount', 'FrontController@discount')->name('discount');
 Route::get('/news', 'FrontController@news')->name('news');
 Route::get('/thanks', 'FrontController@thanks')->name('thanks');
+Route::get('/research-assignment', 'FrontController@researchAssignment')->name('research-assignment');
+Route::get('/research-paper', 'FrontController@researchPaper')->name('research-paper');
+Route::get('/phd-assignment', 'FrontController@phdAssignment')->name('phd-assignment');
 
 Route::get('/newPageUrl', 'FrontController@newPageMethod')->name('newPageRoute');
 

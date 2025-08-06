@@ -590,6 +590,24 @@ public function assignmentHelp()
         return view('thanks', compact('page'));
     }
 
+     public function researchAssignment()
+    {
+        $page = DB::table('pages')->where('slug', 'research-assignment')->first();
+        return view('research-assignment', compact('page'));
+    }
+
+    public function researchPaper()
+    {
+        $page = DB::table('pages')->where('slug', 'research-paper')->first();
+        return view('research-paper', compact('page'));
+    }
+
+    public function phdAssignment()
+    {
+        $page = DB::table('pages')->where('slug', 'phd-assignemnt')->first();
+        return view('phd-assignemnt', compact('page'));
+    }
+
     // Updated method for newsletter subscription
     public function subscribeNewsletter(Request $request)
     {

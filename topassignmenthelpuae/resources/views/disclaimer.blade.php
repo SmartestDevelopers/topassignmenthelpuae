@@ -1,11 +1,11 @@
 @extends('layouts.front')
 
 @section('seo_title', 'Disclaimer | ' . config('app.name'))
-@section('seo_description', 'A Disclaimer on your website is usually the best way to address specific points of accountability that would fall a privacy policy agreement.')
+@section('seo_description', 'Read the Disclaimer for TopAssignmentHelpUAE to understand the limitations of our academic support services, intended use, and liability policies.')
 
 @section('og_title', 'Disclaimer - ' . config('app.name'))
-@section('og_description', 'We Have a Professional Team of Writers, Who can write your assignment effectively with quality content, so you can get affordable assignment services')
-@section('og_image', asset('template/img/RMA-logo.webp'))
+@section('og_description', 'Learn about the Disclaimer for TopAssignmentHelpUAE’s academic support services in UAE, outlining usage policies, limitations of liability, and academic integrity guidelines.')
+@section('og_image', asset('template/img/feature-1.webp'))
 
 @section('twitter_title', 'Disclaimer')
 @section('twitter_site', '@assignmenthelp')
@@ -13,21 +13,34 @@
 @section('structured_data')
 <script type="application/ld+json">
 {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "{{ route('home') }}"
+    }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Disclaimer",
+        "item": "{{ route('disclaimer') }}"
+    }]
+}
+</script>
+<script type="application/ld+json">
+{
     "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "{{ config('app.name') }}",
-    "image": "{{ asset('template/img/ab.webp') }}",
-    "description": "Professional assignment writing services providing high quality essay writing, assignment writing & proofreading services to students. We have a team of qualified writers who will help you to score good grades.",
-    "brand": {
-        "@type": "Brand",
-        "name": "{{ config('app.name') }}"
-    },
-    "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "ratingCount": "100",
-        "bestRating": "5",
-        "worstRating": "1"
+    "@type": "WebPage",
+    "name": "Disclaimer - {{ config('app.name') }}",
+    "description": "Disclaimer for TopAssignmentHelpUAE’s academic support services, outlining usage policies, limitations of liability, and academic integrity guidelines.",
+    "publisher": {
+        "@type": "Organization",
+        "name": "{{ config('app.name') }}",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "{{ asset('template/img/RMA-logo.webp') }}"
+        }
     }
 }
 </script>
@@ -49,10 +62,26 @@
     <div class="container">
         <div class="heading-content">
             <h1>Disclaimer</h1>
-            <h2 style="font-size: 1rem;">© Copyright {{ config('app.name') }} All rights reserved.</h2>
-            <p>You may not copy, modify, publish, transmit, transfer or sell, reproduce, create derivative works from, distribute, perform, display, or in any way exploit any of the content of this report, in whole or in part, save as hereinafter provided. You may download or copy one copy of the report you have purchased only for your own personal use for academic study purposes only, however, you may not submit this document under your own name for academic assessment.</p>
-            <p>This also applies to any sections we add to the work that you have completed however; it does not apply to sections completed solely by you.</p>
-            <p>The statements contained herein are statements of opinion of the writer only and not the statements of {{ config('app.name') }}, its officers, employees or agents. To the fullest extent permissible by law, {{ config('app.name') }} hereby excludes liability for the truth or accuracy of any information provided herein, your statutory rights as a customer are not affected.</p>
+            <p>Welcome to Top Assignment Help UAE. This Disclaimer outlines the limitations of our responsibility and the intended use of our services. By using our website (<a href="https://topassignmenthelpuae.com" class="inner-links">https://topassignmenthelpuae.com</a>) and purchasing our services, you agree to the terms stated below.</p>
+
+            <h2>1. Academic Use Only</h2>
+            <p>Top Assignment Help UAE provides academic support services for educational and learning purposes only. The content, assignments, essays, and other materials delivered through our platform are intended to serve as reference material, guidance, and study aids.</p>
+            <p>Clients are strictly prohibited from submitting any material purchased from us as their original work in any academic institution. Doing so may violate the academic integrity policies of your school, college, or university.</p>
+
+            <h2>2. No Guarantee of Grades</h2>
+            <p>While we strive to deliver high-quality and well-researched academic support, we do not guarantee specific grades or academic outcomes. Academic performance depends on a variety of factors outside our control, including how you use the material and your institution’s evaluation criteria.</p>
+
+            <h2>3. No Legal or Professional Advice</h2>
+            <p>The content on our website, including blog articles, resources, and consultation advice, is provided for informational purposes only and should not be considered professional, legal, or academic advice. Always consult with a qualified academic advisor or faculty member regarding your assignments and academic responsibilities.</p>
+
+            <h2>4. Third-Party Services and Content</h2>
+            <p>Our website may contain links to third-party websites or services. We are not responsible for the content, accuracy, or reliability of any third-party information, services, or advertisements. Accessing third-party content is at your own risk.</p>
+
+            <h2>5. Limitation of Liability</h2>
+            <p>Top Assignment Help UAE is not liable for any direct, indirect, incidental, or consequential damages resulting from the misuse of our services, unauthorised use of content, or violations of academic policies. It is the sole responsibility of the user to ensure that the use of our services complies with their institution's guidelines.</p>
+
+            <h2>6. Changes to This Disclaimer</h2>
+            <p>We may update or change this Disclaimer at any time without prior notice. Any changes will be posted on this page. Continued use of our website implies your acceptance of the revised terms.</p>
         </div>
     </div>
 </div>
@@ -61,7 +90,7 @@
     <div class="container">
         <div class="simple">
             <br>
-            <h2 class="heading-title">What our Clients have to Say <span>About Us</span></h2>
+            <h2 class="heading-title">What our Clients have to Say <span style="color: #F17D00;">About Us</span></h2>
         </div>
         
         <div class="testimonial-slider">
@@ -148,14 +177,14 @@
 }
 
 .heading-content h1 {
-    color: var(--primary-color);
+    color: #F17D00;
     margin-bottom: 2rem;
     font-size: 2.5rem;
     font-weight: 700;
 }
 
 .heading-content h2 {
-    color: var(--primary-color);
+    color: #F17D00;
     margin: 2rem 0 1rem 0;
     font-size: 1.8rem;
     font-weight: 600;
@@ -167,17 +196,27 @@
     color: #333;
 }
 
+.inner-links {
+    color: #F17D00;
+    text-decoration: none;
+}
+
+.inner-links:hover {
+    color: #d96b00;
+    text-decoration: underline;
+}
+
 .breadcrumb {
     margin-bottom: 0;
 }
 
 .breadcrumb-item a {
-    color: var(--primary-color);
+    color: #F17D00;
     text-decoration: none;
 }
 
 .breadcrumb-item a:hover {
-    color: var(--secondary-color);
+    color: #d96b00;
 }
 
 .breadcrumb-item.active {
@@ -190,6 +229,10 @@
     max-width: 100%;
     margin: auto;
     padding: 2rem 0;
+}
+
+.bg-gray {
+    background: #f1f1f1;
 }
 
 .mySlides {
@@ -224,8 +267,7 @@
 
 .mySlides .author {
     font-weight: 600;
-    color: var(--primary-color);
-    margin: 1rem 0;
+    color: #F17D00;
 }
 
 .star-ratting {
@@ -265,7 +307,7 @@
 }
 
 .main-btn {
-    background-color: var(--primary-color);
+    background-color: #F17D00;
     color: white;
     padding: 12px 30px;
     border: none;
@@ -276,9 +318,19 @@
 }
 
 .main-btn:hover {
-    background-color: var(--secondary-color);
+    background-color: #d96b00;
     color: white;
     text-decoration: none;
+}
+
+.heading-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.heading-title span {
+    color: #F17D00;
 }
 </style>
 

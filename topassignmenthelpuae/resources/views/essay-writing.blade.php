@@ -1,13 +1,13 @@
 @extends('layouts.front')
 
-@section('seo_title', 'Professional Essay Writing Services | ' . config('app.name'))
-@section('seo_description', 'Get expert essay writing services to craft well-researched, high-quality essays that meet academic standards and help you achieve better grades.')
+@section('seo_title', 'Best Essay Writing Service in UAE | ' . config('app.name'))
+@section('seo_description', 'Get expert essay writing help in UAE from native Dubai writers. We deliver 100% original, high-quality essays tailored to your academic needs.')
 
-@section('og_title', 'Professional Essay Writing Services')
-@section('og_description', 'Get expert essay writing services to craft well-researched, high-quality essays that meet academic standards and help you achieve better grades.')
+@section('og_title', 'Best Essay Writing Service in UAE')
+@section('og_description', 'Get expert essay writing help in UAE from native Dubai writers. We deliver 100% original, high-quality essays tailored to your academic needs.')
 @section('og_image', asset('template/img/essay-writing.webp'))
 
-@section('twitter_title', 'Professional Essay Writing Services')
+@section('twitter_title', 'Best Essay Writing Service in UAE')
 @section('twitter_site', '@assignmenthelp')
 
 @section('structured_data')
@@ -34,7 +34,7 @@
     "@type": "Product",
     "name": "{{ config('app.name') }} Essay Writing Service",
     "image": "{{ asset('template/img/essay-writing.webp') }}",
-    "description": "Professional essay writing services delivering well-researched, structured, and high-quality essays for all academic levels.",
+    "description": "Professional essay writing services in UAE delivering 100% original, high-quality essays tailored to academic standards.",
     "brand": {
         "@type": "Brand",
         "name": "{{ config('app.name') }}"
@@ -56,7 +56,7 @@
         <div class="row about-center">
             <div class="col-lg-7 mx-auto text-center">
                 <div class="page-title">
-                    <h1 class="text-white">Essay Writing Services</h1>
+                    <h1 class="text-white">Best Essay Writing Service in UAE</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a href="{{ route('home') }}" class="text-white">Home</a></li>
@@ -74,20 +74,17 @@
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
-                    <h2 class="heading-title">Professional Essay <span style="color: #F17D00;">Writing Services</span></h2>
-                    <p class="content-simple-p mb-0">Achieve academic excellence with our expert essay writing services, tailored to meet your academic needs.</p>
+                    <h2 class="heading-title">Expert Essay Writing <span style="color: #F17D00;">Help in Dubai</span></h2>
+                    <p class="content-simple-p mb-0">Hire us! To get essay writing help in UAE from native Dubai writers. We guarantee on-time delivery of 100% original, secure, and high-quality essay writing. “No stress, just reliable academic support.”</p>
                 </div>
             </div>
         </div>
         <div class="row mt-3 g-4">
             <div class="col-xl-6">
                 <div class="about-content">
-                    <p>Struggling to write compelling essays? Our essay writing services provide high-quality, well-researched essays tailored to your academic requirements. We are a leading provider of academic writing services with years of experience supporting students across the UAE and worldwide.</p>
-                    
-                    <p>Our team of expert writers specializes in crafting essays across various disciplines, including literature, history, and social sciences. We ensure proper structure, engaging arguments, and adherence to your specific guidelines and citation styles.</p>
-                    
-                    <p>Our writers hold advanced degrees (minimum 2:1 up to Master and PhD) and are experienced in creating essays that meet rigorous academic standards.</p>
-                    
+                    <p>Do you desire to get higher grades in your career? Our experts use customised academic and consulting services to support your ongoing success journey.</p>
+                    <p>Looking for reliable essay writing help in Dubai? UAE Assignment Help is your trusted partner, offering top-quality essay writing service UAE tailored to your academic needs. Our expert staff provides individual support, from brainstorming to the final version.</p>
+                    <p>Simply buy an essay online and focus on other priorities while our experienced experts handle your assignments. With our reliable "write my essay" service, you receive exceptional assistance at every step of the way.</p>
                     <div class="button-design text-nowrap">
                         <a href="{{ route('order-now') }}" class="topbar-btn mt-3">Order Now</a>
                     </div>
@@ -95,172 +92,173 @@
             </div>
             <div class="col-xl-6">
                 <div class="about-img">
-                    <img src="{{ asset('template/img/essay-writing.webp') }}" class="img-fluid w-100" alt="Essay Writing Services">
+                    <img src="{{ asset('template/img/essay-writing.webp') }}" class="img-fluid w-100" alt="Best Essay Writing Service in UAE">
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<section class="section bg-gray py-4">
-    <div class="container">
-        <div class="row justify-content-center text-center">
-            <div class="col-lg-10">
-                <div class="about-sm-content">
-                    <h4 style="line-height: 35px;">We provide professional essay writing services, including research, writing, and formatting for all academic levels and subjects.</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Features Section -->
+<!-- Hire an Essay Writer Section -->
 <section class="section py-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
-                    <h2 class="heading-title">Why Choose Our <span style="color: #F17D00;">Essay Writing Services?</span></h2>
-                    <p class="content-simple-p mb-0">Our essay writing services are designed to deliver high-quality, customized essays to boost your academic performance.</p>
+                    <h2 class="heading-title">Hire an Essay Writer <span style="color: #F17D00;">Today!</span></h2>
+                    <p class="content-simple-p mb-0">Our skilled writers can manage essays of any academic difficulty level and are proficient in a variety of academic subjects. When you choose our service, you get a top essay writer ready to complete your tasks efficiently, professionally, and on time.</p>
                 </div>
             </div>
         </div>
         <div class="row g-4 mt-3">
-            <div class="col-lg-4 col-md-6">
-                <div class="feature-box text-center">
-                    <div class="feature-icon">
-                        <i class="fa-solid fa-atom" style="font-size: 2.5rem; color: #F17D00;"></i>
-                    </div>
-                    <h4>Expert Writers</h4>
-                    <p>Our writers are specialists in various disciplines, ensuring high-quality essays.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="feature-box text-center">
-                    <div class="feature-icon">
-                        <i class="fa-solid fa-shield-alt" style="font-size: 2.5rem; color: #F17D00;"></i>
-                    </div>
-                    <h4>100% Original</h4>
-                    <p>All essays are written from scratch, ensuring originality and academic integrity.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="feature-box text-center">
-                    <div class="feature-icon">
-                        <i class="fa-solid fa-clock" style="font-size: 2.5rem; color: #F17D00;"></i>
-                    </div>
-                    <h4>Timely Delivery</h4>
-                    <p>We prioritize your deadlines to ensure you receive your essay on time.</p>
+            <div class="col-lg-12 text-center">
+                <div class="button-design text-nowrap">
+                    <a href="{{ route('order-now') }}" class="topbar-btn">Hire Now</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+<!-- Why Choose Section -->
 <section class="section bg-gray py-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
-                    <h2 class="heading-title">Our Writing <span style="color: #F17D00;">Services</span></h2>
-                    <p class="content-simple-p mb-0">Explore our range of academic and professional writing services to support your career and academic goals.</p>
+                    <h2 class="heading-title">Why Choose Our <span style="color: #F17D00;">Essay Writing Service?</span></h2>
+                    <p class="content-simple-p mb-0">Choosing us means selecting academic excellence and trusted support. We fulfil your academic requirements with precision and professionalism.</p>
                 </div>
             </div>
         </div>
         <div class="row g-4 mt-3">
-            <div class="col-xl-4 col-lg-6 d-flex">
+            <div class="col-lg-3 col-md-6">
+                <div class="feature-box text-center">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-user-tie" style="font-size: 2.5rem; color: #F17D00;"></i>
+                    </div>
+                    <h4>Expert Writers</h4>
+                    <p>Our native essay writers in the UAE are experienced across all subjects and highly qualified.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="feature-box text-center">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-clock" style="font-size: 2.5rem; color: #F17D00;"></i>
+                    </div>
+                    <h4>Timely Delivery</h4>
+                    <p>Our streamlined process guarantees timely delivery, giving you time to review before submission.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="feature-box text-center">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-shield-alt" style="font-size: 2.5rem; color: #F17D00;"></i>
+                    </div>
+                    <h4>Plagiarism-Free Content</h4>
+                    <p>We deliver 100% unique and academically credible essays with strict anti-plagiarism protocols.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="feature-box text-center">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-headset" style="font-size: 2.5rem; color: #F17D00;"></i>
+                    </div>
+                    <h4>24/7 Customer Support</h4>
+                    <p>We provide 24/7 support to assist you with anything related to our essay writing service UAE.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Essay Types Section -->
+<section class="section py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="simple">
+                    <h2 class="heading-title">Explore the Types of <span style="color: #F17D00;">Essay Writing Services</span> We Offer</h2>
+                    <p class="content-simple-p mb-0">We provide a wide range of essay writing services tailored to meet your academic needs.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4 mt-3">
+            <div class="col-lg-4 col-md-6 d-flex">
                 <div class="service-boxes">
                     <div class="service-icon">
-                        <i class="fa-solid fa-pencil"></i>
+                        <i class="fa-solid fa-paint-brush" style="font-size: 2.5rem; color: #F17D00;"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>Essay Writing</h4>
+                        <h4>Descriptive Essay</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Professional essay writing services that meet academic standards and help you achieve better grades with well-researched content.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('essay-writing') }}" aria-label="essay-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <p class="mb-0">Our essay writing service provides engaging, descriptive essays tailored to your academic needs with detailed and sensory-rich writing.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-6 d-flex">
+            <div class="col-lg-4 col-md-6 d-flex">
                 <div class="service-boxes">
                     <div class="service-icon">
-                        <i class="fa-solid fa-file-lines"></i>
+                        <i class="fa-solid fa-book-open" style="font-size: 2.5rem; color: #F17D00;"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>Report Writing</h4>
+                        <h4>Narrative Essay</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Comprehensive report writing services with proper structure, analysis, and professional presentation for all academic levels.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('report-writing') }}" aria-label="report-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <p class="mb-0">We craft compelling narrative essays with well-developed characters, ensuring clarity, flow, and emotional connection.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-6 d-flex">
+            <div class="col-lg-4 col-md-6 d-flex">
                 <div class="service-boxes">
                     <div class="service-icon">
-                        <i class="fa fa-list-alt" aria-hidden="true"></i>
+                        <i class="fa-solid fa-file-alt" style="font-size: 2.5rem; color: #F17D00;"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>Coursework Writing</h4>
+                        <h4>Expository Essay</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Expert coursework writing assistance that covers all aspects of your curriculum with detailed research and analysis.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('course-work') }}" aria-label="coursework-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <p class="mb-0">We offer clear, fact-based expository essays based on logical and concise analysis for UAE students.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-6 d-flex">
+            <div class="col-lg-4 col-md-6 d-flex">
                 <div class="service-boxes">
                     <div class="service-icon">
-                        <i class="fa-solid fa-atom"></i>
+                        <i class="fa-solid fa-gavel" style="font-size: 2.5rem; color: #F17D00;"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>Assignment Writing</h4>
+                        <h4>Persuasive Essay</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Professional assignment writing services that help you complete your academic tasks with excellence and precision.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('assignment-writing') }}" aria-label="assignment-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <p class="mb-0">Our expert writers provide persuasive essays with effective argumentative techniques for clarity and impact.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-6 d-flex">
+            <div class="col-lg-4 col-md-6 d-flex">
                 <div class="service-boxes">
                     <div class="service-icon">
-                        <i class="fa-solid fa-receipt"></i>
+                        <i class="fa-solid fa-brain" style="font-size: 2.5rem; color: #F17D00;"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>Literature Review Writing</h4>
+                        <h4>Analytical Essay</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Comprehensive literature review writing that synthesizes existing research and provides critical analysis for your academic work.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('literature-review-writing') }}" aria-label="literature-review">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <p class="mb-0">We deliver detailed analytical essays using critical thinking and structured research to showcase your analytical skills.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-6 d-flex">
+            <div class="col-lg-4 col-md-6 d-flex">
                 <div class="service-boxes">
                     <div class="service-icon">
-                        <i class="fa-solid fa-user-gear"></i>
+                        <i class="fa-solid fa-graduation-cap" style="font-size: 2.5rem; color: #F17D00;"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>CV Writing</h4>
+                        <h4>Admission Essay</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Professional CV writing services that highlight your skills and experience to help you stand out in the job market.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('cv-writing') }}" aria-label="cv-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <p class="mb-0">Our admission essay writing service crafts strong, personalised essays to impress universities and graduate schools.</p>
                     </div>
                 </div>
             </div>
@@ -269,13 +267,13 @@
 </section>
 
 <!-- Process Section -->
-<section class="section py-5">
+<section class="section bg-gray py-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
-                    <h2 class="heading-title">Our Essay Writing <span style="color: #F17D00;">Process</span></h2>
-                    <p class="content-simple-p mb-0">We follow a systematic approach to ensure high-quality essays that meet your academic requirements.</p>
+                    <h2 class="heading-title">How Our Essay Writing <span style="color: #F17D00;">Process Works</span></h2>
+                    <p class="content-simple-p mb-0">We follow a structured and efficient process to ensure quality work.</p>
                 </div>
             </div>
         </div>
@@ -283,90 +281,36 @@
             <div class="col-lg-3 col-md-6">
                 <div class="process-step text-center">
                     <div class="step-number">1</div>
-                    <h5>Order Placement</h5>
-                    <p>Submit your essay requirements, including topic and guidelines.</p>
+                    <h5>Submit Your Order</h5>
+                    <p>Share your assignment details, including topic, deadline, and specific instructions.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="process-step text-center">
                     <div class="step-number">2</div>
-                    <h5>Writer Assignment</h5>
-                    <p>We assign an expert writer based on your subject and requirements.</p>
+                    <h5>Expert Writer Assigned</h5>
+                    <p>We match your project with a qualified writer who specialises in your subject area.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="process-step text-center">
                     <div class="step-number">3</div>
-                    <h5>Writing & Research</h5>
-                    <p>Our expert conducts thorough research and crafts your essay.</p>
+                    <h5>Research & Writing</h5>
+                    <p>Your writer conducts in-depth research and crafts the content per your requirements.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="process-step text-center">
                     <div class="step-number">4</div>
-                    <h5>Quality Check</h5>
-                    <p>We review, edit, and proofread your essay to ensure high quality.</p>
+                    <h5>Final Quality Review</h5>
+                    <p>We edit and proofread to ensure accuracy, clarity, and originality before delivery.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Testimonials Section -->
-<section class="section py-5" style="background: #f1f1f1;">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 mx-auto">
-                <div class="simple">
-                    <h2 class="heading-title">What our Clients have to Say <span style="color: #F17D00;">About Us</span></h2>
-                </div>
-            </div>
-        </div>
-        <div class="slideshow-container mt-4">
-            <div class="mySlides">
-                <q>The essay writing service was exceptional. My essay was well-researched and delivered on time!</q>
-                <div class="img"><img src="{{ asset('template/img/benjamin.jpg') }}" class="testi-img-size" alt="Benjamin"></div>
-                <p class="author">- Benjamin</p>
-                <div class="star-ratting home-star-ratting">
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                </div>
-            </div>
-            <div class="mySlides">
-                <q>The team delivered a high-quality essay that exceeded my expectations. Highly recommend!</q>
-                <div class="img"><img src="{{ asset('template/img/samuel.jpg') }}" class="testi-img-size" alt="Samuel"></div>
-                <p class="author">- Samuel</p>
-                <div class="star-ratting home-star-ratting">
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                </div>
-            </div>
-            <div class="mySlides">
-                <q>Thanks to their essay writing service, I submitted a top-notch essay that impressed my professor.</q>
-                <div class="img"><img src="{{ asset('template/img/gregory.jpg') }}" class="testi-img-size" alt="Gregory"></div>
-                <p class="author">- Gregory</p>
-                <div class="star-ratting home-star-ratting">
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                </div>
-            </div>
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-            <a class="next" onclick="plusSlides(1)">❯</a>
-        </div>
-        <div class="container text-center mt-4">
-            <a href="#" class="topbar-btn">Read More</a>
-        </div>
-    </div>
-</section>
+
 @endsection
 
 @section('additional_head')
@@ -405,7 +349,7 @@
     color: #333;
 }
 
-.feature-box, .process-step {
+.feature-box, .process-step, .service-boxes {
     padding: 2rem;
     background: #fff;
     border-radius: 10px;
@@ -414,11 +358,11 @@
     transition: transform 0.3s ease;
 }
 
-.feature-box:hover, .process-step:hover {
+.feature-box:hover, .process-step:hover, .service-boxes:hover {
     transform: translateY(-5px);
 }
 
-.feature-icon i {
+.feature-icon i, .service-icon i {
     font-size: 2.5rem;
     color: #F17D00;
     margin-bottom: 1rem;
@@ -436,24 +380,6 @@
     font-size: 1.5rem;
     font-weight: bold;
     margin: 0 auto 1rem;
-}
-
-.service-boxes {
-    background: #fff;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    height: 100%;
-    transition: transform 0.3s ease;
-}
-
-.service-boxes:hover {
-    transform: translateY(-5px);
-}
-
-.service-icon i {
-    font-size: 2.5rem;
-    color: #F17D00;
 }
 
 .service-title h4 {
