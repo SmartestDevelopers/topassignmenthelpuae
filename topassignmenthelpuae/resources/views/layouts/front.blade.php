@@ -173,7 +173,7 @@
                                  <li><a class="dropdown-item" href="{{ route('academic-writing-services') }}">Academic Writing</a></li>
                                 <li><a class="dropdown-item" href="{{ route('dissertation-thesis-writing') }}">Thesis Writing</a></li>
                                 <li><a class="dropdown-item" href="{{ route('course-work') }}">Coursework Writing</a></li>
-                                <li><a class="dropdown-item" href="{{ route('dissertation-part-chapter-writing') }}">Dissertation Part or Chapter</a></li>
+                                <li><a class="dropdown-item" href="{{ route('dissertation-part-chapter-writing') }}">Dissertation Writing</a></li>
                                 <li><a class="dropdown-item" href="{{ route('assignment-writing') }}">Assignment Writing</a></li>
                                 <li><a class="dropdown-item" href="{{ route('literature-review-writing') }}">Literature Review</a></li>
                                 <li><a class="dropdown-item" href="{{ route('cv-writing') }}">CV Writing</a></li>

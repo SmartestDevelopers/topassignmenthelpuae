@@ -1,13 +1,13 @@
 @extends('layouts.front')
 
-@section('seo_title', 'Dissertation Editing and Proofreading Services | ' . config('app.name'))
-@section('seo_description', 'Get expert dissertation editing and proofreading services to refine your dissertation, ensuring clarity, coherence, and academic excellence.')
+@section('seo_title', 'Dissertation Writing Help In UAE | ' . config('app.name'))
+@section('seo_description', 'Get professional dissertation writing help in UAE from expert PhD writers. We deliver high-quality, plagiarism-free dissertations tailored to your academic needs.')
 
-@section('og_title', 'Dissertation Editing and Proofreading Services')
-@section('og_description', 'Get expert dissertation editing and proofreading services to refine your dissertation, ensuring clarity, coherence, and academic excellence.')
-@section('og_image', asset('template/img/dissertation-editing-improvement-proofreading.webp'))
+@section('og_title', 'Dissertation Writing Help In UAE')
+@section('og_description', 'Get professional dissertation writing help in UAE from expert PhD writers. We deliver high-quality, plagiarism-free dissertations tailored to your academic needs.')
+@section('og_image', asset('template/img/dissertation-writing.webp'))
 
-@section('twitter_title', 'Dissertation Editing and Proofreading Services')
+@section('twitter_title', 'Dissertation Writing Help In UAE')
 @section('twitter_site', '@assignmenthelp')
 
 @section('structured_data')
@@ -23,8 +23,8 @@
     },{
         "@type": "ListItem",
         "position": 2,
-        "name": "Dissertation Editing and Proofreading",
-        "item": "{{ route('dissertation-editing-improvement-proofreading') }}"
+        "name": "Dissertation Writing",
+        "item": "{{ route('dissertation-part-chapter-writing') }}"
     }]
 }
 </script>
@@ -32,9 +32,9 @@
 {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "{{ config('app.name') }} Dissertation Editing and Proofreading Service",
+    "name": "{{ config('app.name') }} Dissertation Writing Service",
     "image": "{{ asset('template/img/dissertation-editing-improvement-proofreading.webp') }}",
-    "description": "Professional dissertation editing and proofreading services to refine your work with clarity and academic rigor.",
+    "description": "Professional dissertation writing services in UAE delivering high-quality, plagiarism-free dissertations tailored to academic standards.",
     "brand": {
         "@type": "Brand",
         "name": "{{ config('app.name') }}"
@@ -56,11 +56,11 @@
         <div class="row about-center">
             <div class="col-lg-7 mx-auto text-center">
                 <div class="page-title">
-                    <h1 class="text-white">Dissertation Editing and Proofreading Services</h1>
+                    <h1 class="text-white">Dissertation Writing Help In UAE</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a href="{{ route('home') }}" class="text-white">Home</a></li>
-                            <li class="breadcrumb-item orange active" aria-current="page">Dissertation Editing and Proofreading</li>
+                            <li class="breadcrumb-item orange active" aria-current="page">Dissertation Writing</li>
                         </ol>
                     </nav>
                 </div>
@@ -74,20 +74,24 @@
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
-                    <h2 class="heading-title">Professional Dissertation <span style="color: #F17D00;">Editing and Proofreading Services</span></h2>
-                    <p class="content-simple-p mb-0">Polish your dissertation to perfection with our expert editing and proofreading services.</p>
+                    <h2 class="heading-title">Dissertation Writing <span style="color: #F17D00;">Help In UAE</span></h2>
+                    <p class="content-simple-p mb-0">Our best dissertation writing service in UAE ensures your academic success and cares about your confidentiality. We offer detailed research, polished and up-to-date writing work, and timely delivery to counter all your worries. Through our professional dissertation writing help in Dubai, you will get a high-quality dissertation written by our native Dubai writers.</p>
                 </div>
             </div>
         </div>
         <div class="row mt-3 g-4">
             <div class="col-xl-6">
                 <div class="about-content">
-                    <p>Need to refine your dissertation? Our dissertation editing and proofreading services ensure your work is clear, coherent, and academically sound. We support students across the UAE and worldwide with years of experience in academic editing.</p>
-                    
-                    <p>Our team of expert editors specializes in improving structure, clarity, grammar, and formatting across various disciplines, ensuring your dissertation meets the highest academic standards.</p>
-                    
-                    <p>Our editors hold advanced degrees (minimum 2:1 up to Master and PhD) and are experienced in refining dissertations to align with institutional guidelines.</p>
-                    
+                    <p>Struggling to get professional dissertation writing services in Abu Dhabi? Our expert PhD writers provide tailored assistance for students at top universities. Whether you need help or want to hire a writer, our dissertation writing services in Dubai are here for you.</p>
+                    <p>With our trusted dissertation writing service, you can confidently manage your academic load, achieve top grades, and get your quality work done on time. We also offer personalized dissertation help to meet your unique and specific requirements.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa-solid fa-check" style="color: #F17D00;"></i> Professional dissertation writing service for all topics</li>
+                        <li><i class="fa-solid fa-check" style="color: #F17D00;"></i> Native PhD experts based in the UAE</li>
+                        <li><i class="fa-solid fa-check" style="color: #F17D00;"></i> 100% original and plagiarism-free content</li>
+                        <li><i class="fa-solid fa-check" style="color: #F17D00;"></i> Always delivered on time</li>
+                        <li><i class="fa-solid fa-check" style="color: #F17D00;"></i> Total privacy and confidentiality</li>
+                        <li><i class="fa-solid fa-check" style="color: #F17D00;"></i> Dedicated support throughout the process</li>
+                    </ul>
                     <div class="button-design text-nowrap">
                         <a href="{{ route('order-now') }}" class="topbar-btn mt-3">Order Now</a>
                     </div>
@@ -95,7 +99,7 @@
             </div>
             <div class="col-xl-6">
                 <div class="about-img">
-                    <img src="{{ asset('template/img/dissertation-editing-improvement-proofreading.webp') }}" class="img-fluid w-100" alt="Dissertation Editing and Proofreading Services">
+                    <img src="{{ asset('template/img/dissertation-editing-improvement-proofreading.webp') }}" class="img-fluid w-100" alt="Dissertation Writing Help In UAE">
                 </div>
             </div>
         </div>
@@ -107,21 +111,21 @@
         <div class="row justify-content-center text-center">
             <div class="col-lg-10">
                 <div class="about-sm-content">
-                    <h4 style="line-height: 35px;">We provide professional dissertation editing and proofreading services, ensuring clarity and academic excellence for all academic levels.</h4>
+                    <h4 style="line-height: 35px;">Comprehensive UAE Dissertation Writing Help for All Chapters</h4>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Features Section -->
+<!-- Why Choose Section -->
 <section class="section py-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
-                    <h2 class="heading-title">Why Choose Our <span style="color: #F17D00;">Dissertation Editing and Proofreading Services?</span></h2>
-                    <p class="content-simple-p mb-0">Our services are designed to refine your dissertation, ensuring clarity, coherence, and academic excellence.</p>
+                    <h2 class="heading-title">Why Choose Our <span style="color: #F17D00;">Dissertation Writing Services?</span></h2>
+                    <p class="content-simple-p mb-0">Our expert dissertation writers in the UAE are here to ensure top-notch, plagiarism-free content according to your academic requirements.</p>
                 </div>
             </div>
         </div>
@@ -129,138 +133,121 @@
             <div class="col-lg-4 col-md-6">
                 <div class="feature-box text-center">
                     <div class="feature-icon">
-                        <i class="fa-solid fa-atom" style="font-size: 2.5rem; color: #F17D00;"></i>
-                    </div>
-                    <h4>Expert Editors</h4>
-                    <p>Our editors are specialists in various disciplines, ensuring high-quality refinements.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="feature-box text-center">
-                    <div class="feature-icon">
                         <i class="fa-solid fa-shield-alt" style="font-size: 2.5rem; color: #F17D00;"></i>
                     </div>
-                    <h4>Comprehensive Editing</h4>
-                    <p>We improve structure, clarity, grammar, and formatting for academic integrity.</p>
+                    <h4>100% Original Work</h4>
+                    <p>We guarantee plagiarism-free dissertations, written from scratch and tailored to your topic.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="feature-box text-center">
                     <div class="feature-icon">
-                        <i class="fa-solid fa-clock" style="font-size: 2.5rem; color: #F17D00;"></i>
+                        <i class="fa-solid fa-user-tie" style="font-size: 2.5rem; color: #F17D00;"></i>
                     </div>
-                    <h4>Timely Delivery</h4>
-                    <p>We prioritize your deadlines to ensure you receive your edited dissertation on time.</p>
+                    <h4>Expert UAE Writers</h4>
+                    <p>Get assistance from experienced dissertation writers in the UAE with subject-specific expertise.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="feature-box text-center">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-wallet" style="font-size: 2.5rem; color: #F17D00;"></i>
+                    </div>
+                    <h4>Affordable Services</h4>
+                    <p>Our cheap dissertation writing services are designed to fit student budgets.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+<!-- Dissertation Chapters Section -->
 <section class="section bg-gray py-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
-                    <h2 class="heading-title">Our Writing <span style="color: #F17D00;">Services</span></h2>
-                    <p class="content-simple-p mb-0">Explore our range of academic and professional writing services to support your career and academic goals.</p>
+                    <h2 class="heading-title">Comprehensive UAE Dissertation Writing <span style="color: #F17D00;">Help for All Chapters</span></h2>
+                    <p class="content-simple-p mb-0">We provide expert assistance for every chapter of your dissertation to ensure academic excellence.</p>
                 </div>
             </div>
         </div>
         <div class="row g-4 mt-3">
-            <div class="col-xl-4 col-lg-6 d-flex">
+            <div class="col-lg-4 col-md-6 d-flex">
                 <div class="service-boxes">
                     <div class="service-icon">
-                        <i class="fa-solid fa-pencil"></i>
+                        <i class="fa-solid fa-book-open" style="font-size: 2.5rem; color: #F17D00;"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>Essay Writing</h4>
+                        <h4>Introduction Chapter Help</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Professional essay writing services that meet academic standards and help you achieve better grades with well-researched content.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('academic-writing-services') }}" aria-label="essay-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <p class="mb-0">Strong, captivating introductions that precisely outline your study challenge, goals, and scope are created by our professionals.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-6 d-flex">
+            <div class="col-lg-4 col-md-6 d-flex">
                 <div class="service-boxes">
                     <div class="service-icon">
-                        <i class="fa-solid fa-file-lines"></i>
+                        <i class="fa-solid fa-book" style="font-size: 2.5rem; color: #F17D00;"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>Report Writing</h4>
+                        <h4>Literature Review Writing Help</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Comprehensive report writing services with proper structure, analysis, and professional presentation for all academic levels.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('academic-writing-services') }}" aria-label="report-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <p class="mb-0">We identify research gaps and develop a theoretical framework by analyzing and summarizing pertinent academic sources.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-6 d-flex">
+            <div class="col-lg-4 col-md-6 d-flex">
                 <div class="service-boxes">
                     <div class="service-icon">
-                        <i class="fa fa-list-alt" aria-hidden="true"></i>
+                        <i class="fa-solid fa-flask" style="font-size: 2.5rem; color: #F17D00;"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>Coursework Writing</h4>
+                        <h4>Methodology Chapter Assistance</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Expert coursework writing assistance that covers all aspects of your curriculum with detailed research and analysis.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('academic-writing-services') }}" aria-label="coursework-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <p class="mb-0">Seek assistance in creating a sound research methodology that incorporates mixed, qualitative, or quantitative approaches.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-6 d-flex">
+            <div class="col-lg-4 col-md-6 d-flex">
                 <div class="service-boxes">
                     <div class="service-icon">
-                        <i class="fa-solid fa-atom"></i>
+                        <i class="fa-solid fa-chart-bar" style="font-size: 2.5rem; color: #F17D00;"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>Assignment Writing</h4>
+                        <h4>Data Analysis & Findings Support</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Professional assignment writing services that help you complete your academic tasks with excellence and precision.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('academic-writing-services') }}" aria-label="assignment-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <p class="mb-0">Using suitable technologies like SPSS, Excel, or thematic analysis, our writers help with data analysis.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-6 d-flex">
+            <div class="col-lg-4 col-md-6 d-flex">
                 <div class="service-boxes">
                     <div class="service-icon">
-                        <i class="fa-solid fa-receipt"></i>
+                        <i class="fa-solid fa-comments" style="font-size: 2.5rem; color: #F17D00;"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>Literature Review Writing</h4>
+                        <h4>Discussion & Interpretation Help</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Comprehensive literature review writing that synthesizes existing research and provides critical analysis for your academic work.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('academic-writing-services') }}" aria-label="literature-review">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <p class="mb-0">We analyse your results in light of the literature and your research goals with clarity and critical thinking.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-6 d-flex">
+            <div class="col-lg-4 col-md-6 d-flex">
                 <div class="service-boxes">
                     <div class="service-icon">
-                        <i class="fa-solid fa-user-gear"></i>
+                        <i class="fa-solid fa-check-circle" style="font-size: 2.5rem; color: #F17D00;"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>CV Writing</h4>
+                        <h4>Conclusion & Recommendations Writing</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Professional CV writing services that highlight your skills and experience to help you stand out in the job market.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('cv-writing') }}" aria-label="cv-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <p class="mb-0">We condense your study and offer useful, well-reasoned suggestions for academic impact.</p>
                     </div>
                 </div>
             </div>
@@ -274,8 +261,8 @@
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
-                    <h2 class="heading-title">Our Editing and Proofreading <span style="color: #F17D00;">Process</span></h2>
-                    <p class="content-simple-p mb-0">We follow a systematic approach to ensure your dissertation is polished to meet academic standards.</p>
+                    <h2 class="heading-title">Our Dissertation Writing <span style="color: #F17D00;">Process</span></h2>
+                    <p class="content-simple-p mb-0">We follow a structured, student-focused process to meet your university's expectations.</p>
                 </div>
             </div>
         </div>
@@ -283,34 +270,36 @@
             <div class="col-lg-3 col-md-6">
                 <div class="process-step text-center">
                     <div class="step-number">1</div>
-                    <h5>Order Placement</h5>
-                    <p>Submit your dissertation and editing requirements.</p>
+                    <h5>Share Your Requirements</h5>
+                    <p>Submit your details, i.e., topic, deadline, and any specific guidelines.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="process-step text-center">
                     <div class="step-number">2</div>
-                    <h5>Editor Assignment</h5>
-                    <p>We assign an expert editor based on your subject and needs.</p>
+                    <h5>Expert Writer Assigned</h5>
+                    <p>We match your order with a qualified academic writer familiar with UAE standards.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="process-step text-center">
                     <div class="step-number">3</div>
-                    <h5>Editing & Proofreading</h5>
-                    <p>Our expert refines structure, clarity, grammar, and formatting.</p>
+                    <h5>Research, Write & Edit</h5>
+                    <p>Our writer completes extensive research, develops content, and editors polish it.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="process-step text-center">
                     <div class="step-number">4</div>
-                    <h5>Quality Check</h5>
-                    <p>We review the edited dissertation to ensure high quality.</p>
+                    <h5>Delivery & Revisions</h5>
+                    <p>We deliver on time and offer free revisions to meet your expectations.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+
 @endsection
 
 @section('additional_head')
@@ -349,7 +338,7 @@
     color: #333;
 }
 
-.feature-box, .process-step {
+.feature-box, .process-step, .service-boxes {
     padding: 2rem;
     background: #fff;
     border-radius: 10px;
@@ -358,11 +347,11 @@
     transition: transform 0.3s ease;
 }
 
-.feature-box:hover, .process-step:hover {
+.feature-box:hover, .process-step:hover, .service-boxes:hover {
     transform: translateY(-5px);
 }
 
-.feature-icon i {
+.feature-icon i, .service-icon i {
     font-size: 2.5rem;
     color: #F17D00;
     margin-bottom: 1rem;
@@ -380,24 +369,6 @@
     font-size: 1.5rem;
     font-weight: bold;
     margin: 0 auto 1rem;
-}
-
-.service-boxes {
-    background: #fff;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    height: 100%;
-    transition: transform 0.3s ease;
-}
-
-.service-boxes:hover {
-    transform: translateY(-5px);
-}
-
-.service-icon i {
-    font-size: 2.5rem;
-    color: #F17D00;
 }
 
 .service-title h4 {
@@ -418,9 +389,107 @@
 .bg-gray {
     background: #f1f1f1;
 }
+
+.testi-img-size {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 1rem auto;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    padding: 3rem 1rem;
+}
+
+.mySlides {
+    display: none;
+    text-align: center;
+    padding: 2rem;
+}
+
+.mySlides.active {
+    display: block;
+}
+
+.mySlides q {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    display: block;
+}
+
+.mySlides .img {
+    margin: 1rem 0;
+}
+
+.author {
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.star-ratting {
+    margin: 1rem 0;
+}
+
+.star-ratting .fa-star.yellow {
+    color: #ffc107;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s ease;
+    border-radius: 0 3px 3px 0;
+    background-color: rgba(0,0,0,0.5);
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
 </style>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+    let slides = document.getElementsByClassName("mySlides");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[slideIndex-1].style.display = "block";
+}
+
+// Auto slide
+setInterval(function() {
+    plusSlides(1);
+}, 5000);
+</script>
 @endsection
 
 @section('additional_scripts')
-<!-- No scripts needed as Testimonials section is excluded -->
+<!-- No additional scripts needed as slideshow logic is in additional_head -->
 @endsection

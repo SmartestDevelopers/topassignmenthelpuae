@@ -1,13 +1,13 @@
 @extends('layouts.front')
 
-@section('seo_title', 'Professional Assignment Writing Services | ' . config('app.name'))
-@section('seo_description', 'Get expert assignment writing services to craft well-researched, high-quality assignments that meet academic standards and help you achieve better grades.')
+@section('seo_title', 'Professional CIPD Assignment Writing Services | ' . config('app.name'))
+@section('seo_description', 'Get expert CIPD assignment writing services for Levels 3, 5, and 7. Our professional writers deliver high-quality, tailored assignments to meet CIPD standards.')
 
-@section('og_title', 'Professional Assignment Writing Services')
-@section('og_description', 'Get expert assignment writing services to craft well-researched, high-quality assignments that meet academic standards and help you achieve better grades.')
-@section('og_image', asset('template/img/assignment-writing.webp'))
+@section('og_title', 'Professional CIPD Assignment Writing Services')
+@section('og_description', 'Get expert CIPD assignment writing services for Levels 3, 5, and 7. Our professional writers deliver high-quality, tailored assignments to meet CIPD standards.')
+@section('og_image', asset('template/img/cipd-assignment-writing.webp'))
 
-@section('twitter_title', 'Professional Assignment Writing Services')
+@section('twitter_title', 'Professional CIPD Assignment Writing Services')
 @section('twitter_site', '@assignmenthelp')
 
 @section('structured_data')
@@ -23,7 +23,7 @@
     },{
         "@type": "ListItem",
         "position": 2,
-        "name": "Assignment Writing",
+        "name": "CIPD Assignment Writing",
         "item": "{{ route('assignment-writing') }}"
     }]
 }
@@ -32,9 +32,9 @@
 {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "{{ config('app.name') }} Assignment Writing Service",
-    "image": "{{ asset('template/img/assignment-writing.webp') }}",
-    "description": "Professional assignment writing services delivering well-researched, structured, and high-quality assignments for all academic levels.",
+    "name": "{{ config('app.name') }} CIPD Assignment Writing Service",
+    "image": "{{ asset('template/img/cipd-assignment-writing.webp') }}",
+    "description": "Professional CIPD assignment writing services delivering tailored, high-quality assignments for Levels 3, 5, and 7 to meet academic and CIPD standards.",
     "brand": {
         "@type": "Brand",
         "name": "{{ config('app.name') }}"
@@ -56,11 +56,11 @@
         <div class="row about-center">
             <div class="col-lg-7 mx-auto text-center">
                 <div class="page-title">
-                    <h1 class="text-white">Assignment Writing Services</h1>
+                    <h1 class="text-white">CIPD Assignment Writing Services</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a href="{{ route('home') }}" class="text-white">Home</a></li>
-                            <li class="breadcrumb-item orange active" aria-current="page">Assignment Writing</li>
+                            <li class="breadcrumb-item orange active" aria-current="page">CIPD Assignment Writing</li>
                         </ol>
                     </nav>
                 </div>
@@ -74,20 +74,17 @@
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
-                    <h2 class="heading-title">Professional Assignment <span style="color: #F17D00;">Writing Services</span></h2>
-                    <p class="content-simple-p mb-0">Achieve academic excellence with our expert assignment writing services, tailored to meet your academic needs.</p>
+                    <h2 class="heading-title">Professional CIPD Writers <span style="color: #F17D00;">in UAE for Level 3, 5, & 7</span></h2>
+                    <p class="content-simple-p mb-0">Having trouble with your CIPD assignments? We provide specific support at Levels 3, 5, and 7. Our skilled HR and L&D writers guarantee that your work satisfies CIPD requirements and is delivered on schedule while maintaining complete confidentiality.</p>
                 </div>
             </div>
         </div>
         <div class="row mt-3 g-4">
             <div class="col-xl-6">
                 <div class="about-content">
-                    <p>Struggling to complete your assignments on time? Our assignment writing services provide high-quality, well-researched assignments tailored to your academic requirements. We are a leading provider of academic writing services with years of experience supporting students across the UAE and worldwide.</p>
-                    
-                    <p>Our team of expert writers specializes in crafting assignments across various disciplines, including business, sciences, and humanities. We ensure proper structure, thorough research, and adherence to your specific guidelines and citation styles.</p>
-                    
-                    <p>Our writers hold advanced degrees (minimum 2:1 up to Master and PhD) and are experienced in creating assignments that meet rigorous academic standards.</p>
-                    
+                    <p>Looking for the best CIPD assignment writing service in UAE? Our expert team delivers tailored support for all CIPD levels—Foundation, Intermediate, and Advanced. Whether it's short tasks or complex modules, our CIPD writers in the UAE guarantee excellent, unique solutions that are in line with your course requirements.</p>
+                    <p>Our team understands the academic expectations of local and international institutes. With our timely assistance, you’ll meet deadlines confidently while boosting your chances of academic success across all modules.</p>
+                    <p>Trust our dedicated professionals for affordable, accurate, and efficient CIPD assignment help in UAE.</p>
                     <div class="button-design text-nowrap">
                         <a href="{{ route('order-now') }}" class="topbar-btn mt-3">Order Now</a>
                     </div>
@@ -95,7 +92,7 @@
             </div>
             <div class="col-xl-6">
                 <div class="about-img">
-                    <img src="{{ asset('template/img/assignment-writing.webp') }}" class="img-fluid w-100" alt="Assignment Writing Services">
+                    <img src="{{ asset('template/img/assignment-writing.webp') }}" class="img-fluid w-100" alt="CIPD Assignment Writing Services">
                 </div>
             </div>
         </div>
@@ -107,21 +104,21 @@
         <div class="row justify-content-center text-center">
             <div class="col-lg-10">
                 <div class="about-sm-content">
-                    <h4 style="line-height: 35px;">We provide professional assignment writing services, including research, writing, and formatting for all academic levels and subjects.</h4>
+                    <h4 style="line-height: 35px;">Score A+ with Expert CIPD Level 3, 5, 7 Assignment Help UAE</h4>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Features Section -->
+<!-- Why Choose Section -->
 <section class="section py-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
-                    <h2 class="heading-title">Why Choose Our <span style="color: #F17D00;">Assignment Writing Services?</span></h2>
-                    <p class="content-simple-p mb-0">Our assignment writing services are designed to deliver high-quality, customized assignments to boost your academic performance.</p>
+                    <h2 class="heading-title">Why Choose Our <span style="color: #F17D00;">CIPD Assignment Help?</span></h2>
+                    <p class="content-simple-p mb-0">Our CIPD assignment writing services are designed to deliver high-quality, tailored assignments to boost your academic performance.</p>
                 </div>
             </div>
         </div>
@@ -129,10 +126,10 @@
             <div class="col-lg-4 col-md-6">
                 <div class="feature-box text-center">
                     <div class="feature-icon">
-                        <i class="fa-solid fa-atom" style="font-size: 2.5rem; color: #F17D00;"></i>
+                        <i class="fa-solid fa-graduation-cap" style="font-size: 2.5rem; color: #F17D00;"></i>
                     </div>
-                    <h4>Expert Writers</h4>
-                    <p>Our writers are specialists in various disciplines, ensuring high-quality assignments.</p>
+                    <h4>Level-Specific Expertise</h4>
+                    <p>Our writers are well-versed with the CIPD curriculum at all levels—Level 3, 5, and 7—ensuring precision in every submission.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -140,127 +137,71 @@
                     <div class="feature-icon">
                         <i class="fa-solid fa-shield-alt" style="font-size: 2.5rem; color: #F17D00;"></i>
                     </div>
-                    <h4>100% Original</h4>
-                    <p>All assignments are written from scratch, ensuring originality and academic integrity.</p>
+                    <h4>On-Time & Plagiarism-Free</h4>
+                    <p>We guarantee original content with proper referencing and always deliver your assignments before the deadline.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="feature-box text-center">
                     <div class="feature-icon">
-                        <i class="fa-solid fa-clock" style="font-size: 2.5rem; color: #F17D00;"></i>
+                        <i class="fa-solid fa-user-tie" style="font-size: 2.5rem; color: #F17D00;"></i>
                     </div>
-                    <h4>Timely Delivery</h4>
-                    <p>We prioritize your deadlines to ensure you receive your assignment on time.</p>
+                    <h4>Support from HR & L&D Professionals</h4>
+                    <p>Get help from qualified CIPD writers with hands-on experience in HR and Learning & Development practices.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+<!-- CIPD Levels Section -->
 <section class="section bg-gray py-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
-                    <h2 class="heading-title">Our Writing <span style="color: #F17D00;">Services</span></h2>
-                    <p class="content-simple-p mb-0">Explore our range of academic and professional writing services to support your career and academic goals.</p>
+                    <h2 class="heading-title">Score A+ with Expert CIPD <span style="color: #F17D00;">Level 3, 5, 7 Assignment Help UAE</span></h2>
+                    <p class="content-simple-p mb-0">Whether you're pursuing CIPD Level 3, Level 5, or Level 7, our experienced team is here to support your academic journey.</p>
                 </div>
             </div>
         </div>
         <div class="row g-4 mt-3">
-            <div class="col-xl-4 col-lg-6 d-flex">
+            <div class="col-lg-4 col-md-6 d-flex">
                 <div class="service-boxes">
                     <div class="service-icon">
-                        <i class="fa-solid fa-pencil"></i>
+                        <i class="fa-solid fa-book" style="font-size: 2.5rem; color: #F17D00;"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>Essay Writing</h4>
+                        <h4>CIPD Level 3 Assignment Answers</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Professional essay writing services that meet academic standards and help you achieve better grades with well-researched content.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('essay-writing') }}" aria-label="essay-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <p class="mb-0">Our CIPD Level 3 Assignment answers in UAE provide fundamental support and are completely in line with academic requirements, making them ideal for anyone just starting out in HR or L&D. We make difficult ideas simple and provide thoughtful solutions so you may easily achieve outstanding outcomes.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-6 d-flex">
+            <div class="col-lg-4 col-md-6 d-flex">
                 <div class="service-boxes">
                     <div class="service-icon">
-                        <i class="fa-solid fa-file-lines"></i>
+                        <i class="fa-solid fa-briefcase" style="font-size: 2.5rem; color: #F17D00;"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>Report Writing</h4>
+                        <h4>CIPD Level 5 Assignment Answers</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Comprehensive report writing services with proper structure, analysis, and professional presentation for all academic levels.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('report-writing') }}" aria-label="report-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <p class="mb-0">Advance your HR career with our professionally written CIPD Level 5 assignment answers. We provide in-depth academic support for mid-level professionals seeking growth in HR and L&D. Get high-quality assignments delivered on time by industry experts.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-6 d-flex">
+            <div class="col-lg-4 col-md-6 d-flex">
                 <div class="service-boxes">
                     <div class="service-icon">
-                        <i class="fa fa-list-alt" aria-hidden="true"></i>
+                        <i class="fa-solid fa-user-tie" style="font-size: 2.5rem; color: #F17D00;"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>Coursework Writing</h4>
+                        <h4>CIPD Level 7 Assignment Answers</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Expert coursework writing assistance that covers all aspects of your curriculum with detailed research and analysis.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('course-work') }}" aria-label="coursework-writing">Read More <i class="fas fa-angle-double-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 d-flex">
-                <div class="service-boxes">
-                    <div class="service-icon">
-                        <i class="fa-solid fa-atom"></i>
-                    </div>
-                    <div class="service-title mt-4">
-                        <h4>Assignment Writing</h4>
-                    </div>
-                    <div class="service-content">
-                        <p class="mb-0">Professional assignment writing services that help you complete your academic tasks with excellence and precision.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('assignment-writing') }}" aria-label="assignment-writing">Read More <i class="fas fa-angle-double-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 d-flex">
-                <div class="service-boxes">
-                    <div class="service-icon">
-                        <i class="fa-solid fa-receipt"></i>
-                    </div>
-                    <div class="service-title mt-4">
-                        <h4>Literature Review Writing</h4>
-                    </div>
-                    <div class="service-content">
-                        <p class="mb-0">Comprehensive literature review writing that synthesizes existing research and provides critical analysis for your academic work.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('literature-review-writing') }}" aria-label="literature-review">Read More <i class="fas fa-angle-double-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 d-flex">
-                <div class="service-boxes">
-                    <div class="service-icon">
-                        <i class="fa-solid fa-user-gear"></i>
-                    </div>
-                    <div class="service-title mt-4">
-                        <h4>CV Writing</h4>
-                    </div>
-                    <div class="service-content">
-                        <p class="mb-0">Professional CV writing services that highlight your skills and experience to help you stand out in the job market.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('cv-writing') }}" aria-label="cv-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <p class="mb-0">Trying to get a senior HR position? Our authors provide top-notch CIPD Level 7 assignment answers that are suited to strategic subjects like organisational development and talent management. Obtain thorough, original responses that will make you stand out.</p>
                     </div>
                 </div>
             </div>
@@ -274,8 +215,8 @@
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
-                    <h2 class="heading-title">Our CIPD Assignment Writing <span style="color: #F17D00;">Process</span></h2>
-                    <p class="content-simple-p mb-0">We follow a systematic approach to ensure high-quality assignments that meet your academic requirements.</p>
+                    <h2 class="heading-title">Order Your CIPD <span style="color: #F17D00;">Assignment</span></h2>
+                    <p class="content-simple-p mb-0">We follow a systematic approach to ensure high-quality CIPD assignments that meet your academic requirements.</p>
                 </div>
             </div>
         </div>
@@ -283,90 +224,35 @@
             <div class="col-lg-3 col-md-6">
                 <div class="process-step text-center">
                     <div class="step-number">1</div>
-                    <h5>Order Placement</h5>
-                    <p>Submit your CIPD assignment requirements, including topic and guidelines.</p>
+                    <h5>Submit Your Requirements</h5>
+                    <p>Send us your CIPD level (3, 5, or 7), module details, and assignment guidelines.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="process-step text-center">
                     <div class="step-number">2</div>
-                    <h5>Writer Assignment</h5>
-                    <p>We assign an expert writer based on your subject and requirements.</p>
+                    <h5>Get Matched with a Professional Writer</h5>
+                    <p>We assign your work to a qualified CIPD expert who understands UAE academic standards.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="process-step text-center">
                     <div class="step-number">3</div>
-                    <h5>Writing & Research</h5>
-                    <p>Our expert conducts thorough research and crafts your assignment.</p>
+                    <h5>Writing, Research & Formatting</h5>
+                    <p>Our writer conducts in-depth research and prepares a fully customized, plagiarism-free assignment.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="process-step text-center">
                     <div class="step-number">4</div>
-                    <h5>Quality Check</h5>
-                    <p>We review, edit, and proofread your assignment to ensure high quality.</p>
+                    <h5>Quality Check & Final Delivery</h5>
+                    <p>Every assignment undergoes proofreading, plagiarism checks, and formatting review.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Testimonials Section -->
-<section class="section py-5" style="background: #f1f1f1;">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 mx-auto">
-                <div class="simple">
-                    <h2 class="heading-title">What our Clients have to Say <span style="color: #F17D00;">About Us</span></h2>
-                </div>
-            </div>
-        </div>
-        <div class="slideshow-container mt-4">
-            <div class="mySlides">
-                <q>The assignment writing service was exceptional. My assignment was well-researched and delivered on time!</q>
-                <div class="img"><img src="{{ asset('template/img/benjamin.jpg') }}" class="testi-img-size" alt="Benjamin"></div>
-                <p class="author">- Benjamin</p>
-                <div class="star-ratting home-star-ratting">
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                </div>
-            </div>
-            <div class="mySlides">
-                <q>The team delivered a high-quality assignment that exceeded my expectations. Highly recommend!</q>
-                <div class="img"><img src="{{ asset('template/img/samuel.jpg') }}" class="testi-img-size" alt="Samuel"></div>
-                <p class="author">- Samuel</p>
-                <div class="star-ratting home-star-ratting">
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                </div>
-            </div>
-            <div class="mySlides">
-                <q>Thanks to their assignment writing service, I submitted a top-notch assignment that impressed my professor.</q>
-                <div class="img"><img src="{{ asset('template/img/gregory.jpg') }}" class="testi-img-size" alt="Gregory"></div>
-                <p class="author">- Gregory</p>
-                <div class="star-ratting home-star-ratting">
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                    <i class="fa fa-star yellow" aria-hidden="true"></i>
-                </div>
-            </div>
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-            <a class="next" onclick="plusSlides(1)">❯</a>
-        </div>
-        <div class="container text-center mt-4">
-            <a href="#" class="topbar-btn">Read More</a>
-        </div>
-    </div>
-</section>
 @endsection
 
 @section('additional_head')
@@ -405,7 +291,7 @@
     color: #333;
 }
 
-.feature-box, .process-step {
+.feature-box, .process-step, .service-boxes {
     padding: 2rem;
     background: #fff;
     border-radius: 10px;
@@ -414,11 +300,11 @@
     transition: transform 0.3s ease;
 }
 
-.feature-box:hover, .process-step:hover {
+.feature-box:hover, .process-step:hover, .service-boxes:hover {
     transform: translateY(-5px);
 }
 
-.feature-icon i {
+.feature-icon i, .service-icon i {
     font-size: 2.5rem;
     color: #F17D00;
     margin-bottom: 1rem;
@@ -436,24 +322,6 @@
     font-size: 1.5rem;
     font-weight: bold;
     margin: 0 auto 1rem;
-}
-
-.service-boxes {
-    background: #fff;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    height: 100%;
-    transition: transform 0.3s ease;
-}
-
-.service-boxes:hover {
-    transform: translateY(-5px);
-}
-
-.service-icon i {
-    font-size: 2.5rem;
-    color: #F17D00;
 }
 
 .service-title h4 {
@@ -576,5 +444,5 @@ setInterval(function() {
 @endsection
 
 @section('additional_scripts')
-<!-- No scripts needed here as slideshow logic is in additional_head -->
+<!-- No additional scripts needed as slideshow logic is in additional_head -->
 @endsection
