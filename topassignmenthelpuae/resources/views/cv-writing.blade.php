@@ -75,23 +75,17 @@
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
                     <h2 class="heading-title">Expert CV Writing Services In Dubai <span>to Land Your Dream Job</span></h2>
-                    <p class="content-simple-p mb-0">Elevate your career with our expert CV writing service and professional resume writing services in the UAE. We are trusted, top-rated cv writers who help job seekers to land interviews fast. We also offer personalised resume writing services according to your occupation and interests</p>
+                    <p class="content-simple-p mb-0">Elevate your career with our expert CV writing service and professional resume writing services in the UAE. We are trusted, top-rated CV writers who help job seekers to land interviews fast. We also offer personalised resume writing services according to your occupation and interests.</p>
                 </div>
             </div>
         </div>
         <div class="row mt-3 g-4">
             <div class="col-xl-6">
                 <div class="about-content">
-                    <p>Want to get noticed by UAE employers? Our UAE CV Experts are just one click away to assist you in making a powerful first impression. Our resume writing services are designed to boost your career profile by showing your strengths and capabilities.
-</p>
-                    
-                    <p>Whether you're targeting government jobs, private sector positions, or international roles, we tailor your CV to meet employer expectations. Our experienced resume writers have a deep understanding of the UAE job market and personalise every resume to suit your targeted industry standards and employer expectations.
-</p>
-                    
+                    <p>Want to get noticed by UAE employers? Our UAE CV Experts are just one click away to assist you in making a powerful first impression. Our resume writing services are designed to boost your career profile by showing your strengths and capabilities.</p>
+                    <p>Whether you're targeting government jobs, private sector positions, or international roles, we tailor your CV to meet employer expectations. Our experienced resume writers have a deep understanding of the UAE job market and personalise every resume to suit your targeted industry standards and employer expectations.</p>
                     <p>We ensure to highlight your skills, experience, and career goals with precision. From fresh graduates to C-level executives that align with your career aspirations.</p>
-
                     <p>Choose our <strong>resume writing services</strong> today and stand out with a professional CV that opens doors to new opportunities.</p>
-                    
                     <div class="button-design text-nowrap">
                         <a href="{{ route('order-now') }}" class="main-btn mt-3">Order Now</a>
                     </div>
@@ -106,26 +100,15 @@
     </div>
 </div>
 
-<section class="section bg-gray">
-    <div class="container">
-        <div class="row justify-content-center text-center">
-            <div class="col-lg-10">
-                <div class="about-sm-content">
-                    <h4 style="line-height: 35px;">We provide professional CV writing services, including ATS optimization, personalized content, and expert formatting to help you succeed in your job applications.</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-<!-- Features Section -->
+<!-- Why Choose Section -->
 <section class="section">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
                     <h2 class="heading-title">Why Choose Our <span>CV Writing Services?</span></h2>
-                    <p class="content-simple-p mb">Our CV writing services are designed to help you make a strong first impression and achieve your career goals.</p>
+                    <p class="content-simple-p mb">Choosing our service means choosing excellence, professionalism, and results.</p>
                 </div>
             </div>
         </div>
@@ -133,138 +116,121 @@
             <div class="col-lg-4 col-md-6">
                 <div class="feature-box text-center">
                     <div class="feature-icon">
-                        <i class="fa-solid fa-user-tie" style="font-size: 2.5rem; color: var(--primary-color);"></i>
+                        <i class="fa-solid fa-globe" style="font-size: 2.5rem; color: var(--primary-color);"></i>
                     </div>
-                    <h4>Industry Expertise</h4>
-                    <p>Our writers understand industry-specific requirements to craft impactful CVs.</p>
+                    <h4>Local Expertise with Global Standards</h4>
+                    <p>Our services are led by professionals who have a deep knowledge of the UAE job market. We align your CV with employer expectations while following international resume standards.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="feature-box text-center">
                     <div class="feature-icon">
-                        <i class="fa-solid fa-star" style="font-size: 2.5rem; color: var(--primary-color);"></i>
+                        <i class="fa-solid fa-user-check" style="font-size: 2.5rem; color: var(--primary-color);"></i>
                     </div>
-                    <h4>Personalized Approach</h4>
-                    <p>We tailor your CV to highlight your unique skills and achievements.</p>
+                    <h4>Certified Resume Writers in Dubai</h4>
+                    <p>Our team includes highly experienced resume writers in Dubai skilled in crafting resumes that pass applicant tracking systems (ATS) and impress recruiters across all industries.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="feature-box text-center">
                     <div class="feature-icon">
-                        <i class="fa-solid fa-clock" style="font-size: 2.5rem; color: var(--primary-color);"></i>
+                        <i class="fa-solid fa-file-alt" style="font-size: 2.5rem; color: var(--primary-color);"></i>
                     </div>
-                    <h4>Timely Delivery</h4>
-                    <p>We deliver your CV on time to meet your job application deadlines.</p>
+                    <h4>Tailored, Keyword-Optimized Documents</h4>
+                    <p>We don’t use templates. Every CV and resume is uniquely written based on your goals. Our team ensures your documents are fully customised and ATS-friendly.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+<!-- Types of Resumes Section -->
 <section class="section bg-gray">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
-                    <h2 class="heading-title">Our Writing <span>Services</span></h2>
-                    <p class="content-simple-p mb">Explore our range of academic and professional writing services to support your career and academic goals.</p>
+                    <h2 class="heading-title">Types of Resumes <span>We Offer</span></h2>
+                    <p class="content-simple-p mb">We offer a wide range of resume writing services to fit every career stage.</p>
                 </div>
             </div>
         </div>
         <div class="row g-4 mt-3">
-            <div class="col-xl-4 col-lg-6 d-flex">
+            <div class="col-lg-4 col-md-6 d-flex">
                 <div class="service-boxes">
                     <div class="service-icon">
-                        <i class="fa-solid fa-pencil"></i>
+                        <i class="fa-solid fa-graduation-cap" style="font-size: 2.5rem; color: var(--primary-color);"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>Essay Writing</h4>
+                        <h4>Entry-Level Resume Writing</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Professional essay writing services that meet academic standards and help you achieve better grades with well-researched content.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('essay-writing') }}" aria-label="essay-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <p class="mb-0">Our CV writing service in UAE highlights your strengths, skills, and education, which are essential for fresh graduates to impress employers.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-6 d-flex">
+            <div class="col-lg-4 col-md-6 d-flex">
                 <div class="service-boxes">
                     <div class="service-icon">
-                        <i class="fa-solid fa-file-lines"></i>
+                        <i class="fa-solid fa-briefcase" style="font-size: 2.5rem; color: var(--primary-color);"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>Report Writing</h4>
+                        <h4>Professional Resume Writing</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Comprehensive report writing services with proper structure, analysis, and professional presentation for all academic levels.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('report-writing') }}" aria-label="report-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <p class="mb-0">We craft tailored resumes, ideal for experienced professionals, that reflect your expertise, achievements, and career growth for top-tier job roles.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-6 d-flex">
+            <div class="col-lg-4 col-md-6 d-flex">
                 <div class="service-boxes">
                     <div class="service-icon">
-                        <i class="fa fa-list-alt" aria-hidden="true"></i>
+                        <i class="fa-solid fa-user-tie" style="font-size: 2.5rem; color: var(--primary-color);"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>Coursework Writing</h4>
+                        <h4>Executive Resume Writing</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Expert coursework writing assistance that covers all aspects of your curriculum with detailed research and analysis.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('course-work') }}" aria-label="coursework-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <p class="mb-0">Designed for senior-level executives. Our expert resume writers in Dubai create compelling resumes that showcase leadership, strategic impact, and measurable business accomplishments.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-6 d-flex">
+            <div class="col-lg-4 col-md-6 d-flex">
                 <div class="service-boxes">
                     <div class="service-icon">
-                        <i class="fa-solid fa-atom"></i>
+                        <i class="fa-solid fa-exchange-alt" style="font-size: 2.5rem; color: var(--primary-color);"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>Assignment Writing</h4>
+                        <h4>Career Change Resume Writing</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Professional assignment writing services that help you complete your academic tasks with excellence and precision.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('assignment-writing') }}" aria-label="assignment-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <p class="mb-0">Switching careers? Our CV writing service in Dubai helps reframe your experience to match your new industry, emphasizing transferable skills and future potential.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-6 d-flex">
+            <div class="col-lg-4 col-md-6 d-flex">
                 <div class="service-boxes">
                     <div class="service-icon">
-                        <i class="fa-solid fa-receipt"></i>
+                        <i class="fa-solid fa-building" style="font-size: 2.5rem; color: var(--primary-color);"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>Literature Review Writing</h4>
+                        <h4>Government Resume Writing</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Comprehensive literature review writing that synthesizes existing research and provides critical analysis for your academic work.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('literature-review-writing') }}" aria-label="literature-review">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <p class="mb-0">Need a federal role in UAE? Our resume writing services meet strict application requirements and present your qualifications in compliance with UAE government job standards.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 col-lg-6 d-flex">
+            <div class="col-lg-4 col-md-6 d-flex">
                 <div class="service-boxes">
                     <div class="service-icon">
-                        <i class="fa-solid fa-user-gear"></i>
+                        <i class="fa-solid fa-book" style="font-size: 2.5rem; color: var(--primary-color);"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>CV Writing</h4>
+                        <h4>Academic/Research Resume Writing</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Professional CV writing services that highlight your skills and experience to help you stand out in the job market.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('cv-writing') }}" aria-label="cv-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                        <p class="mb-0">For scholars, researchers, or academic positions. Our resume writing services in UAE highlight your publications, research projects, and academic achievements with precision and clarity.</p>
                     </div>
                 </div>
             </div>
@@ -272,14 +238,14 @@
     </div>
 </section>
 
-<!-- Process Section -->
+<!-- CV Writing Process Section -->
 <section class="section">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
                     <h2 class="heading-title">Our CV Writing <span>Process</span></h2>
-                    <p class="content-simple-p mb">We follow a systematic approach to ensure your CV is professionally crafted and tailored to your career goals.</p>
+                    <p class="content-simple-p mb">We follow a structured process to ensure top-quality results.</p>
                 </div>
             </div>
         </div>
@@ -287,88 +253,39 @@
             <div class="col-lg-3 col-md-6">
                 <div class="process-step text-center">
                     <div class="step-number">1</div>
-                    <h5>Order Placement</h5>
-                    <p>Submit your career details, including experience, skills, and goals.</p>
+                    <h5>Consultation & Brief Collection</h5>
+                    <p>We collect your career details, goals, and preferences through a brief or direct consultation.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="process-step text-center">
                     <div class="step-number">2</div>
-                    <h5>Writer Assignment</h5>
-                    <p>We assign an expert writer with industry-specific expertise.</p>
+                    <h5>Writing & Keyword Optimization</h5>
+                    <p>Our expert resume writers in Dubai craft your CV with relevant keywords for ATS systems.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="process-step text-center">
                     <div class="step-number">3</div>
-                    <h5>Writing & Optimization</h5>
-                    <p>Your CV is crafted, ATS-optimized, and formatted professionally.</p>
+                    <h5>Review & Revisions</h5>
+                    <p>We share the draft for feedback. We offer unlimited revisions to ensure your satisfaction.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="process-step text-center">
                     <div class="step-number">4</div>
-                    <h5>Quality Check</h5>
-                    <p>We review and refine your CV to ensure it meets industry standards.</p>
+                    <h5>Final Delivery</h5>
+                    <p>The final resume is delivered in Word and PDF formats—ready to impress recruiters.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Testimonials Section -->
-<div class="slideshow-container section" style="background: #f1f1f1;">
-    <div class="simple">
-        <br>
-        <h2 class="heading-title">What our Clients have to Say <span>About Us</span></h2>
-    </div>
-    <div class="mySlides" style="display: block;">
-        <q>My CV was transformed into a professional document that got me noticed by recruiters. Highly recommend!</q>
-        <div class="img"><img src="{{ asset('template/img/benjamin.jpg') }}" class="testi-img-size" alt="Benjamin"></div>
-        <p class="author">- Benjamin</p>
-        <div class="star-ratting home-star-ratting">
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-        </div>
-    </div>
-    <div class="mySlides" style="display: none;">
-        <q>The team provided a tailored CV that perfectly highlighted my skills. Their service is top-notch!</q>
-        <div class="img"><img src="{{ asset('template/img/samuel.jpg') }}" class="testi-img-size" alt="Samuel"></div>
-        <p class="author">- Samuel</p>
-        <div class="star-ratting home-star-ratting">
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-        </div>
-    </div>
-    <div class="mySlides" style="display: none;">
-        <q>Thanks to their CV writing service, I landed my dream job. The process was smooth and professional.</q>
-        <div class="img"><img src="{{ asset('template/img/gregory.jpg') }}" class="testi-img-size" alt="Gregory"></div>
-        <p class="author">- Gregory</p>
-        <div class="star-ratting home-star-ratting">
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-            <i class="fa fa-star yellow" aria-hidden="true"></i>
-        </div>
-    </div>
-    <div class="container" align="center">
-        <a href="#" class="main-btn">Read More</a>
-    </div>
-    <a class="prev" onclick="plusSlides(-1)">❮</a>
-    <a class="next" onclick="plusSlides(1)">❯</a>
-</div>
-@endsection
 
 @section('additional_head')
 <style>
-.feature-box, .process-step {
+.feature-box, .process-step, .service-boxes {
     padding: 2rem;
     background: #fff;
     border-radius: 10px;
@@ -377,12 +294,17 @@
     transition: transform 0.3s ease;
 }
 
-.feature-box:hover, .process-step:hover {
+.feature-box:hover, .process-step:hover, .service-boxes:hover {
     transform: translateY(-5px);
 }
 
-.feature-icon {
+.feature-icon, .service-icon {
     margin-bottom: 1rem;
+}
+
+.feature-icon i, .service-icon i {
+    font-size: 2.5rem;
+    color: var(--primary-color);
 }
 
 .step-number {
@@ -397,29 +319,6 @@
     font-size: 1.5rem;
     font-weight: bold;
     margin: 0 auto 1rem auto;
-}
-
-.service-boxes {
-    background: #fff;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    height: 100%;
-    transition: transform 0.3s ease;
-}
-
-.service-boxes:hover {
-    transform: translateY(-5px);
-}
-
-.service-icon {
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
-.service-icon i {
-    font-size: 2.5rem;
-    color: var(--primary-color);
 }
 
 .service-title h4 {

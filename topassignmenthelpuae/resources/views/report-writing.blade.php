@@ -74,12 +74,22 @@
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
-                    <h2 class="heading-title">Professional Report <span>Writing Services</span></h2>
-                    <p class="content-simple-p mb-0">Achieve excellence with our expert report writing services, tailored to meet your academic and professional needs.</p>
+                    <h2 class="heading-title">Report Writing 
+<span>Help in UAE</span></h2>
+                    <p class="content-simple-p mb-0">Our Report Writing Service ensures each report is well-researched, structured, and impactful. We offer tailored services to meet the high standards expected in the region. Delivered by native Dubai experts, we provide an exceptional assignment help service that UAE students and professionals trust for precision and quality.</p>
                 </div>
             </div>
         </div>
+
+</section>
         <div class="row mt-3 g-4">
+            <div class="row justify-content-center text-center">
+            <div class="col-lg-10">
+                <div class="about-sm-content">
+                    <h4 style="line-height: 35px;">Expert Report Writing Help in UAE to Boost Your Academic & Business Success</h4>
+                </div>
+            </div>
+        </div>
             <div class="col-xl-6">
                 <div class="about-content">
                     <p>Need a high-quality, well-structured report? Our report writing services provide customized, thoroughly researched reports for academic and professional purposes. We are a trusted provider with extensive experience supporting students and professionals worldwide.</p>
@@ -102,17 +112,7 @@
     </div>
 </div>
 
-<section class="section bg-gray">
-    <div class="container">
-        <div class="row justify-content-center text-center">
-            <div class="col-lg-10">
-                <div class="about-sm-content">
-                    <h4 style="line-height: 35px;">We provide professional report writing services, including research, analysis, and formatting for all academic and professional needs.</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 
 <!-- Features Section -->
 <section class="section">
@@ -157,116 +157,6 @@
     </div>
 </section>
 
-<section class="section bg-gray">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 mx-auto">
-                <div class="simple">
-                    <h2 class="heading-title">Our Writing <span>Services</span></h2>
-                    <p class="content-simple-p mb">Explore our range of academic and professional writing services to support your career and academic goals.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row g-4 mt-3">
-            <div class="col-xl-4 col-lg-6 d-flex">
-                <div class="service-boxes">
-                    <div class="service-icon">
-                        <i class="fa-solid fa-pencil"></i>
-                    </div>
-                    <div class="service-title mt-4">
-                        <h4>Essay Writing</h4>
-                    </div>
-                    <div class="service-content">
-                        <p class="mb-0">Professional essay writing services that meet academic standards and help you achieve better grades with well-researched content.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('academic-writing-services') }}" aria-label="essay-writing">Read More <i class="fas fa-angle-double-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 d-flex">
-                <div class="service-boxes">
-                    <div class="service-icon">
-                        <i class="fa-solid fa-file-lines"></i>
-                    </div>
-                    <div class="service-title mt-4">
-                        <h4>Report Writing</h4>
-                    </div>
-                    <div class="service-content">
-                        <p class="mb-0">Comprehensive report writing services with proper structure, analysis, and professional presentation for all academic levels.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('academic-writing-services') }}" aria-label="report-writing">Read More <i class="fas fa-angle-double-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 d-flex">
-                <div class="service-boxes">
-                    <div class="service-icon">
-                        <i class="fa fa-list-alt" aria-hidden="true"></i>
-                    </div>
-                    <div class="service-title mt-4">
-                        <h4>Coursework Writing</h4>
-                    </div>
-                    <div class="service-content">
-                        <p class="mb-0">Expert coursework writing assistance that covers all aspects of your curriculum with detailed research and analysis.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('academic-writing-services') }}" aria-label="coursework-writing">Read More <i class="fas fa-angle-double-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 d-flex">
-                <div class="service-boxes">
-                    <div class="service-icon">
-                        <i class="fa-solid fa-atom"></i>
-                    </div>
-                    <div class="service-title mt-4">
-                        <h4>Assignment Writing</h4>
-                    </div>
-                    <div class="service-content">
-                        <p class="mb-0">Professional assignment writing services that help you complete your academic tasks with excellence and precision.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('academic-writing-services') }}" aria-label="assignment-writing">Read More <i class="fas fa-angle-double-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 d-flex">
-                <div class="service-boxes">
-                    <div class="service-icon">
-                        <i class="fa-solid fa-receipt"></i>
-                    </div>
-                    <div class="service-title mt-4">
-                        <h4>Literature Review Writing</h4>
-                    </div>
-                    <div class="service-content">
-                        <p class="mb-0">Comprehensive literature review writing that synthesizes existing research and provides critical analysis for your academic work.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('academic-writing-services') }}" aria-label="literature-review">Read More <i class="fas fa-angle-double-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 d-flex">
-                <div class="service-boxes">
-                    <div class="service-icon">
-                        <i class="fa-solid fa-user-gear"></i>
-                    </div>
-                    <div class="service-title mt-4">
-                        <h4>CV Writing</h4>
-                    </div>
-                    <div class="service-content">
-                        <p class="mb-0">Professional CV writing services that highlight your skills and experience to help you stand out in the job market.</p>
-                    </div>
-                    <div class="service-link">
-                        <a href="{{ route('cv-writing') }}" aria-label="cv-writing">Read More <i class="fas fa-angle-double-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- Process Section -->
 <section class="section">
