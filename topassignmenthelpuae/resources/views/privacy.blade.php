@@ -24,7 +24,7 @@
         "@type": "ListItem",
         "position": 2,
         "name": "Privacy Policy",
-        "item": "{{ route('privacy-policy') }}"
+        "item": "{{ route('privacy') }}"
     }]
 }
 </script>
