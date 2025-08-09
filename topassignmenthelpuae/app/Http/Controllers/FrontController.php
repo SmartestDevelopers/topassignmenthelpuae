@@ -175,6 +175,12 @@ class FrontController extends Controller
         return view('disclaimer', compact('page'));
     }
 
+    public function refundPolicy()
+    {
+        $page = DB::table('pages')->where('slug', 'refund-policy')->first();
+        return view('refund-policy', compact('page'));
+    }
+
     public function whyUs()
     {
         $page = DB::table('pages')->where('slug', 'whyus')->first();

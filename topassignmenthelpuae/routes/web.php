@@ -30,6 +30,8 @@ Route::post('/subscribe-newsletter', 'FrontController@subscribeNewsletter')->nam
 Route::get('/privacy', 'FrontController@privacy')->name('privacy');
 Route::get('/terms-services', 'FrontController@termsServices')->name('terms-services');
 Route::get('/disclaimer', 'FrontController@disclaimer')->name('disclaimer');
+Route::get('/refund-policy', 'FrontController@refundPolicy')->name('refund-policy');
+
 
 // Additional pages from template
 Route::get('/whyus', 'FrontController@whyUs')->name('whyus');

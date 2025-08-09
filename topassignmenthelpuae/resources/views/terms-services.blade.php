@@ -84,7 +84,7 @@
             <div class="expertise-list">
                 <ul>
                     <li>We offer a limited number of free revisions to ensure customer satisfaction, subject to the original order requirements.</li>
-                    <li>Refunds may be issued under specific circumstances, such as failure to deliver the service. Please refer to our <a>Refund Policy</a> for more details.</li>
+                    <li>Refunds may be issued under specific circumstances, such as failure to deliver the service. Please refer to our <a href="{{ route('refund-policy') }}">Refund Policy</a> for more details.</li>
                 </ul>
             </div>
 
