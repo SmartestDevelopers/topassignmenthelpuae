@@ -86,7 +86,7 @@
                     
                     <p>Our team of expert writers specializes in conducting thorough research and crafting reviews across various disciplines. We ensure critical analysis, proper structure, and adherence to academic standards and citation styles.</p>
                     
-                    <p>Our writers hold advanced degrees (minimum 2:1 up to Master and PhD) and are experienced in creating literature reviews that meet rigorous academic requirements.</p>
+                    <p>Our writers hold advanced degrees (minimum 2:1 up to Master and PhD) and are experienced in creating literature review that meet rigorous academic requirements.</p>
                     
                     <div class="button-design text-nowrap">
                         <a href="{{ route('order-now') }}" class="main-btn mt-3">Order Now</a>
@@ -163,7 +163,7 @@
             <div class="col-lg-8 mx-auto">
                 <div class="simple">
                     <h2 class="heading-title">Our Writing <span>Services</span></h2>
-                    <p class="content-simple-p mb">Explore our range of academic and professional writing services to support your career and academic goals.</p>
+                    <p class="content-simple-p mb">Our top literature review services are tailored to support dissertations, theses, and research projects with structured writing, reliable source analysis, and critical evaluation.</p>
                 </div>
             </div>
         </div>
@@ -174,13 +174,12 @@
                         <i class="fa-solid fa-pencil"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>Essay Writing</h4>
+                        <h4>Literature Review Writing from Scratch</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Professional essay writing services that meet academic standards and help you achieve better grades with well-researched content.</p>
+                        <p class="mb-0">We provide original, well-reasoned literature reviews that fit the study's objectives. To help you create a solid foundation for your dissertation, thesis, or research project, our professionals guarantee depth, clarity, and critical analysis.</p>
                     </div>
                     <div class="service-link">
-                        <a href="{{ route('essay-writing') }}" aria-label="essay-writing">Read More <i class="fas fa-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -190,13 +189,12 @@
                         <i class="fa-solid fa-file-lines"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>Report Writing</h4>
+                        <h4>Editing & Refinement of Existing Reviews</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Comprehensive report writing services with proper structure, analysis, and professional presentation for all academic levels.</p>
+                        <p class="mb-0">Already have a draft? Our specialists refine your literature review by improving flow, coherence, and structure. We strengthen arguments, correct inconsistencies, and enhance readability to meet academic standards and expectations.</p>
                     </div>
                     <div class="service-link">
-                        <a href="{{ route('report-writing') }}" aria-label="report-writing">Read More <i class="fas fa-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -206,13 +204,13 @@
                         <i class="fa fa-list-alt" aria-hidden="true"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>Coursework Writing</h4>
+                        <h4>Source Collection & Research Assistance</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Expert coursework writing assistance that covers all aspects of your curriculum with detailed research and analysis.</p>
+                        <p class="mb-0">We help locate, compile, and assess the most reliable, current scholarly materials. Our research experts ensure that your literature review is relevant, evidence-based, and backed up by credible scholarly references.</p>
                     </div>
                     <div class="service-link">
-                        <a href="{{ route('course-work') }}" aria-label="coursework-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+
                     </div>
                 </div>
             </div>
@@ -222,13 +220,12 @@
                         <i class="fa-solid fa-atom"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>Assignment Writing</h4>
+                        <h4>Critical Analysis & Evaluation Services</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Professional assignment writing services that help you complete your academic tasks with excellence and precision.</p>
+                        <p class="mb-0">By offering in-depth critical analysis, we go beyond simply summarising findings. To ensure that your evaluation demonstrates originality, critical thinking, and in-depth scholarly knowledge, our staff highlights its benefits, drawbacks, and research gaps.</p>
                     </div>
                     <div class="service-link">
-                        <a href="{{ route('assignment-writing') }}" aria-label="assignment-writing">Read More <i class="fas fa-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -238,13 +235,13 @@
                         <i class="fa-solid fa-receipt"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>Literature Review Writing</h4>
+                        <h4>Formatting & Citation Support</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Comprehensive literature review writing that synthesizes existing research and provides critical analysis for your academic work.</p>
+                        <p class="mb-0">Proper formatting enhances credibility. We provide accurate citations and references in APA, MLA, Chicago, Harvard, or your required style. Our experts ensure consistency and precision throughout your literature review.</p>
                     </div>
                     <div class="service-link">
-                        <a href="{{ route('literature-review-writing') }}" aria-label="literature-review">Read More <i class="fas fa-angle-double-right"></i></a>
+                       
                     </div>
                 </div>
             </div>
@@ -254,13 +251,13 @@
                         <i class="fa-solid fa-user-gear"></i>
                     </div>
                     <div class="service-title mt-4">
-                        <h4>CV Writing</h4>
+                        <h4>Consultation & Research Guidance</h4>
                     </div>
                     <div class="service-content">
-                        <p class="mb-0">Professional CV writing services that highlight your skills and experience to help you stand out in the job market.</p>
+                        <p class="mb-0">Get personalised, one-on-one guidance from knowledgeable academics. We help you refine your research questions, organise your review, and support your claims to ensure your literature review adheres to academic standards and study objectives.</p>
                     </div>
                     <div class="service-link">
-                        <a href="{{ route('cv-writing') }}" aria-label="cv-writing">Read More <i class="fas fa-angle-double-right"></i></a>
+                        
                     </div>
                 </div>
             </div>

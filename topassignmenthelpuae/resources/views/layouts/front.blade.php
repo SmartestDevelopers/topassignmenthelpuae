@@ -174,7 +174,7 @@
                                 <li><a class="dropdown-item" href="{{ route('dissertation-thesis-writing') }}">Thesis Writing</a></li>
                                 <li><a class="dropdown-item" href="{{ route('course-work') }}">Coursework Writing</a></li>
                                 <li><a class="dropdown-item" href="{{ route('dissertation-part-chapter-writing') }}">Dissertation Writing</a></li>
-                                <li><a class="dropdown-item" href="{{ route('assignment-writing') }}">Assignment Writing</a></li>
+                                <li><a class="dropdown-item" href="{{ route('assignment-writing') }}"> CIPD Assignment Writing</a></li>
                                 <li><a class="dropdown-item" href="{{ route('literature-review-writing') }}">Literature Review</a></li>
                                 <li><a class="dropdown-item" href="{{ route('cv-writing') }}">CV Writing</a></li>
                             </ul>
@@ -271,7 +271,7 @@
                             <li><i class="fa-solid fa-caret-right"></i><a href="{{ route('academic-writing-services') }}">Essay Writing</a></li>
                             <li><i class="fa-solid fa-caret-right"></i><a href="{{ route('academic-writing-services') }}">Report Writing</a></li>
                             <li><i class="fa-solid fa-caret-right"></i><a href="{{ route('course-work') }}">Coursework Writing</a></li>
-                            <li><i class="fa-solid fa-caret-right"></i><a href="{{ route('academic-writing-services') }}">Assignment Writing</a></li>
+                            <li><i class="fa-solid fa-caret-right"></i><a href="{{ route('academic-writing-services') }}">CIPD Assignment Writing</a></li>
                             <li><i class="fa-solid fa-caret-right"></i><a href="{{ route('academic-writing-services') }}">CV Writing</a></li>
                             <li><i class="fa-solid fa-caret-right"></i><a href="{{ route('dissertation-thesis-writing') }}">Thesis Help</a></li>
                         </ul>
