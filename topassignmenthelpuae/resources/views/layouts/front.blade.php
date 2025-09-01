@@ -154,7 +154,7 @@
         <nav class="navbar navbar-expand-xl navbar-light bg-light bg-transparent">
             <div class="container">
                 <a class="navbar-brand img-logos" href="{{ route('home') }}">
-                    <img src="{{ asset('logo.png') }}" alt="{{ config('app.name', 'Laravel') }}" class="" style="max-height: 50px; width: auto;">
+                    <img src="{{ asset('logo2_imresizer (1).png') }}" alt="{{ config('app.name', 'Laravel') }}" class="" style="max-height: 50px; width: auto;">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span><i class="fa-solid fa-bars-staggered"></i></span>
